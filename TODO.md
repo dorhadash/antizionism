@@ -7,7 +7,7 @@ How to redeploy manually (from a manually created tmp folder in the Documents fo
 ```js
 cd
 
-cd Documents/israel_website_v2
+cd Documents/antizionism
 
 npm run build
 
@@ -17,14 +17,14 @@ mkdir tmp
 
 cd tmp
 
-cp -R /Users/scottlieber/Documents/israel_website_v2/build/* .
+cp -R /Users/scottlieber/Documents/antizionism/build/* .
 touch .nojekyll         
 
 git init                                                      
 git checkout -b gh-pages
 git add .
 git commit -m "Manual gh-pages deploy"
-git remote add origin https://github.com/lieberscott/antizionism.git
+git remote add origin https://github.com/dorhadash/antizionism.git
 git push -f origin gh-pages
 
 

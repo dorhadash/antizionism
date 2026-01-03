@@ -313,5 +313,21 @@
     ],
     "themTweets": [],
     "usTweets": []
+  },
+  {
+    "dateAdded": "",
+    "date": "2023-10-09",
+    "claimIds": [
+      "42",
+      "28"
+    ],
+    "exampleId": "000004220",
+    "keywordIds": [],
+    "text": "Manchester, UK: The Muslim terrorists are chanting “intifada” (violent uprising) and “From the River to the Sea, Palestine will be Free,”",
+    "standaloneTweets": [
+      "1711252746899501317"
+    ],
+    "themTweets": [],
+    "usTweets": []
   }
 ]

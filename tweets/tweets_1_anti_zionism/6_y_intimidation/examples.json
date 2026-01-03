@@ -147,20 +147,20 @@
   },
   {
     "dateAdded": "",
-    "date": "2024-03-28",
+    "date": "2024-05-06",
     "claimIds": [
-      "6y",
-      "2",
-      "3",
-      "4",
       "5",
-      "21"
+      "6y",
+      "22",
+      "30y"
     ],
-    "exampleId": "6y01",
+    "exampleId": "000005011",
     "keywordIds": [],
-    "text": "The agenda of the meeting included an item on marking Holocaust Remembrance Day and funding educational programs around this commemoration. There was nothing on the meeting agenda about the Israel-Hamas War. Demonstrators called Jews 'Zionist pigs,' intimidated a Holocaust survivor, stole and threw a Jewish man's phone toward the dais and implied city council members were being bought by the Jewish community.",
+    "text": "Palestine activists protest outside of Auschwitz as family members of Holocaust survivors hold a march on Holocaust Remembrance Day. The March of the Living is an annual 3km silent walk to remember the Holocaust and its victims. A group of protesters waving Palestinian flags heckled Jewish survivors as they held the ‘March of the Living' walk.",
+    "source": false,
+    "sourceLink": "",
     "standaloneTweets": [
-      "1773124947008995524"
+      "1787478261003370649"
     ],
     "themTweets": [],
     "usTweets": []
@@ -213,7 +213,7 @@
     "keywordIds": [],
     "text": "Antizionist mob takes over NYC subway: “Raise your hand if you’re a Zionist. This is your chance to get out.”",
     "standaloneTweets": [],
-    "thenVwNowFormat": true,
+    "thenVsNowFormat": true,
     "thenTweets": [
       "1800713713038590335"
     ],
@@ -240,7 +240,7 @@
     "standaloneTweets": [
       "1722970149769171274"
     ],
-    "thenVwNowFormat": false,
+    "thenVsNowFormat": false,
     "thenTweets": [],
     "nowTweets": [],
     "themTweets": [],
@@ -264,7 +264,7 @@
     "standaloneTweets": [
       "1786537278992482553"
     ],
-    "thenVwNowFormat": false,
+    "thenVsNowFormat": false,
     "thenTweets": [],
     "nowTweets": [],
     "themTweets": [],
@@ -286,7 +286,127 @@
     "standaloneTweets": [
       "1807057782320894298"
     ],
-    "thenVwNowFormat": false,
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "",
+    "date": "2023-12-12",
+    "claimIds": [
+      "6y",
+      "20",
+      "22",
+      "24"
+    ],
+    "exampleId": "6y08",
+    "keywordIds": [],
+    "text": "Pro-Hamas protesters threaten to kill Jewish attendees as they leave the Israeli Embassy's Hanukkah ceremony in Washington, DC. Watch as a woman screams, 'We will kill you all, occupiers.'",
+    "standaloneTweets": [
+      "1807057782320894298"
+    ],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "",
+    "date": "2023-12-08",
+    "claimIds": [
+      "6y",
+      "2",
+      "3",
+      "22",
+      "25",
+      "30y"
+    ],
+    "exampleId": "6y09",
+    "keywordIds": [
+      "FreePalestine"
+    ],
+    "text": "A shooter yelled 'Free Palestine!' as he shot off a shotgun on the premises of Temple Israel and appeared to have torn down an Israeli flag or sign, according to law enforcement.",
+    "standaloneTweets": [
+      "1733139538669641777"
+    ],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "",
+    "date": "2025-07-28",
+    "claimIds": [
+      "6y",
+      "2",
+      "3",
+      "18",
+      "30y"
+    ],
+    "exampleId": "6y10",
+    "keywordIds": [
+      "FreePalestine"
+    ],
+    "text": "Jewish father and his 6 year old son attacked by raging mob screaming “Free Palestine!” and “Murderers, go home!” as they attempted to use a restroom in Milan, Italy. The father and son were wearing yarmulkas when the mob began attacking them.",
+    "standaloneTweets": [
+      "1950095386644976018"
+    ],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "",
+    "date": "2024-11-08",
+    "claimIds": [
+      "6y",
+      "2",
+      "3",
+      "18",
+      "30y"
+    ],
+    "exampleId": "6y11",
+    "keywordIds": [
+      "FreePalestine"
+    ],
+    "text": "Germany - 13 year old boys playing for a Jewish German soccer team were chased by grown men screaming “Free Palestine” and “fucking Jews” earlier today.",
+    "standaloneTweets": [
+      "1855040240094003481"
+    ],
+    "source": true,
+    "sourceLink": "https://www.bild.de/regional/berlin/israel-hasser-greifen-spieler-von-tus-makkabi-in-berlin-an-672e03c5ebdb8724738ec456?wtmc=whtspp-shr&t_ref=https%3A%2F%2Ft.co%2F",
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "",
+    "date": "2025-12-14",
+    "claimIds": [
+      "6y",
+      "18",
+      "30y"
+    ],
+    "exampleId": "6y12",
+    "keywordIds": [
+      "FreePalestine"
+    ],
+    "text": "The California home of @CohenRodgir, who served in the U.S. Army, was brightly decorated for Chanukah. Assailants drove by, unloading 20 shots into the occupied family home while yelling “Free Palestine, N*gger, and “F- the Jews.” No injuries reported but the assailants have not yet been arrested.",
+    "standaloneTweets": [
+      "2000290844662767910"
+    ],
+    "source": false,
+    "sourceLink": "",
+    "thenVsNowFormat": false,
     "thenTweets": [],
     "nowTweets": [],
     "themTweets": [],

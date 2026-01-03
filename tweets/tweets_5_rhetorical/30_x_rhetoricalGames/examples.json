@@ -1,6 +1,32 @@
 [
   {
     "dateAdded": "",
+    "date": "2025-10-03",
+    "claimIds": [
+      "13",
+      "30x"
+    ],
+    "exampleId": "000001302",
+    "keywordIds": [],
+    "text": "Faraj al-Shamie, a Syrian-born trauma surgeon in the UK, praised the Oct. 7 massacre at the time, calling Hamas 'Allah's men on Earth' on Oct. 7, 2023. On Oct. 3, 2025, his son, Jihad al-Shamie, committed a car ramming attack against Jews outside a Manchester synagogue on Yom Kippur, killing two and injuring four. He condemned the attack as a 'heinous act.'",
+    "source": true,
+    "sourceLink": "https://www.dailymail.co.uk/news/article-15159909/Manchester-attackers-warzone-doctor-father-praised-Hamas-terrorists-carried-barbaric-October-7-attacks.html",
+    "standaloneTweets": [],
+    "thenVsNowFormat": true,
+    "thenTweets": [
+      "2000336194148913623",
+      "1974507738660208757",
+      "1974079489186681164"
+    ],
+    "nowTweets": [
+      "1974057134636605737",
+      "1974101776833130785"
+    ],
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "",
     "date": "2025-01-01",
     "claimIds": [
       "30x"
@@ -191,14 +217,55 @@
     ],
     "exampleId": "00000030x08",
     "keywordIds": [],
-    "text": "Double-murder of an Israeli couple is 'an act of love.' The murder of American/Israeli couple Sarah Milgrim and Yaron Lischinksy in May 2025 is called an 'act of love' by antizionist group 'Unity of Fields' (formerly called 'Palestine Action US'). The antizionist who murdered the couple is a “political prisoner.” The group circulated the killer's manifesto and defended “armed resistance.”",
+    "text": "Double-murder of an Israeli couple is 'an act of love.' An American/Israeli couple, Sarah Milgrim and Yaron Lischinksy, were murdered outside a Jewish event in Washington, DC in May 2025. According to the charges, Sarah Milgrim, badly wounded, tried to crawl away from the killer. The killer followed her, firing repeatedly until he emptied his weapon and she was dead. This murder is called an 'act of love' by antizionist group 'Unity of Fields' (formerly called 'Palestine Action US'). The antizionist who murdered the couple is a “political prisoner.” The group circulated the killer's manifesto and defended “armed resistance.”",
     "source": false,
     "sourceLink": "",
     "standaloneTweets": [
-      "1926123113026121853"
+      "1926123113026121853",
+      "1925671899603841322"
     ],
     "thenVsNowFormat": false,
     "themTweets": [],
     "usTweets": []
+  },
+  {
+    "dateAdded": "",
+    "date": "2023-12-09",
+    "claimIds": [
+      "30x",
+      "11"
+    ],
+    "exampleId": "00000030x09",
+    "keywordIds": [
+      "MehdiHasan"
+    ],
+    "text": "Mehdi Hasan provides platform for nonstop, one-sided, repeated Israel bashing, generic or one-sided 'war crimes' accusations, then clutches pearls and 'condemns' a gun being fired outside a synogague. The nonstop, one-sided Israel bashing leads to the violence and they can not be separated. This is the rhetorical game. Oct. 13: Human Rights Watch launders an accusaion that Israel violated international law by using white phosphorous, and Mehdi retweets it (white phosphorous shells can legally be used as a smokescreen under international law, which is how Israel uses it). Oct. 22: AOC accuses Israel of 'war crimes' on Mehdi's show. Oct. 31: ReTweets Joy Reid's one-sided narrative blaming Israel solely without alternative. Nov. 5: Jamaal Bowman says Israel is committing 'war crimes' on Mehdi's show. ",
+    "source": false,
+    "sourceLink": "",
+    "standaloneTweets": [],
+    "thenVsNowFormat": true,
+    "thenTweets": [
+      "1712836770646183940",
+      "2001401544063803884",
+      "1719391017336480137",
+      "1721486721169215640"
+    ],
+    "nowTweets": [],
+    "themTweets": [],
+    "usTweets": [],
+    "constellationFormat": true,
+    "constellationTweets": [
+      {
+        "date": "",
+        "text": "Oct. 10, three days after the massacre, as Hamas terrorists are still roaming Israel, Mehdi Hassan starts the drumbeat.",
+        "source": false,
+        "sourceLink": "",
+        "tweetIds": "",
+        "rebuttalIds": ""
+      }
+    ],
+    "constellationStandalone": [
+      "1733211524338950471"
+    ]
   }
 ]

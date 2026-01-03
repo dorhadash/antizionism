@@ -60,5 +60,27 @@
     ],
     "themTweets": [],
     "usTweets": []
+  },
+  {
+    "dateAdded": "",
+    "date": "2025-12-18",
+    "claimIds": [
+      "31l",
+      "27",
+      "30y",
+      "1",
+      "31h",
+      "31i"
+    ],
+    "exampleId": "00031l003",
+    "keywordIds": [],
+    "text": "80% of comments on Arab article about Muslim Bondi Beach hero were negative, called a ‘traitor’ by commenters on Arab media site for saving Jewish lives",
+    "standaloneTweets": [
+      "2001770520438587721"
+    ],
+    "source": true,
+    "sourceLink": "https://nypost.com/2025/12/18/world-news/muslim-bondi-beach-hero-branded-a-traitor-in-arab-media-for-saving-jewish-lives-report/?utm_social_handle_id=17469289&utm_source=twitter&utm_campaign=nypost&utm_medium=social&utm_social_post_id=627173387",
+    "themTweets": [],
+    "usTweets": []
   }
 ]
