@@ -16,38 +16,8 @@
       "1805620032568754564"
     ],
     "usTweets": [
-      "1806057940207669583"
-    ]
-  },
-  {
-    "dateAdded": "",
-    "date": "2025-09-04",
-    "claimIds": [
-      "31a",
-      "31b",
-      "12",
-      "13",
-      "32",
-      "41",
-      "45",
-      "47"
-    ],
-    "exampleId": "00000031a006",
-    "keywordIds": [],
-    "text": "Anthony Aguilar, a former U.S. contractor with the Gaza Humanitarian Fund (GHF), an 'expert,' claimed that he witnessed the IDF kill a young Gazan boy named 'Amir' after the child received aid. The story was eagerly amplified by Tucker Carlson, Krystal Ball, and outlets such as the BBC and Middle East Eye. By September, investigations revealed the boy — actually named Abdul Rahim Muhammad Hamden — was alive and well.",
-    "source": true,
-    "sourceLInk": "https://themedialine.org/top-stories/ghf-confirms-viral-story-of-idf-killing-gaza-boy-is-false-child-found-alive-and-well/",
-    "standaloneTweets": [],
-    "themTweets": [
-      "1950158724095422679",
-      "1952285882397954372",
-      "1963610478665458052",
-      "1950984763709292869",
-      "1963583324707819727"
-    ],
-    "usTweets": [
-      "1963598608692887963",
-      "1963583598667198576"
+      "1806057940207669583",
+      "2008001794753114574"
     ]
   },
   {
@@ -114,5 +84,61 @@
     ],
     "themTweets": [],
     "usTweets": []
+  },
+  {
+    "dateAdded": "",
+    "date": "2024-12-29",
+    "claimIds": [
+      "41"
+    ],
+    "exampleId": "000004105",
+    "keywordIds": [],
+    "text": "Amnesty International is extremely concerned over the fate & wellbeing of Dr. Hussam Abu Safiya, director of Kamal Adwan hospital who was detained by Israeli forces along with others during a raid on the hospital on 27 December. They demand he must be released immediately and unconditionally. But he's a member of Hamas, who are dedicated to Israel's destruction, and praised Oct. 7 on social media. That's not a stoic, professional, independent, rigorous, neutral medical doctor.",
+    "standaloneTweets": [],
+    "themTweets": [
+      "1873437417178300494"
+    ],
+    "usTweets": [
+      "2017592306644185373",
+      "1872625265417011587",
+      "1872625278348108146",
+      "1872625294844277233",
+      "1872625316205842530"
+    ]
+  },
+  {
+    "dateAdded": "",
+    "date": "2004-03-25",
+    "claimIds": [
+      "41",
+      "31k"
+    ],
+    "exampleId": "000004106",
+    "keywordIds": [],
+    "text": "NBC: Turning a blind eye to child suicide bombers: Human Rights Groups Are Turning a Blind Eye to Child Suicide Bombers.",
+    "standaloneTweets": [
+      "1790937292795687303"
+    ],
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "",
+    "date": "2026-02-11",
+    "claimIds": [
+      "41"
+    ],
+    "exampleId": "000004107",
+    "keywordIds": [
+      "Antonio Guterres"
+    ],
+    "text": "The UN Secretary-General congratulated the Islamic Republic of Iran on the anniversary of the Islamic Revolution. Let me repeat: the head of a supposedly humanitarian and peace organization praised a terrorist regime just weeks after it slaughtered over 40,000 civilians for daring to protest. This was the deadliest two-day massacre in Iranian history, and likely in modern history as well.",
+    "standaloneTweets": [],
+    "themTweets": [
+      "2021548222565458080"
+    ],
+    "usTweets": [
+      "2010600199681712547"
+    ]
   }
 ]

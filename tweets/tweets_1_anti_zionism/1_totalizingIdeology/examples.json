@@ -50,7 +50,8 @@
     "dateAdded": "",
     "date": "2025-12-03",
     "claimIds": [
-      "1"
+      "1",
+      "18"
     ],
     "exampleId": "0000001004",
     "keywordIds": [],
@@ -63,24 +64,20 @@
   },
   {
     "dateAdded": "",
-    "date": "2025-12-18",
+    "date": "2026-01-07",
     "claimIds": [
-      "31l",
-      "27",
-      "30y",
       "1",
-      "31h",
-      "31i"
+      "51"
     ],
-    "exampleId": "00031l003",
+    "exampleId": "0000001005",
     "keywordIds": [],
-    "text": "80% of comments on Arab article about Muslim Bondi Beach hero were negative, called a ‘traitor’ by commenters on Arab media site for saving Jewish lives",
-    "standaloneTweets": [
-      "2001770520438587721"
+    "text": "GERMANY: An Iranian crowd protests their regime for killing innocent people - and a raging liberal activist yells “Free Palestine” at them.",
+    "standaloneTweets": [],
+    "themTweets": [
+      "2008931744146227538"
     ],
-    "source": true,
-    "sourceLink": "https://nypost.com/2025/12/18/world-news/muslim-bondi-beach-hero-branded-a-traitor-in-arab-media-for-saving-jewish-lives-report/?utm_social_handle_id=17469289&utm_source=twitter&utm_campaign=nypost&utm_medium=social&utm_social_post_id=627173387",
-    "themTweets": [],
-    "usTweets": []
+    "usTweets": [
+      "2011107983497871775"
+    ]
   }
 ]

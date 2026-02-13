@@ -38,7 +38,8 @@
 }
 
 .text-gray-700 {
-  color: #374151;
+  /* color: #374151; */
+  color: white;
 }
 
 .text-blue-500 {

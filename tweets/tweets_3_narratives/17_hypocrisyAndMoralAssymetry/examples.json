@@ -85,5 +85,169 @@
     "sourceLink": "https://www.washingtonexaminer.com/news/world/3908826/investigators-el-fasher-massacre-death-toll-three-weeks/",
     "themTweets": [],
     "usTweets": []
+  },
+  {
+    "dateAdded": "",
+    "date": "2026-01-12",
+    "claimIds": [
+      "17",
+      "55"
+    ],
+    "exampleId": "0000017006",
+    "keywordIds": [
+      "Iran"
+    ],
+    "text": "No one showed up for the Iranian people on college campsues as they are fighting for freedom from their oppressive regime, because it's not about 'freedom' to the Western college students. It's about destroying Western civilization, and the Iranian regime is an ally in that fight.",
+    "standaloneTweets": [],
+    "source": false,
+    "thenVsNowFormat": true,
+    "thenTweets": [
+      "1780771547663180080",
+      "1838003353613472119",
+      "1923108861214327177",
+      "1938109243183534497",
+      "1923448955842568295",
+      "1805842150078206306"
+    ],
+    "nowTweets": [
+      "2011079724672663661",
+      "2011107983497871775"
+    ],
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "",
+    "date": "2026-01-10",
+    "claimIds": [
+      "17",
+      "30y",
+      "31l"
+    ],
+    "exampleId": "0000017007",
+    "keywordIds": [
+      "Iran"
+    ],
+    "text": "This is why we know it is antisemitism. The Iranian people being murdered in their fight for freedom. GretaThunberg: nothing on Iran. GaryLineker: nothing on Iran. MarkRuffalo: nothing on Iran. Big mouths. They claim it is about human rights. So why are they silent now?",
+    "standaloneTweets": [],
+    "source": false,
+    "thenVsNowFormat": true,
+    "thenTweets": [
+      "1843930085109445105",
+      "1840047212866179105",
+      "1860019708667527549"
+    ],
+    "nowTweets": [
+      "2010008633392914758",
+      "2010600199681712547"
+    ],
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "",
+    "date": "2026-01-12",
+    "claimIds": [
+      "17",
+      "41",
+      "45"
+    ],
+    "exampleId": "0000017008",
+    "keywordIds": [
+      "Iran",
+      "United Nations",
+      "UN"
+    ],
+    "text": "15 minutes after Israel recognized Somaliland as a country, the United Nations held an emergency session denouncing both countries. For weeks the Iranian government is murdering thousands in the streets, and the UN is completely silent.",
+    "standaloneTweets": [],
+    "source": false,
+    "thenVsNowFormat": true,
+    "nowTweets": [
+      "2011061968850055285",
+      "2011136775138181172",
+      "2010600199681712547"
+    ],
+    "thenTweets": [
+      "2005860682982645820"
+    ]
+  },
+  {
+    "dateAdded": "",
+    "date": "2025-01-01",
+    "claimIds": [
+      "17"
+    ],
+    "exampleId": "0000017009",
+    "keywordIds": [],
+    "text": "When Israel targeted Hamas leaders in Qatar with a missile, France's President Emannuel Macron condemned it, calling it 'unacceptable,' even though France has struck terrorists in foreign countries numerous times under his own leadership!",
+    "thenVsNowFormat": true,
+    "thenTweets": [
+      "1965452213792506048"
+    ],
+    "nowTweets": [
+      "1965477345634255182",
+      "1965467866033209695"
+    ]
+  },
+  {
+    "dateAdded": "",
+    "date": "2025-01-02",
+    "claimIds": [
+      "17"
+    ],
+    "exampleId": "0000017010",
+    "keywordIds": [],
+    "text": "When America killed Osama bin Laden in Pakistan, Sen. Bernie Sanders applauded the act, praising President Obama and calling it 'a historic moment in our fight against international terrorism.' But when Israel fired missiles in Qatar targeting Hamas leaders, who organized, perpetrated, and celebrated the horrific Oct. 7 attack on Israel, he called it 'a blatent violation of international law' and a justification to end military aid to Israel!",
+    "thenVsNowFormat": true,
+    "thenTweets": [
+      "65074924829687808",
+      "1965519234592899316"
+    ],
+    "nowTweets": [
+      "1965554587462717883",
+      "1965557161452601453",
+      "1965557610939326889"
+    ]
+  },
+  {
+    "dateAdded": "",
+    "date": "2025-01-03",
+    "claimIds": [
+      "17"
+    ],
+    "exampleId": "0000017011",
+    "keywordIds": [],
+    "text": "When America killed Osama bin Laden in Pakistan, United Nations Secretary General Antonio Guterres applauded the act, calling it 'a watershed moment in our common global fight against terrorism.' But when Israel fired missiles in Qatar targeting Hamas leaders, who organized, perpetrated, and celebrated the horrific Oct. 7 attack on Israel, he 'strongly condemned' the act and called it 'a clear violation of (Qatar's) sovereignty & territorial integrity.'",
+    "thenVsNowFormat": true,
+    "thenTweets": [
+      "1965464597042692415"
+    ],
+    "nowTweets": [
+      "1965481295431290985"
+    ]
+  },
+  {
+    "dateAdded": "",
+    "date": "2026-01-27",
+    "claimIds": [
+      "31c",
+      "17",
+      "30x"
+    ],
+    "exampleId": "0000003104",
+    "keywordIds": [],
+    "text": "Renowned antizionist Nerdeen Kiswani, close advisor to Zohran Mamdani, is bothered by how casually 'Zionists' are 'inventing' death toll figures in Iran, which are based on opposition figure estimates. 'Suddenly,' she writes, 'we’re expected to accept an enormous number of people killed in Iran within the span of weeks, with no evidence, no independent verification, no sustained reporting . And we’re supposed to suspend every standard of skepticism we were told was sacred.' Yet she has no problem promoting and mourning insanely inflated numbers of those killed in Gaza using the same standard she is so 'bothered by' when it comes to Iran. 'What matters is controlling the narrative: when death is real, when it’s fake, when numbers count, and when they don’t.' Indeed.",
+    "deepDive": false,
+    "source": false,
+    "standaloneTweets": [],
+    "thenVsNowFormat": true,
+    "thenTweets": [
+      "2016372890568921249",
+      "1972704175000629634"
+    ],
+    "nowTweets": [
+      "2016255362450505807",
+      "2015693913273536939"
+    ]
   }
 ]

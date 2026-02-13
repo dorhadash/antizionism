@@ -186,27 +186,28 @@
   },
   {
     "dateAdded": "",
-    "date": "2025-11-21",
+    "date": "2026-01-03",
     "claimIds": [
-      "5",
       "2",
-      "6z",
-      "6y",
-      "24"
+      "1",
+      "5",
+      "6",
+      "16",
+      "17",
+      "24",
+      "30"
     ],
-    "exampleId": "0000005001",
+    "exampleId": "000002009",
     "keywordIds": [],
-    "text": "An anonymous website published a hit-list of Israeli Jewish academics, offering $100k for their murders. The website lists the personal information of senior professors, doctors, and scientists—and even Israeli students—claiming they are 'criminals involved in the murder of Palestinian children.'",
-    "source": true,
-    "sourceLink": "https://www.jpost.com/diaspora/antisemitism/article-874732",
-    "thenVsNowFormat": true,
-    "thenTweets": [
-      "1991819941226615245"
+    "text": "Matt Chun, a prominent Australian children's artist, posted a lengthy article on why he is not mourning the victims of the Bondi Beach shooting. The fact that one of the people murdered was 10-year-old Matilda does not seem to bother him too much.",
+    "themVsUsFormat": true,
+    "standaloneTweets": [],
+    "themTweets": [
+      "2007628651928367545"
     ],
-    "nowTweets": [
-      "1991816173378285568"
-    ],
-    "themTweets": [],
-    "usTweets": []
+    "usTweets": [
+      "2000939666502004802",
+      "2006429342038114601"
+    ]
   }
 ]
