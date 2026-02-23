@@ -1,107 +1,93 @@
-/* ====== Claim Selector Styles ====== */
-
-.claim-selector-scroll-wrapper {
-  max-height: 100px;        /* adjust as needed */
-  overflow-y: auto;
-  padding-right: 4px;       /* keep content clear of scrollbar */
-  overscroll-behavior: contain;
-}
-
 .claim-container {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  min-width: 450px;
   color: white;
   font-family: "Inter", sans-serif;
-  margin-bottom: 1rem;
+  margin-bottom: 0;
 }
 
-/* Top horizontal list of claims */
-.claims-list {
-  display: flex;
-  flex-wrap: wrap;
-  overflow-x: visible;
-  white-space: normal;
-  padding: 0.5rem 0;
-  border-bottom: 1px solid #333;
-  scrollbar-width: thin;
-  row-gap: 0.5rem;   /* NEW — vertical spacing between wrapped rows */
+/* Wrapper so the ✕ can sit "inside" the select area */
+.claim-select-wrap {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  max-width: 560px;
+
+  /* makes the fade feel smoother */
+  transition: opacity 160ms ease;
 }
 
-/* Individual claim button */
-.claim-button {
-  background: transparent;
-  border: 1px solid #666;
+.claim-select-wrap.is-clearing {
+  opacity: 0;
+}
+
+/* the dropdown itself */
+.claim-dropdown {
+  width: 100%;
+  padding: 8px 36px 8px 10px; /* room for the ✕ on the right */
+  border: 1px solid #444;
+  border-radius: 10px;
+  background: #0f0f0f;
   color: white;
-  border-radius: 20px;
-  padding: 0.4rem 1rem;
-  margin-right: 0.5rem;
-  font-size: 0.9rem;
+  font-size: 14px;
+
+  /* small polish */
+  transition: border-color 160ms ease, transform 200ms ease;
+}
+
+.claim-dropdown:focus {
+  outline: 2px solid #2563eb;
+  outline-offset: 2px;
+}
+
+/* ✕ positioned inside the select wrapper (right side) */
+.claim-clear-btn {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+
+  width: 26px;
+  height: 26px;
+  border-radius: 8px;
+  border: 1px solid #444;
+  background: rgba(0, 0, 0, 0.0);
+  color: white;
+
   cursor: pointer;
-  transition: all 0.2s ease;
-  flex-shrink: 0;
-}
-
-.claim-button:hover {
-  background-color: #444;
-  border-color: #999;
-}
-
-.claim-button.active {
-  background-color: #2563eb;
-  border-color: #2563eb;
-}
-
-/* Selected claims box */
-.selected-claims-box {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 0.75rem;
-  background-color: #1e1e1e;
-  border: 1px solid #333;
-  border-radius: 12px;
-  padding: 0.75rem;
-  gap: 0.5rem;
-}
-
-/* Bubble for each selected claim */
-.claim-bubble {
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  background-color: #2563eb;
-  color: white;
-  border-radius: 9999px;
-  padding: 0.4rem 0.75rem;
-  font-size: 0.85rem;
-  font-weight: 500;
+  justify-content: center;
+
+  opacity: 0.85;
+  transition: opacity 120ms ease, background 120ms ease, transform 120ms ease;
+  line-height: 1;
+  padding: 0;
 }
 
-/* X remove button */
-.remove-btn {
-  margin-left: 0.5rem;
-  cursor: pointer;
-  font-weight: bold;
-  color: #fff;
-  opacity: 0.8;
-  transition: opacity 0.2s ease;
-}
-
-.remove-btn:hover {
+.claim-clear-btn:hover {
+  background: #1f1f1f;
   opacity: 1;
 }
 
-/* Responsive */
-@media (max-width: 600px) {
-  .claim-button {
-    font-size: 0.8rem;
-    padding: 0.3rem 0.75rem;
-  }
+.claim-clear-btn:active {
+  transform: translateY(-50%) scale(0.96);
+}
 
-  .selected-claims-box {
-    padding: 0.5rem;
-  }
+/* Animate the "dropdown" (really: the control) on change */
+.select-animate .claim-dropdown {
+  animation: selectPop 220ms ease-out;
+}
 
-  .claim-bubble {
-    font-size: 0.8rem;
+@keyframes selectPop {
+  0% {
+    transform: scale(1);
+  }
+  55% {
+    transform: scale(1.02);
+  }
+  100% {
+    transform: scale(1);
   }
 }

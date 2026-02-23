@@ -64,31 +64,36 @@ const Calendar = ({ onDateSelect, summaryData, displayedDate, calendarDate }) =>
 
   return (
     <div className="calendar-wrapper">
-      <div className="calendar-header">
-        <button onClick={() => changeMonth("prev")}>&lt;</button>
-        <span style={{color: "white" }}>
-          {calendarDate.toLocaleString("default", { month: "long" })} {year}
-        </span>
-        <button onClick={() => changeMonth("next")}>&gt;</button>
-      </div>
+      <div className="calendar-row">
+        {/* LEFT: fixed-width month/year */}
+        <div className="calendar-month">
+          <button onClick={() => changeMonth("prev")}>&lt;</button>
+          <span className="calendar-month-label">
+            {calendarDate.toLocaleString("default", { month: "long" })} {year}
+          </span>
+          <button onClick={() => changeMonth("next")}>&gt;</button>
+        </div>
 
-      <div className="horizontal-calendar">
-        {days.map((day) => (
-          <button
-            key={day.key}
-            className={`day-button 
-              ${summaryData[day.key] > 0 ? "has-data" : "has-no-data"} 
-              ${displayedDate === summaryData[day.key] ? "selected" : ""}
-            `}
-            onClick={() => handleDateClick(day.key)}
-          >
-            <div className="day-number">{day.label}</div>
-            {day.count > 0 && <div className="day-count">{day.count}</div>}
-          </button>
-        ))}
+        {/* RIGHT: dates strip */}
+        <div className="calendar-days">
+          {days.map((day) => (
+            <button
+              key={day.key}
+              className={`day-button
+                ${summaryData[day.key] > 0 ? "has-data" : "has-no-data"}
+                ${displayedDate === day.key ? "selected" : ""}
+              `}
+              onClick={() => handleDateClick(day.key)}
+            >
+              <div className="day-number">{day.label}</div>
+              {day.count > 0 && <div className="day-count">{day.count}</div>}
+            </button>
+          ))}
+        </div>
       </div>
     </div>
   );
+
 };
 
 export default Calendar;

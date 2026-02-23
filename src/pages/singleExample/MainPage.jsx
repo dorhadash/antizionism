@@ -53,12 +53,14 @@ export default function MainPage() {
 
     else {
       const newDayData = viewState.monthlyData[_dateString] ? viewState.monthlyData[_dateString] : defaultDayData;
-  
+      const [y, m, d] = _dateString.split("-").map(Number);
+
+
       setViewState(prev => ({
         ...prev,
         dayData: newDayData,
         displayedDate: _dateString,
-        calendarDate: new Date(_dateString),
+        calendarDate: new Date(y, m - 1, d),
         themTweetsIndex: 0,
         usTweetsIndex: 0,
         currentIndex: 0
@@ -69,6 +71,7 @@ export default function MainPage() {
 const findNextExample = (_dateString, _findNext, _findPrev) => {
 
     const [hasExample, newDate] = checkForNextDatesData(_findNext); // if we want next, findNext is true; else findNext is false (and we want previous)
+    const [y, m, d] = newDate ? newDate.split("-").map(Number) : _dateString.split("-").map(Number);
 
     if (_findNext) {
       if (viewState.currentIndex < viewState.dayData.length - 1) {
@@ -87,7 +90,7 @@ const findNextExample = (_dateString, _findNext, _findPrev) => {
           themTweetsIndex: 0,
           usTweetsIndex: 0,
           currentIndex: 0,
-          calendarDate: new Date(newDate)
+          calendarDate: new Date(y, m - 1, d)
         }));
       }
       else {
@@ -113,7 +116,7 @@ const findNextExample = (_dateString, _findNext, _findPrev) => {
           themTweetsIndex: 0,
           usTweetsIndex: 0,
           currentIndex: 0,
-          calendarDate: new Date(newDate)
+          calendarDate: new Date(y, m - 1, d)
         }));
       }
       else {
@@ -210,14 +213,13 @@ const findNextExample = (_dateString, _findNext, _findPrev) => {
   }
 
   return (
-    <div className="p-6 space-y-8">
+    <div className="page-shell space-y-8">
 
       <CalendarComponent onDateSelect={onDateSelect} displayedDate={ viewState.displayedDate } summaryData={ viewState.summaryData } calendarDate={ viewState.calendarDate } />
       
-      <Claims onClaimSelect={ onClaimSelect } />
+      <div className="filters-row">
 
-      <div>
-        <div className="search-container">
+        <div className="search-container search-container-inline">
           <input
             className="search-input"
             type="text"
@@ -227,18 +229,34 @@ const findNextExample = (_dateString, _findNext, _findPrev) => {
               const value = e.target.value;
               setSearchText(value);
 
-              // CLEAR previous timer
-              if (debounceRef.current) {
-                clearTimeout(debounceRef.current);
-              }
+              if (debounceRef.current) clearTimeout(debounceRef.current);
 
-              // SET new debounce
               debounceRef.current = setTimeout(() => {
                 fetchSearchResults(value);
-              }, 250); // 250ms debounce
+              }, 250);
             }}
           />
         </div>
+
+        <Claims onClaimSelect={onClaimSelect} />
+      
+      </div>
+
+      <div className="current-date-div">
+        <p className="font-bold text-gray-700">{new Date(`${viewState.displayedDate}T00:00:00Z`).toLocaleString("default",{
+          month: "long",
+          day: "numeric",
+          year: "numeric",
+          timeZone: "UTC"
+        })}:
+          <span style={{ marginLeft: "10px", marginRight: "10px" }}>{viewState.dayData[0].text === "" ? "0" : viewState.currentIndex + 1} of {viewState.dayData[0].text === "" ? "0" : viewState.dayData.length}</span>
+          <button onClick={() => findNextExample(viewState.displayedDate, false, true)}>&lt;</button>
+          <button onClick={() => findNextExample(viewState.displayedDate, true, false)}>&gt;</button>
+        </p>
+        {/* <p className="font-bold text-gray-700">{dayData[currentIndex].keywordIds.map((item, i) => <span key={item}>{item}, </span>)}</p> */}
+      </div>
+
+      <div>
 
         {(() => {
           const claimsArr = viewState.dayData[viewState.currentIndex].claims;
@@ -252,27 +270,23 @@ const findNextExample = (_dateString, _findNext, _findPrev) => {
           const fullText  = selectedClaim?.claimText || "";
 
           return (
-            <p className="font-bold text-gray-700">
-              {shortText}{shortText ? ": " : ""}{fullText}
-            </p>
+            <div className="short-text">
+              <h2 className="claim-short">
+                {shortText}
+              </h2>
+
+              <p className="claim-full">
+                {fullText}
+              </p>
+
+              <p className="claim-description">
+                { viewState.dayData[viewState.currentIndex].text }
+                { viewState.dayData[viewState.currentIndex].source ? <p className="description-text"><a href={viewState.dayData[viewState.currentIndex].sourceLink}>{viewState.dayData[viewState.currentIndex].sourceLink}</a></p> : []}
+              </p>
+            </div>
           );
         })()}
-      </div>
-
-      <div>
-        <p className="font-bold text-gray-700">{new Date(`${viewState.displayedDate}T00:00:00Z`).toLocaleString("default",{
-          month: "long",
-          day: "numeric",
-          year: "numeric",
-          timeZone: "UTC"
-        })}:
-          <span style={{ marginLeft: "10px", marginRight: "10px" }}>{viewState.dayData[0].text === "" ? "0" : viewState.currentIndex + 1} of {viewState.dayData[0].text === "" ? "0" : viewState.dayData.length}</span>
-          <button onClick={() => findNextExample(viewState.displayedDate, false, true)}>&lt;</button>
-          <button onClick={() => findNextExample(viewState.displayedDate, true, false)}>&gt;</button>
-        </p>
-        {/* <p className="font-bold text-gray-700">{dayData[currentIndex].keywordIds.map((item, i) => <span key={item}>{item}, </span>)}</p> */}
-        <p className="pl-6 text-gray-700">{ viewState.dayData[viewState.currentIndex].text }</p>
-        { viewState.dayData[viewState.currentIndex].source ? <p className="pl-6"><a href={viewState.dayData[viewState.currentIndex].sourceLink}>{viewState.dayData[viewState.currentIndex].sourceLink}</a></p> : []}
+        
       </div>
 
       <div className="flex-row">
@@ -280,14 +294,13 @@ const findNextExample = (_dateString, _findNext, _findPrev) => {
         { viewState.dayData[viewState.currentIndex].standaloneTweets && viewState.dayData[viewState.currentIndex].standaloneTweets.length ?
         
           <div className="flex-1">
-            <p className="font-bold mb-2 text-gray-700">Proof:</p>
             <TweetCarousel tweets={viewState.dayData[viewState.currentIndex].standaloneTweets} displayedDate={ viewState.displayedDate } currentIndex={ viewState.currentIndex } tweetIndex={viewState.themTweetsIndex} handleTweetsIndex={handleThemTweetsIndex} />
           </div>
 
           :
 
-          <div className="flex-row">
-            <div className="flex-1">
+          <div className="tweet-pair">
+            <div className="tweet-col">
               <p className="font-bold mb-2 text-gray-700">{viewState.dayData[viewState.currentIndex].thenVsNowFormat ? "Then" : "Them"}:</p>
               <TweetCarousel
                 tweets={viewState.dayData[viewState.currentIndex].thenVsNowFormat ? viewState.dayData[viewState.currentIndex].thenTweets : viewState.dayData[viewState.currentIndex].themTweets}
@@ -298,7 +311,7 @@ const findNextExample = (_dateString, _findNext, _findPrev) => {
               />
             </div>
 
-            <div className="flex-1">
+            <div className="tweet-col">
               <p className="font-bold mb-2 text-gray-700">{ viewState.dayData[viewState.currentIndex].thenVsNowFormat ? "Now" : "Us"}:</p>
               <TweetCarousel
                 tweets={viewState.dayData[viewState.currentIndex].thenVsNowFormat ? viewState.dayData[viewState.currentIndex].nowTweets : viewState.dayData[viewState.currentIndex].usTweets}

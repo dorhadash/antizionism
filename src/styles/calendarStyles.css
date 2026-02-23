@@ -1,70 +1,132 @@
-.calendar-header {
+/* ===== Calendar Wrapper ===== */
+
+.calendar-wrapper {
+  width: 100%;
+  background-color: #0f172a; /* dark navy background */
+  padding: 6px 16px;
+  margin: 10px auto;
+  box-sizing: border-box;
+  border-bottom: 1px solid #1e293b;
+}
+
+/* ===== One-Line Layout ===== */
+
+.calendar-row {
   display: flex;
-  justify-content: center;
   align-items: center;
-  margin-bottom: 8px;
+  gap: 16px;
+}
+
+/* ===== Fixed Month / Year Section (Left) ===== */
+
+.calendar-month {
+  flex: 0 0 190px; /* fixed width */
+  display: flex;
+  align-items: center;
   gap: 12px;
 }
 
-.calendar-wrapper {
-  margin-bottom: 20px;
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 10px;
-}
-
-.horizontal-calendar {
-  display: flex;
-  overflow-x: auto;
-  white-space: nowrap;
-  padding: 10px 0;
-  scrollbar-width: thin;
-}
-
-.day-button {
-  min-width: 40px;
-  margin: 3px;
-  padding: 3px;
-  border-radius: 6px;
-  background: #f3f3f3;
-  border: 1px solid #ccc;
+.calendar-month button {
+  background: none;
+  border: 1px solid #334155;
+  color: #cbd5e1;
+  padding: 4px 8px;
   cursor: pointer;
-  transition: all 0.2s;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.day-number {
+  border-radius: 4px;
   font-size: 14px;
 }
 
-.day-count {
-  font-size: 12px;
-  color: #555;
-  margin-top: 2px;
+.calendar-month button:hover {
+  background-color: #1e293b;
 }
 
-.day-button.has-data {
-  background: #007bff;
-  color: white;
-  font-weight: bold;
+.calendar-month-label {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  white-space: nowrap;
 }
 
-.day-button.has-data .day-count {
-  color: white;
+/* ===== Horizontal Date Strip (Right) ===== */
+
+.calendar-days {
+  flex: 1;
+  display: flex;
+  overflow-x: auto;
+  gap: 8px;
+  padding: 6px 0;
+  scrollbar-width: thin;
 }
 
-.day-button.has-no-data {
-  color: black;
+.calendar-days::-webkit-scrollbar {
+  height: 6px;
 }
 
-.day-button.selected {
-  border: 2px solid #ffcc00;
-  box-shadow: 0 0 6px rgba(255, 204, 0, 0.7);
-  transform: scale(1.05);
-  z-index: 1;
+.calendar-days::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 3px;
+}
+
+/* ===== Date Button Styling ===== */
+
+.day-button {
+  min-width: 16px;
+  height: 42px;
+  border-radius: 6px;
+  border: 1px solid #334155;
+  background-color: #1e293b;
+  color: #e2e8f0;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;   /* <-- was center */
+  padding-top: 8px; 
+  transition: all 0.15s ease;
+  font-size: 14px;
 }
 
 .day-button:hover {
-  background: #e0e0e0;
+  transform: translateY(-1px);
+  border-color: #475569;
+}
+
+/* ===== Date Number ===== */
+
+.day-number {
+  font-weight: 600;
+  line-height: 1;
+}
+
+/* ===== Example Count ===== */
+
+.day-count {
+  font-size: 11px;
+  margin-top: 4px;
+  opacity: 0.8;
+}
+
+/* ===== Coloring Logic ===== */
+
+/* Date has examples */
+.has-data {
+  background-color: #1d4ed8;
+  border-color: #2563eb;
+  color: #ffffff;
+}
+
+.has-data:hover {
+  background-color: #2563eb;
+}
+
+/* Date has no examples */
+.has-no-data {
+  background-color: #1e293b;
+  color: #94a3b8;
+}
+
+/* Selected Date */
+.selected {
+  outline: 2px solid #facc15;
+  outline-offset: 2px;
 }

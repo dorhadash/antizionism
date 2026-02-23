@@ -13,3 +13,9 @@ updated_tweets
 .data
 tweets_new_design
 src/firebaseConfig.js
+src/pages/calendar/Calendar0.jsx
+src/pages/claims/Claims0.jsx
+src/pages/singleExample/MainPage0.jsx
+src/pages/singleExample/TweetCarousel0.jsx
+src/styles/claimsStyles0.css
+src/styles/stylesheet0.css

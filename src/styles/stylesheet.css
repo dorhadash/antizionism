@@ -19,8 +19,38 @@
   margin-bottom: 0.5rem; /* 8px */
 }
 
-.pl-6 {
+/* SHORT TEXT — Most important */
+.claim-short {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+  color: white;
+}
+
+/* FULL TEXT — Main explanation */
+.claim-full {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 0.75rem;
+  color: white;
+}
+
+/* DESCRIPTION — Supporting context */
+.claim-description {
+  font-size: 0.95rem;
+  color: #666;
+  font-style: italic;
+  line-height: 1.5;
+}
+
+.description-text {
   padding-left: 1.5rem; /* 24px */
+  margin: 10px auto;
+}
+
+.short-text {
+  max-width: 600px;
+  margin: 10px auto;
 }
 
 .space-y-8 > * + * {
@@ -54,6 +84,28 @@
 }
 
 /* Layout & flexbox */
+.carousels-row {
+  display: flex;
+  justify-content: center;   /* <-- centers them horizontally */
+  align-items: flex-start;
+  gap: 24px;                 /* spacing between the two */
+  width: 100%;
+  flex-wrap: wrap; 
+}
+
+.current-date-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.current-date-div p {
+  text-align: center;
+  margin: 0;
+}
+
+
 .flex {
   display: flex;
 }
@@ -76,6 +128,18 @@
 
 .self-start:hover {
   background-color: #ffffff;
+}
+
+.tweet-pair {
+  display: flex;
+  justify-content: center;   /* center the group */
+  gap: 24px;                 /* space between them */
+  width: 100%;
+}
+
+.tweet-col {
+  flex: 0 1 520px;   /* do NOT stretch */
+  max-width: 520px;
 }
 
 /* Widths & heights */
@@ -165,7 +229,6 @@
 /* Search box */
 .search-container {
   display: flex;
-  justify-content: flex-end;
   margin-bottom: 1rem;
   max-width: 200px;
 }
@@ -175,7 +238,33 @@
   border: 1px solid #ccc;
   border-radius: 0.5rem;
   font-size: 1rem;
-  width: 250px;
+  width: 250px;        /* desktop width */
+  max-width: 250px;    /* cap it */
+}
+
+.filters-row{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:16px;
+  /* width:100%; */
+  margin:0 auto 1rem;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.search-container.search-container-inline {
+  margin-bottom: 10px;
+  max-width: 240px;
+}
+
+.tweet-carousel-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 0.5rem;
+  width: 100%;
 }
 
 
@@ -184,6 +273,12 @@
 @media (max-width: 768px) {
   .flex-row {
     flex-direction: column;
-    gap: 1.5rem; /* slightly smaller gap when stacked */
+    gap: 1.5rem;
+    align-items: stretch;
+  }
+
+  .search-input {
+    width: 100%;
+    max-width: 100%;
   }
 }

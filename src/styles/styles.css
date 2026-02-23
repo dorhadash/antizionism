@@ -118,17 +118,18 @@ body {
   background-color: black;
 }
 .wrapper {
-  min-height: var(--wrapper-height);
-  display: grid;
-  place-items: center;
-  margin: 0 1rem;
   min-height: 86vh;
+  display: grid;
+  justify-items: center;   /* keep horizontal centering */
+  align-content: start;    /* top-align the grid content */
+  padding-top: 24px;       /* optional: keeps it from hugging the top */
 }
+
 .content {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start; /* top-align content */
 }
 
 /* Page titles */
@@ -181,9 +182,6 @@ h1 {
 }
 .instructions p {
   font-size: 1rem;
-}
-h2 {
-  color: #2800FF;
 }
 
 

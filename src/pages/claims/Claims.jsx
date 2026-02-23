@@ -1,50 +1,85 @@
-import React, { useState } from "react";
-import "../../styles/claimsStyles.css"; // import the CSS file
+import React, { useMemo, useRef, useState } from "react";
+import "../../styles/claimsStyles.css";
 import { claims } from "../../data/db.js";
 
 export default function Claims({ onClaimSelect }) {
-  const [selectedClaim, setSelectedClaim] = useState({});
+  // "" means none selected
+  const [selectedClaimId, setSelectedClaimId] = useState("");
+  const [isClearing, setIsClearing] = useState(false);
+  const [isAnimating, setIsAnimating] = useState(false);
 
-  const handleSelect = (claim) => {
-    if (selectedClaim.claimId !== claim.claimId) {
-      setSelectedClaim(claim);
-      onClaimSelect(claim.claimId);
-    }
+  const animTimerRef = useRef(null);
+
+  const claimOptions = useMemo(() => {
+    return claims
+      .map((c) => ({
+        claimId: c.claimId,
+        label: c.claimShortText ? c.claimShortText : c.keyword,
+      }))
+      .filter((c) => c.claimId && c.label);
+  }, []);
+
+  const triggerSelectAnim = () => {
+    setIsAnimating(false);
+    window.requestAnimationFrame(() => {
+      setIsAnimating(true);
+      if (animTimerRef.current) clearTimeout(animTimerRef.current);
+      animTimerRef.current = setTimeout(() => setIsAnimating(false), 220);
+    });
   };
 
-  const handleRemove = () => {
-    const newSelected = {};
-    setSelectedClaim(newSelected);
-    onClaimSelect("");
+  const handleDropdownChange = (e) => {
+    const nextId = e.target.value; // "" if "Select"
+    setSelectedClaimId(nextId);
+    onClaimSelect(nextId);
+    triggerSelectAnim();
+  };
+
+  const handleClear = () => {
+    // Fade out, then clear, then fade back in
+    setIsClearing(true);
+    setTimeout(() => {
+      setSelectedClaimId("");
+      onClaimSelect("");
+      triggerSelectAnim();
+      setIsClearing(false);
+    }, 160);
   };
 
   return (
     <div className="claim-container">
-      <div className="claim-selector-scroll-wrapper">
-        <div className="claims-list">
-          {claims.map((claim, index) => (
-            <button
-              key={index}
-              onClick={() => handleSelect(claim)}
-              className={`claim-button ${
-                selectedClaim.claimId === claim.claimId ? "active" : ""
-              }`}
-            >
-              {claim.claimShortText ? claim.claimShortText : claim.keyword }
-            </button>
+      <div
+        className={[
+          "claim-select-wrap",
+          selectedClaimId ? "has-selection" : "",
+          isClearing ? "is-clearing" : "",
+          isAnimating ? "select-animate" : "",
+        ].join(" ")}
+      >
+        <select
+          className="claim-dropdown"
+          value={selectedClaimId}
+          onChange={handleDropdownChange}
+          aria-label="Select claim"
+        >
+          <option value="">Select</option>
+          {claimOptions.map((c) => (
+            <option key={c.claimId} value={c.claimId}>
+              {c.label}
+            </option>
           ))}
-        </div>
-      </div>
-      <div>
-        {Object.keys(selectedClaim).length > 0 && (
-          <div className="selected-claims-box">
-            <div className="claim-bubble">
-              {selectedClaim.claimShortText}
-              <span className="remove-btn" onClick={() => handleRemove()}>
-                ✕
-              </span>
-            </div>
-          </div>
+        </select>
+
+        {selectedClaimId && (
+          <button
+            type="button"
+            className="claim-clear-btn"
+            onClick={handleClear}
+            aria-label="Clear selected claim"
+            title="Clear"
+          >
+            ✕
+          </button>
         )}
       </div>
     </div>
