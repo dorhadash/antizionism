@@ -1,27 +1,6 @@
 [
   {
     "dateAdded": "",
-    "date": "2024-06-24",
-    "claimIds": [
-      "13",
-      "41"
-    ],
-    "exampleId": "000001301",
-    "keywordIds": [],
-    "text": "Fadi Al-Wadiya worked as 'Doctors Without Borders' physiotherapist. The organization and multiple media outlets mourned his death calling it 'abhorrent' and claiming he was 'on his way to provide vital medical care' when he was killed in a drone strike. In reality, he was a senior rocket expert for Palestinian terror group, Palestinian Islamic Jihad. The picture below is of him in their uniform at a meeting with other PIJ members.",
-    "source": true,
-    "sourceLink": "https://www.timesofisrael.com/idf-slain-gazan-named-as-doctors-without-borders-staffer-was-islamic-jihad-rocket-maker/",
-    "standaloneTweets": [],
-    "themTweets": [
-      "1805620032568754564"
-    ],
-    "usTweets": [
-      "1806057940207669583",
-      "2008001794753114574"
-    ]
-  },
-  {
-    "dateAdded": "",
     "date": "2025-11-14",
     "claimIds": [
       "41"
@@ -140,5 +119,39 @@
     "usTweets": [
       "2010600199681712547"
     ]
+  },
+  {
+    "dateAdded": "",
+    "date": "2023-12-15",
+    "claimIds": [
+      "41"
+    ],
+    "exampleId": "000004108",
+    "keywordIds": [
+      "ICRC"
+    ],
+    "text": "The Red Cross president, Mirjana Spoljaric, met with Benjamin Netanyahu and refused to publicly pressure Hamas to release the hostages and refused to deliver a box of medicine for the Israeli hostages in Gaza.",
+    "standaloneTweets": [
+      "1735696573311394006"
+    ],
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "",
+    "date": "1944-11-22",
+    "claimIds": [
+      "41"
+    ],
+    "exampleId": "000004109",
+    "keywordIds": [
+      "ICRC"
+    ],
+    "text": "Red Cross in 1944: 'We found no traces of installations to exterminate civilian prisoners in Auschwitz.' Red Cross in 2024: 'We found no evidence that weapons or hostages are being held in the hospitals in Gaza.'",
+    "standaloneTweets": [
+      "1808918641280221609"
+    ],
+    "themTweets": [],
+    "usTweets": []
   }
 ]

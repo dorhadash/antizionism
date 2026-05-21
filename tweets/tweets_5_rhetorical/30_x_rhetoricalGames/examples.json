@@ -1,32 +1,6 @@
 [
   {
     "dateAdded": "",
-    "date": "2025-10-03",
-    "claimIds": [
-      "13",
-      "30x"
-    ],
-    "exampleId": "000001302",
-    "keywordIds": [],
-    "text": "Faraj al-Shamie, a Syrian-born trauma surgeon in the UK, praised the Oct. 7 massacre at the time, calling Hamas 'Allah's men on Earth' on Oct. 7, 2023. On Oct. 3, 2025, his son, Jihad al-Shamie, committed a car ramming attack against Jews outside a Manchester synagogue on Yom Kippur, killing two and injuring four. He condemned the attack as a 'heinous act.'",
-    "source": true,
-    "sourceLink": "https://www.dailymail.co.uk/news/article-15159909/Manchester-attackers-warzone-doctor-father-praised-Hamas-terrorists-carried-barbaric-October-7-attacks.html",
-    "standaloneTweets": [],
-    "thenVsNowFormat": true,
-    "thenTweets": [
-      "2000336194148913623",
-      "1974507738660208757",
-      "1974079489186681164"
-    ],
-    "nowTweets": [
-      "1974057134636605737",
-      "1974101776833130785"
-    ],
-    "themTweets": [],
-    "usTweets": []
-  },
-  {
-    "dateAdded": "",
     "date": "2025-01-01",
     "claimIds": [
       "30x"
@@ -376,6 +350,40 @@
       "2009475093026742425"
     ],
     "standaloneTweets": []
+  },
+  {
+    "dateAdded": "",
+    "date": "2026-02-22",
+    "claimIds": [
+      "30x"
+    ],
+    "exampleId": "00000030x15",
+    "keywordIds": [],
+    "text": "Tucker Carlson to Mike Huckabee: I'm not saying Epstein worked for Mossad. I don't think we know that.' Tucker Carlson's TPUSA speech: 'Epstein was working on behalf of intel services - probably not American. This guy had direct connections to a foreign government. No one's allowed to say that foreign government is Israel.'",
+    "source": false,
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "standaloneTweets": [
+      "2025737875590152489"
+    ]
+  },
+  {
+    "dateAdded": "",
+    "date": "2026-02-20",
+    "claimIds": [
+      "30x"
+    ],
+    "exampleId": "00000030x16",
+    "keywordIds": [],
+    "text": "Mike Huckabee interview, ONE MINUTE: “Israel has A LOT OF RESOURCES.” THE NEXT MINUTE: “This is a country (Israel) the size of New Jersey with NO RESOURCES.” Israel is valuable when Tucker wants to make one point, then of no value when he wants to make a different point. Zero consistency.",
+    "source": false,
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "standaloneTweets": [
+      "2024981569472274515"
+    ]
   },
   {
     "dateAdded": "",

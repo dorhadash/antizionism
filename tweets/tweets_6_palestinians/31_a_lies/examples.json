@@ -1,123 +1,6 @@
 [
   {
     "dateAdded": "",
-    "date": "2018-05-14",
-    "claimIds": [
-      "12",
-      "31a",
-      "31k",
-      "32",
-      "47"
-    ],
-    "exampleId": "000001201",
-    "keywordIds": [
-      "Layla Ghandour",
-      "Great March of Return",
-      "Children death for propoganda"
-    ],
-    "text": "The death of 8-month-old Layla Ghandour during the 2018 Gaza border protests was an international story, initially blamed on Israeli tear gas inhalation, a claim amplified by media, celebrities, and Palestinian officials. But later revelations indicated this narrative was fabricated for propaganda purposes by Hamas. A captured relative testified under Israeli interrogation that Hamas paid the family $8,000 to lie about the cause, revealing she actually died from a congenital blood disease common in the family, corroborated by an anonymous Gaza doctor's statement to the Associated Press attributing her death to a preexisting medical condition and the Gaza Health Ministry's removal of her name from the border protest's casualty list pending investigation, which they never completed.",
-    "standaloneTweets": [],
-    "themTweets": [
-      "996537228112420864",
-      "996481031531384839",
-      "996306900554743808",
-      "996316130867167232",
-      "996410679878828034",
-      "996806286569336833",
-      "996398642301882373"
-    ],
-    "usTweets": [
-      "1009821733531078657",
-      "999763563056189441",
-      "996840679044071424",
-      "996390448854945793",
-      "996845854316204033",
-      "996432292200484865",
-      "998698509229547520",
-      "1009777443828269056"
-    ]
-  },
-  {
-    "dateAdded": "",
-    "date": "2022-06-05",
-    "claimIds": [
-      "12",
-      "31a",
-      "31k",
-      "32",
-      "41",
-      "47"
-    ],
-    "exampleId": "000001202",
-    "keywordIds": [
-      "Children death for propoganda"
-    ],
-    "text": "Amjad Walid Hussein Fayed's death was framed as the IDF targeting another innocent Palestinian child by CNN and the NGO Defense for Children in Palestine (DCIP). Then images emerged of him with Hamas insignias and headbands and images of him with guns. The report from the IDF indicated that the Palestinians were hurling Molotov cocktails and rocks at them at the time of the shooting.",
-    "standaloneTweets": [],
-    "themTweets": [
-      "1528113422398681088",
-      "1529501061886640130",
-      "1528342410773860352",
-      "1528027984468361217"
-    ],
-    "usTweets": [
-      "1533451946509668355",
-      "1528452720239181827",
-      "1528617041019609089",
-      "1528641563613888512"
-    ]
-  },
-  {
-    "dateAdded": "",
-    "date": "2025-12-27",
-    "claimIds": [
-      "13",
-      "31a"
-    ],
-    "exampleId": "000001303",
-    "keywordIds": [],
-    "text": "Gaza 'journalist' Motasem A Dalloul Tweets an image from a 2013 US drone strike on Pakistan, claiming its an Israeli helicopter opening fire in East Gaza 'right now'. He doesn't even take it down when it's pointed out, because they are totally shameless.",
-    "source": false,
-    "standaloneTweets": [],
-    "thenVsNowFormat": false,
-    "themTweets": [
-      "2004832462111989884"
-    ],
-    "usTweets": [
-      "2005244088421847106",
-      "2005284985838735376"
-    ]
-  },
-  {
-    "dateAdded": "",
-    "date": "2023-11-13",
-    "claimIds": [
-      "13",
-      "31a",
-      "32"
-    ],
-    "exampleId": "000001312",
-    "keywordIds": [],
-    "text": "Gazan doctors from al-Ahli Hospital in Gaza City staged a press conference at a fake massacre site. On Oct. 16, 2023, reports came out that Israel had bombed al-Alhi hospital, killing 500 people. But it never happened. The hospital itself was fully in tact and operational. And there were less than 10 killed. Nevertheless, these 'trusted,' 'elevated,' 'professional' doctors staged a fake press conference before corpses, calling the event a massacre.",
-    "themTweets": [
-      "1714387413869486287",
-      "1714407270556295627"
-    ],
-    "usTweets": [
-      "1714552335051989483",
-      "1714570324455416202",
-      "1714552321760202859",
-      "1714552323945472323",
-      "1714377828131553446",
-      "1714552328471138777",
-      "1714552330605973966",
-      "1714552332749357479",
-      "1714579782761959791",
-      "1714588649361207627"
-    ]
-  },
-  {
-    "dateAdded": "",
     "date": "2025-10-26",
     "claimIds": [
       "31a"
@@ -399,5 +282,533 @@
       "1973562845171458155",
       "1973070224367723002"
     ]
+  },
+  {
+    "dateAdded": "",
+    "date": "2025-01-08",
+    "claimIds": [
+      "31a"
+    ],
+    "exampleId": "00000031a017",
+    "keywordIds": [],
+    "standaloneTweets": [
+      "1896267222991225102"
+    ],
+    "text": "Palestinian supporters believe a hanging skelaton is that of an actual person. A skelaton can not hang together like this. Without muscles, tendons and ligaments, it falls apart.",
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "",
+    "date": "2026-04-13",
+    "claimIds": [
+      "31a"
+    ],
+    "exampleId": "00000031a018",
+    "keywordIds": [],
+    "standaloneTweets": [],
+    "text": "Israeli security forces discovered some 70 Palestinian men crammed inside the waste compartment of a garbage truck on Monday night as they attempted to cross into central Israel from the occupied West Bank.",
+    "themTweets": [
+      "2044023521634885670"
+    ],
+    "usTweets": [
+      "2044453196114858177"
+    ]
+  },
+  {
+    "dateAdded": "",
+    "date": "2026-04-22",
+    "claimIds": [
+      "31a"
+    ],
+    "exampleId": "00000031a019",
+    "keywordIds": [],
+    "standaloneTweets": [],
+    "text": "Israeli security forces discovered some 70 Palestinian men crammed inside the waste compartment of a garbage truck on Monday night as they attempted to cross into central Israel from the occupied West Bank.",
+    "themTweets": [
+      "2046735404943167662",
+      "2046794210087702828"
+    ],
+    "usTweets": [
+      "2046810033065787730",
+      "2046876495365218475"
+    ]
+  },
+  {
+    "dateAdded": "",
+    "date": "2026-04-20",
+    "claimIds": [
+      "31a"
+    ],
+    "exampleId": "00000031a020",
+    "keywordIds": [],
+    "standaloneTweets": [],
+    "text": "Another day, another Palestinian fake. Shocking images from Gaza turn out to be mummies from Bolivia.",
+    "themTweets": [
+      "2045486247519343049"
+    ],
+    "usTweets": [
+      "2045811595977097244",
+      "2045844221899272593"
+    ]
+  },
+  {
+    "dateAdded": "",
+    "date": "2026-04-19",
+    "claimIds": [
+      "31a"
+    ],
+    "exampleId": "00000031a021",
+    "keywordIds": [],
+    "standaloneTweets": [],
+    "text": "Antizionists claim this video depicts prisoners in an Israeli facility being crushed, but it's a staged scene from Koleksiyoncu Korku Evi, a horror escape room in Turkey.",
+    "themTweets": [
+      "2045722910560755741"
+    ],
+    "usTweets": [
+      "2045812500344590828"
+    ]
+  },
+  {
+    "dateAdded": "",
+    "date": "2023-02-27",
+    "claimIds": [
+      "31a"
+    ],
+    "exampleId": "00000031a022",
+    "keywordIds": [],
+    "standaloneTweets": [],
+    "text": "This time they stole a video from Jordan and claimed that Israeli soldiers sent a dog on Palestinian children.",
+    "themTweets": [
+      "1630216215208554497"
+    ],
+    "usTweets": [
+      "1746581174124769310"
+    ]
+  },
+  {
+    "dateAdded": "",
+    "date": "2023-11-07",
+    "claimIds": [
+      "31a"
+    ],
+    "exampleId": "00000031a023",
+    "keywordIds": [],
+    "standaloneTweets": [],
+    "text": "Captain Yasir reports that Hamas has bombed and killed hundreds of elite Israeli soldiers. They fake not only their own death, but also the death of the Jews. (This is actually the bombing in Syria in 2016 between Assad's soldiers).",
+    "themTweets": [
+      "1721778294310281477"
+    ],
+    "usTweets": [
+      "1746244393923645891"
+    ]
+  },
+  {
+    "dateAdded": "",
+    "date": "2026-04-22",
+    "claimIds": [
+      "31a"
+    ],
+    "exampleId": "00000031a024",
+    "keywordIds": [],
+    "standaloneTweets": [],
+    "text": "Pro-Palestinian accounts are spreading a video, claiming it shows Palestinian prisoners in Israeli jails. The truth: it's footage from a maximum-security prison in El Salvador. Caught red-handed. Pallywood exposed. Again.",
+    "themTweets": [
+      "2046300383971336252"
+    ],
+    "usTweets": [
+      "2046849393114919189"
+    ]
+  },
+  {
+    "dateAdded": "",
+    "date": "2023-10-12",
+    "claimIds": [
+      "31a"
+    ],
+    "exampleId": "00000031a025",
+    "keywordIds": [],
+    "standaloneTweets": [],
+    "text": "The video claiming to show a young boy crying for his sister in Gaza is from 2014 in Syria.",
+    "themTweets": [
+      "1712259806940344503"
+    ],
+    "usTweets": [
+      "1746438612286140519"
+    ]
+  },
+  {
+    "dateAdded": "",
+    "date": "2023-10-14",
+    "claimIds": [
+      "31a"
+    ],
+    "exampleId": "00000031a026",
+    "keywordIds": [],
+    "standaloneTweets": [
+      "1713112379028881428"
+    ],
+    "source": true,
+    "sourceLink": "https://www.tiktok.com/@moumentaleb/video/7258228045985631490",
+    "text": "This video, viewed 400,000 times, falsely claims to show children in Gaza searching for food after an air strike. The clip was posted to TikTok in 2021. It shows the aftermath of a fire at a Syrian refugee camp near the town of Hanin in northern Lebanon.",
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "",
+    "date": "2023-10-14",
+    "claimIds": [
+      "31a"
+    ],
+    "exampleId": "00000031a027",
+    "keywordIds": [],
+    "standaloneTweets": [],
+    "source": true,
+    "sourceLink": "https://www.upi.com/Top_News/World-News/2014/01/21/Report-Expert-says-evidence-shows-systematic-torture-by-Assad-regime/21671390318261/",
+    "text": "This widely shared, graphic image of a group of deceased children is unrelated to the current conflict between Israel and Hamas. The image was taken in 2013 and shows the aftermath of the Ghouta chemical attack by Syrian government forces.",
+    "themTweets": [
+      "1713109890019758281"
+    ],
+    "usTweets": [
+      "1713144031310467094",
+      "1713332163687465061"
+    ]
+  },
+  {
+    "dateAdded": "",
+    "date": "2023-10-14",
+    "claimIds": [
+      "31a"
+    ],
+    "exampleId": "00000031a028",
+    "keywordIds": [],
+    "standaloneTweets": [
+      "1713204739603673438"
+    ],
+    "source": true,
+    "sourceLink": "https://www.youtube.com/watch?v=ZHCtYegXJ0A",
+    "text": "This video of a child rescued from under concrete slab, viewed 200,000 times, falsely claims to show the aftermath of Israeli strikes in Gaza. The video is from 2016 and shows the aftermath of air strikes by Syrian government forces near Aleppo.",
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "",
+    "date": "2023-10-07",
+    "claimIds": [
+      "31a"
+    ],
+    "exampleId": "00000031a029",
+    "keywordIds": [],
+    "standaloneTweets": [
+      "1710846971290726867"
+    ],
+    "source": false,
+    "text": "This is a fake Jerusalem Post account falsely reporting that Prime Minister Benjamin Netanyahu has been taken to hospital, and somehow racking up over 600,000 views. The post has now got a Community Note attached to it.",
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "",
+    "date": "2023-10-14",
+    "claimIds": [
+      "31a"
+    ],
+    "exampleId": "00000031a030",
+    "keywordIds": [],
+    "standaloneTweets": [],
+    "source": false,
+    "text": "A prominant anti-Israel account @ShaykhSulaiman had 12 community notes in just the last week because of persistent misinformation.",
+    "themTweets": [
+      "1713293957717770387"
+    ],
+    "usTweets": [
+      "1713861545757663463"
+    ]
+  },
+  {
+    "dateAdded": "",
+    "date": "2023-10-08",
+    "claimIds": [
+      "31a"
+    ],
+    "exampleId": "00000031a031",
+    "keywordIds": [],
+    "standaloneTweets": [
+      "1711076027013746826"
+    ],
+    "source": true,
+    "sourceLink": "https://www.youtube.com/watch?v=2ND8u6PPybU",
+    "text": "This video, viewed 1.3 million times, falsely claims to show senior Israeli generals captured by Hamas. It actually shows the arrest of Karabakh separatist leaders by Azerbaijan's security service.",
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "",
+    "date": "2023-10-09",
+    "claimIds": [
+      "31a"
+    ],
+    "exampleId": "00000031a032",
+    "keywordIds": [],
+    "standaloneTweets": [
+      "1711663630683443628"
+    ],
+    "source": false,
+    "text": "Viral posts by Twitter Blue accounts, viewed millions of times, falsely claim that the Saint Porphyrios Orthodox Church in Gaza was destroyed by Israeli bombing. The church denied the claims on Facebook.",
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "",
+    "date": "2023-10-10",
+    "claimIds": [
+      "31a"
+    ],
+    "exampleId": "00000031a033",
+    "keywordIds": [],
+    "standaloneTweets": [
+      "1711907779269537813"
+    ],
+    "source": false,
+    "text": "This video, viewed nearly 300,000 times, falsely claims to show Israel drop white phospherus bombs on Gaza. The video is from March, and shows Russia using incendiary munitions in Vuhledar, Ukraine.",
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "",
+    "date": "2023-10-11",
+    "claimIds": [
+      "31a"
+    ],
+    "exampleId": "00000031a034",
+    "keywordIds": [],
+    "standaloneTweets": [
+      "1712090830373072916"
+    ],
+    "source": false,
+    "text": "A misleading quote attributed to Israeli Defense Minister Yoav Gallant (left), saying Israel has 'abolished all the rules of war', has gone viral. It's not what he said. I've screenshotted the accurate quote on the right, published by the Times of Israel.",
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "",
+    "date": "2023-10-12",
+    "claimIds": [
+      "31a"
+    ],
+    "exampleId": "00000031a036",
+    "keywordIds": [],
+    "standaloneTweets": [
+      "1712615653369094310"
+    ],
+    "source": false,
+    "text": "This video, viewed 450,000 times, claims to show Israel bomb Palestinian homes in Gaza. The video is from the Syrian war, and shows government forces bombing a residential area in Yabroud in 2013.",
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "",
+    "date": "2023-10-12",
+    "claimIds": [
+      "31a"
+    ],
+    "exampleId": "00000031a037",
+    "keywordIds": [],
+    "standaloneTweets": [],
+    "source": false,
+    "text": "This graphic video of a newborn being resuced from piles of rubble is not from the current conflict between Israel and Hamas. It's the aftermath of the deadly earthquake in Turkey and Syria on 6 February.",
+    "themTweets": [
+      "1712495925028077714"
+    ],
+    "usTweets": [
+      "1712642626627735814"
+    ]
+  },
+  {
+    "dateAdded": "",
+    "date": "2023-10-12",
+    "claimIds": [
+      "31a"
+    ],
+    "exampleId": "00000031a038",
+    "keywordIds": [],
+    "standaloneTweets": [],
+    "source": false,
+    "text": "This was reported as a Bar Mitzvah celebration for the son of an IDF company commander. No evidence whatsoever that this is celebrating Palestinian deaths. Originally posted on youtube.",
+    "themTweets": [
+      "1712642157847187734"
+    ],
+    "usTweets": [
+      "1712943638366302405"
+    ]
+  },
+  {
+    "dateAdded": "",
+    "date": "2023-10-14",
+    "claimIds": [
+      "31a"
+    ],
+    "exampleId": "00000031a039",
+    "keywordIds": [],
+    "standaloneTweets": [
+      "1713374870166208552"
+    ],
+    "source": false,
+    "text": "This video, viewed a million times, claims to show an aid convoy being stopped from going into Gaza. But the video is from May 2021, during the last Israel-Hamas conflict, and shows an Egyptian aid convoy heading towards Gaza.",
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "",
+    "date": "2023-10-17",
+    "claimIds": [
+      "31a"
+    ],
+    "exampleId": "00000031a040",
+    "keywordIds": [],
+    "standaloneTweets": [
+      "1714315318212927603"
+    ],
+    "source": true,
+    "sourceLink": "https://www.tiktok.com/@moumentaleb/video/7258228045985631490",
+    "text": "This clip, viewed 700,000 times, claims to show Palestine, but it was posted to TikTok in 2021. It shows the aftermath of a fire at a Syrian refugee camp near the town of Hanin in northern Lebanon.",
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "",
+    "date": "2023-10-21",
+    "claimIds": [
+      "31a"
+    ],
+    "exampleId": "00000031a041",
+    "keywordIds": [],
+    "standaloneTweets": [
+      "1715900977490895305"
+    ],
+    "source": false,
+    "text": "This video doesn't show an Israeli bomb fall on children in Gaza. It's from the war in Sudan, and shows a drone strike by the army against the paramilitary Rapid Support Forces.",
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "",
+    "date": "2024-04-12",
+    "claimIds": [
+      "31a"
+    ],
+    "exampleId": "00000031a042",
+    "keywordIds": [],
+    "standaloneTweets": [],
+    "source": false,
+    "text": "Antizionists present this image of a baby as if Israel did it. But the image has been on an Instagram page since March 2023 of babies with genetic developmental defects.",
+    "themTweets": [
+      "1779056679033692407",
+      "1778563944174510180"
+    ],
+    "usTweets": [
+      "1779523235345772550"
+    ]
+  },
+  {
+    "dateAdded": "",
+    "date": "2023-11-01",
+    "claimIds": [
+      "31a"
+    ],
+    "exampleId": "00000031a043",
+    "keywordIds": [],
+    "standaloneTweets": [],
+    "source": false,
+    "text": "Antizionists present this video as an Israeli tank being ambushed, but it's a video from the Red Star Rising trailer.",
+    "themTweets": [
+      "1719897515183485325",
+      "1719788535593496800",
+      "1719789577701908738",
+      "1719790030783385735"
+    ],
+    "usTweets": [
+      "1781310637966078007"
+    ]
+  },
+  {
+    "dateAdded": "",
+    "date": "2026-04-24",
+    "claimIds": [
+      "31a"
+    ],
+    "exampleId": "00000031a044",
+    "keywordIds": [],
+    "standaloneTweets": [
+      "2047775720022151314"
+    ],
+    "source": true,
+    "sourceLink": "https://archive.is/2026.04.24-203935/https://x.com/Parodyjeffx/status/2047721511025344901/",
+    "text": "Parodyjeffx lifted a video of an Albanian celebrity named Ludjan Muçaraku dancing, added fake Arabic audio, and added a caption saying that he's actually an 'Israeli settler in a Palestinian home in the West Bank.' The predictable result: Hundreds of comments and thousands of retweets from people OUTRAGED at Israeli behavior (it was an Albanian celebrity doing a silly dance in his own home). If these people had the facts on their side, they wouldn't have to lie ALL THE TIME.",
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "",
+    "date": "2026-04-23",
+    "claimIds": [
+      "31a"
+    ],
+    "exampleId": "00000031a045",
+    "keywordIds": [
+      "AI"
+    ],
+    "standaloneTweets": [
+      "2047184189779308788"
+    ],
+    "source": true,
+    "sourceLink": "https://www.instagram.com/reel/DXXyMmmDEQN/",
+    "text": "Rush Darwish claims he was called by name upon landing in Tel Aviv, but the video is so obviously fake.",
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "",
+    "date": "2026-04-26",
+    "claimIds": [
+      "31a"
+    ],
+    "exampleId": "00000031a046",
+    "keywordIds": [
+      "AI",
+      "Jvnior"
+    ],
+    "standaloneTweets": [
+      "2048403526766694726",
+      "2048405330778788079",
+      "2048406336128364939",
+      "2048408656308285762",
+      "2048417815216972068"
+    ],
+    "source": false,
+    "text": "If you want to see how misinformation goes viral on here. An account with 350 followers posts an AI image of the shooter wearing an IDF sweatshirt and claims it’s from Insta. No link or anything. Mario then promotes that claim to his 3.4 million followers as if it’s factual.",
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "",
+    "date": "1948-04-09",
+    "claimIds": [
+      "33",
+      "31a",
+      "31c",
+      "46",
+      "47",
+      "52x"
+    ],
+    "exampleId": "00003302",
+    "keywordIds": [],
+    "text": "On April 9, 1948, a fierce battle took place in the Arab village of Deir Yassin, just outside Jerusalem. For decades, it has been held up as proof of “Zionist barbarity” — the supposed deliberate massacre of 254 innocent villagers, including rapes and mutilations. The story is still repeated as gospel. Deir Yassin was a tragedy of war — a hard-fought battle in a war the Arabs launched to prevent any Jewish state from existing anywhere in the Land. It was not the deliberate ethnic cleansing or massacre of legend. The real lesson is darker: Arab leaders’ own fabricated atrocity stories caused far more Palestinian suffering than the battle itself — and they have spent decades blaming the Jews for the consequences.",
+    "standaloneTweets": [
+      "2047032130153386298",
+      "2047172947291378099"
+    ],
+    "themTweets": [],
+    "usTweets": []
   }
 ]

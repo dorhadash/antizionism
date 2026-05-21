@@ -1,4 +1,15 @@
 /**
+ * 
+ * HOW TO DO THIS:
+ * 
+ * - Copy and paste antizionsim/tweets, so you have a backup copy 
+ * - Delete all folders in antizionism/tweets
+ * - Copy israel-website-backend/tweets, paste into the antizionism/tweets folder
+ * - Run node convert.js (this file)
+ * - In antizionism/tweets/tweets_1_anti_zionism, delete each previously pasted .js file, leave the newly created folders
+ * - After you see that the Tweets have been successfully converted, delete antizionism/tweets-copy
+ * 
+ * 
  * Conversion script: JS modules --> JSON folder structure (filtered by claimIds)
  *
  * Requirements:
@@ -31,7 +42,7 @@ const TARGET_CLAIM_IDS = new Set([
   // "6",
   // "17",
   // ...
-  "1", "2", "3", "6", "6y", "6z", "15", "17", "18", "19", "20", "21", "22", "24", "25", "30x", "41", "42", "44", "49"
+  "1", "2", "3", "6", "6y", "6z", "12", "13", "14", "15", "17", "18", "19", "20", "21", "22", "24", "25", "30x", "31a", "31b", "31e", "31g", "31k", "41", "42", "44", "49"
 ]);
 
 // special claims that require additional depth

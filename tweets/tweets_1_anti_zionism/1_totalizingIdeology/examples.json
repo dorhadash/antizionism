@@ -79,5 +79,76 @@
     "usTweets": [
       "2011107983497871775"
     ]
+  },
+  {
+    "dateAdded": "",
+    "date": "2026-04-16",
+    "claimIds": [
+      "1",
+      "5",
+      "28"
+    ],
+    "exampleId": "0000001006",
+    "keywordIds": [],
+    "text": "Nosheen Majid, Green Party candidate for Killingbeck and Seacroft (Leeds), telling an elderly couple that they can't get on their bus home in Leeds because Jews are modern Nazis and Hamas are fighting them.",
+    "standaloneTweets": [
+      "2044790919388369184"
+    ],
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "",
+    "date": "2025-12-18",
+    "claimIds": [
+      "31l",
+      "27",
+      "30y",
+      "1",
+      "31h",
+      "31i"
+    ],
+    "exampleId": "00031l003",
+    "keywordIds": [],
+    "text": "80% of comments on Arab article about Muslim Bondi Beach hero were negative, called a ‘traitor’ by commenters on Arab media site for saving Jewish lives",
+    "standaloneTweets": [
+      "2001770520438587721"
+    ],
+    "source": true,
+    "sourceLink": "https://nypost.com/2025/12/18/world-news/muslim-bondi-beach-hero-branded-a-traitor-in-arab-media-for-saving-jewish-lives-report/?utm_social_handle_id=17469289&utm_source=twitter&utm_campaign=nypost&utm_medium=social&utm_social_post_id=627173387",
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "",
+    "date": "2026-04-20",
+    "claimIds": [
+      "45",
+      "1",
+      "53",
+      "52",
+      "55x"
+    ],
+    "exampleId": "0000045002",
+    "keywordIds": [
+      "Southern Poverty Law Center"
+    ],
+    "text": "The SPLC is accused by the DOJ of paying millions to neo-Nazis, KKK members & far-right extremists to organize, and then using that as evidence that people needed to donate to the SPLC to fight right-wing hate.",
+    "source": false,
+    "standaloneTweets": [],
+    "themTweets": [
+      "1833680063302398353",
+      "1858570992508887461",
+      "2046882307198402747"
+    ],
+    "usTweets": [
+      "2047125332030009656",
+      "2047152228797133120",
+      "2046723825774289375",
+      "2047054857165537571",
+      "2046741442832257245",
+      "2046707017343971355",
+      "2047047984169279740"
+    ]
   }
 ]
