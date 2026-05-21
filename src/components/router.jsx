@@ -3,6 +3,7 @@ import { Switch, Route, Router } from "wouter";
 
 import MainPage from "../pages/singleExample/MainPage.jsx";
 import SubmitPage from "../pages/submitPage/SubmitPage.jsx";
+import AboutPage from "../pages/aboutPage/AboutPage.jsx";
 
 /**
 * The router is imported in app.jsx
@@ -15,6 +16,7 @@ import SubmitPage from "../pages/submitPage/SubmitPage.jsx";
 export default () => (
   <Switch>
     <Route path="/submit" component={ SubmitPage } />
+    <Route path="/about" component={ AboutPage } />
     <Route path="/" component={MainPage} />
     {/* <Route path="/test" component={Test} /> */}
   </Switch>

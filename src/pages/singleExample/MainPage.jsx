@@ -324,6 +324,7 @@ const findNextExample = (_dateString, _findNext, _findPrev) => {
           </div>
         }
       </div>
+      <div style={{marginTop: "60px", marginBottom: "60px", fontStyle: "italic", color: "white", textAlign: "center", }}>Dor Hadash is an independent research project documenting recurring antizionist narratives, rhetorical patterns, hate and violence.</div>
       {/* <p className="font-bold mb-2 text-gray-700"><a target="_blank" href="https://icons8.com/icon/6bf4WpRiadUV/israel">Israel</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></p> */}
     </div>
   );
