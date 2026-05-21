@@ -25,6 +25,7 @@
   font-weight: 700;
   margin-bottom: 0.75rem;
   color: white;
+  text-decoration: underline;
 }
 
 /* FULL TEXT — Main explanation */
@@ -38,7 +39,7 @@
 /* DESCRIPTION — Supporting context */
 .claim-description {
   font-size: 0.95rem;
-  color: #666;
+  color: #DDD;
   font-style: italic;
   line-height: 1.5;
 }
@@ -46,6 +47,10 @@
 .description-text {
   padding-left: 1.5rem; /* 24px */
   margin: 10px auto;
+}
+
+.description-text a {
+  color: #DDD;
 }
 
 .short-text {
