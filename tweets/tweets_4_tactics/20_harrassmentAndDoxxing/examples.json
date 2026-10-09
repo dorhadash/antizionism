@@ -46,5 +46,108 @@
     ],
     "themTweets": [],
     "usTweets": []
+  },
+  {
+    "dateAdded": "",
+    "date": "2026-05-22",
+    "claimIds": [
+      "20"
+    ],
+    "exampleId": "000020004",
+    "keywordIds": [],
+    "text": "We’ve now reached the “confront random Jews and berate them about how disgusting they are, and blame them for all our problems” stage of Jew derangement syndrome.",
+    "standaloneTweets": [
+      "2057704656739172796"
+    ],
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "",
+    "date": "2026-02-19",
+    "claimIds": [
+      "20",
+      "56"
+    ],
+    "exampleId": "000020005",
+    "keywordIds": [
+      "New York City",
+      "antagonize"
+    ],
+    "text": "NYC - meet filmmaker Markie Hancock. Markie thinks it’s ok to harass Jews with Chabad doing mitzvahs (good deeds) with chants of “Free Palestine”",
+    "standaloneTweets": [
+      "2024493614903022040"
+    ],
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "2026-10-05",
+    "date": "2025-12-31",
+    "claimIds": [
+      "20",
+      "6z",
+      "56"
+    ],
+    "exampleId": "codex-20261005-next100-022",
+    "keywordIds": [],
+    "text": "Antizionists confront the bereaved family of hostage Ran Gvili outside a Miami synagogue event.",
+    "source": true,
+    "standaloneTweets": [
+      "2006688809107198179"
+    ],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [],
+    "usTweets": [],
+    "sourceLink": "https://www.jns.org/israel-news/israel-condemns-harassment-of-slain-hostages-family-in-miami"
+  },
+  {
+    "dateAdded": "2026-10-05",
+    "date": "2025-12-14",
+    "claimIds": [
+      "20",
+      "56",
+      "18"
+    ],
+    "exampleId": "codex-20261005-next100-070",
+    "keywordIds": [],
+    "text": "Antizionists protest a Hanukkah concert in Amsterdam featuring Israeli cantor Shai Abramson.",
+    "source": true,
+    "standaloneTweets": [
+      "2000297790421999894"
+    ],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [],
+    "usTweets": [],
+    "sourceLink": "https://www.timesofisrael.com/liveblog_entry/amsterdam-protests-against-hanukkah-concert-with-idf-cantor-said-to-be-subdued/"
+  },
+  {
+    "dateAdded": "2026-10-07",
+    "date": "2025-11-05",
+    "claimIds": [
+      "20",
+      "56",
+      "31c",
+      "31a"
+    ],
+    "exampleId": "codex-20261007-069",
+    "keywordIds": [],
+    "text": "Antizionist intruders disrupt an Israeli speakers’ event in Toronto; video shows an injured attendee and an Israeli veteran removing intruders while activists portray the removal as an attack on them.",
+    "source": true,
+    "standaloneTweets": [],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [
+      "1987127473423765634"
+    ],
+    "usTweets": [
+      "1987487404194705571"
+    ],
+    "sourceLink": "https://www.timesofisrael.com/liveblog_entry/pro-israel-student-group-in-toronto-says-event-with-idf-veterans-stormed-by-anti-israel-activists/"
   }
 ]

@@ -9,11 +9,14 @@
     "exampleId": "00031k001",
     "keywordIds": [],
     "text": "Libyan TV Show Host Afaf Abdel Mohsen Praises Palestinians for Having Many Children So They Can Push Them to Death, Martyrdom; Palestinian Journalist Muhammad Abd Al-Haqq: They Have Nuclear Bombs, We Have 'Offspring Bombs'",
-    "standaloneTweets": [
-      "1664242554689159170"
+    "standaloneTweets": [],
+    "thenVsNowFormat": true,
+    "thenTweets": [
+      "2021423403505418394"
     ],
-    "themTweets": [],
-    "usTweets": []
+    "nowTweets": [
+      "1664242554689159170"
+    ]
   },
   {
     "dateAdded": "",
@@ -26,11 +29,14 @@
     "exampleId": "00031k002",
     "keywordIds": [],
     "text": "Umm Iyad Al-Ashqar, mother and aunt of Palestinian children killed in the conflict with Israel, during an interview on October 28, 2019, with the Palestinian Islamic Jihad-affiliated television channel Al-Quds Al-Youm: 'All Palestinian mothers should urge their children to wage jihad; death is inevitable, so why not die as martyrs?'",
-    "standaloneTweets": [
-      "1196368982363770881"
+    "standaloneTweets": [],
+    "thenVsNowFormat": true,
+    "thenTweets": [
+      "2021423403505418394"
     ],
-    "themTweets": [],
-    "usTweets": []
+    "nowTweets": [
+      "1196368982363770881"
+    ]
   },
   {
     "dateAdded": "",
@@ -43,11 +49,14 @@
     "exampleId": "00031k003",
     "keywordIds": [],
     "text": "On the official Fatah Facebook page, a girl recites a poem about a mother encouraging her son to be a martyr: 'Our weapon is our Islam, and our ammunition is our children. And you, oh my son, are meant for martyrdom.'",
-    "standaloneTweets": [
-      "1200069095053570049"
+    "standaloneTweets": [],
+    "thenVsNowFormat": true,
+    "thenTweets": [
+      "2021423403505418394"
     ],
-    "themTweets": [],
-    "usTweets": []
+    "nowTweets": [
+      "1200069095053570049"
+    ]
   },
   {
     "dateAdded": "",
@@ -60,11 +69,14 @@
     "exampleId": "00031k004",
     "keywordIds": [],
     "text": "Two young girls were broadcast singing 'In the name of freedom we’ll sacrifice our lives' on Palestinian TV recently, to honor a convicted terrorist.",
-    "standaloneTweets": [
-      "1453371486014685184"
+    "standaloneTweets": [],
+    "thenVsNowFormat": true,
+    "thenTweets": [
+      "2021423403505418394"
     ],
-    "themTweets": [],
-    "usTweets": []
+    "nowTweets": [
+      "1453371486014685184"
+    ]
   },
   {
     "dateAdded": "",
@@ -93,13 +105,16 @@
     "exampleId": "00031k006",
     "keywordIds": [],
     "text": "Young boy on PA TV kid’s program recites poem encouraging “slaughter” of Israelis, glorifying death: 'For you, Yasser Arafat, for you we shall die.' ... 'We (Palestinian children), Fatah, are a storm, and our blood is food for the revolution.'",
-    "standaloneTweets": [
-      "829718539774881800"
-    ],
+    "standaloneTweets": [],
     "source": true,
     "sourceLink": "https://www.youtube.com/watch?v=_HwHrxTFzzA",
-    "themTweets": [],
-    "usTweets": []
+    "thenVsNowFormat": true,
+    "thenTweets": [
+      "2021423403505418394"
+    ],
+    "nowTweets": [
+      "829718539774881800"
+    ]
   },
   {
     "dateAdded": "",
@@ -144,13 +159,16 @@
     "exampleId": "00031k009",
     "keywordIds": [],
     "text": "Hamas to children: Shoot all the Jews. Child host: 'OK, so what does a policeman do?' Nahul (adult in giant bee costume): 'He catches thieves, and people who make trouble.' Child host: 'And shoots Jews, right?' Girl: 'Yes.' Child host: 'You want to be like him?' [Girl nods] Child host: 'Allah willing, when you grow up.' Girl: 'So that I can shoot Jews.' [Nahul the bee cheers] Child host: 'All of them? All of them?' Girl: 'Yes.' Child host: 'Good.'",
-    "standaloneTweets": [
-      "1998822407620960744"
-    ],
+    "standaloneTweets": [],
     "source": true,
     "sourceLink": "https://www.youtube.com/watch?v=0ORAM-usqhQ",
-    "themTweets": [],
-    "usTweets": []
+    "thenVsNowFormat": true,
+    "thenTweets": [
+      "2021423403505418394"
+    ],
+    "nowTweets": [
+      "1998822407620960744"
+    ]
   },
   {
     "dateAdded": "",
@@ -167,5 +185,163 @@
     "source": false,
     "themTweets": [],
     "usTweets": []
+  },
+  {
+    "dateAdded": "",
+    "date": "2026-08-31",
+    "claimIds": [
+      "31k"
+    ],
+    "exampleId": "00031k011",
+    "keywordIds": [],
+    "text": "The mother of slain Hamas spokesman Abu Obaida, killed by Israel, says she is proud of her son and was prepared to lose her entire family as “martyrs.” “I was prepared to sacrifice all eight of my children and my husband as martyrs,” she said. Comparing her son to the fruit of a tree she had planted, she added: “When you plant a tree and then you see it bear good fruit — wouldn’t you be happy?”",
+    "standaloneTweets": [],
+    "source": false,
+    "thenVsNowFormat": true,
+    "thenTweets": [
+      "2021423403505418394"
+    ],
+    "nowTweets": [
+      "2099849573011239003"
+    ]
+  },
+  {
+    "dateAdded": "",
+    "date": "2026-03-08",
+    "claimIds": [
+      "31k"
+    ],
+    "exampleId": "00031k012",
+    "keywordIds": [],
+    "text": "CNN asks senior Hamas official Ghazi Hamad: do you accept responsibility for the death and destruction in Gaza?His shocking response: Palestinian women and children must be sacrificed",
+    "standaloneTweets": [],
+    "source": false,
+    "thenVsNowFormat": true,
+    "thenTweets": [
+      "2021423403505418394"
+    ],
+    "nowTweets": [
+      "2030634460677542285"
+    ]
+  },
+  {
+    "dateAdded": "",
+    "date": "2026-02-05",
+    "claimIds": [
+      "31k",
+      "31g",
+      "31l"
+    ],
+    "exampleId": "00031k013",
+    "keywordIds": [],
+    "text": "Palestinian Academic Mohammad Alnobani: The Islamic Nation Will Attain Complete Global Dominance; It Is Only Natural to Sacrifice a Million Martyrs for This Goal",
+    "standaloneTweets": [
+      "2024423086741680374"
+    ],
+    "source": false,
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "",
+    "date": "2026-06-28",
+    "claimIds": [
+      "31k",
+      "31g"
+    ],
+    "exampleId": "00031k014",
+    "keywordIds": [],
+    "text": "Mother of a Hezbollah fighter killed in the war to her young grandson: 'You must continue your father's path.'",
+    "standaloneTweets": [
+      "2071189046378811575"
+    ],
+    "source": false,
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "2026-09-29",
+    "date": "2022-04-16",
+    "claimIds": [
+      "31k",
+      "30"
+    ],
+    "exampleId": "codexB03028",
+    "keywordIds": [],
+    "text": "The mother of a Palestinian Islamic Jihad fighter says she would welcome all her children dying as martyrs and urges other mothers to send their sons to jihad.",
+    "source": true,
+    "sourceLink": "https://www.jns.org/news/mother-of-palestinian-terrorist-i-will-be-happy-if-all-my-children-are-martyred",
+    "standaloneTweets": [
+      "2057982341184716879"
+    ],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "2026-09-29",
+    "date": "2016-12-01",
+    "claimIds": [
+      "31k"
+    ],
+    "exampleId": "codexLikes20260929-2047207775059554345",
+    "keywordIds": [],
+    "text": "A video circulated in December 2016 purports to show Syrian parents preparing their young daughters for suicide attacks, with the mother describing jihad as a duty regardless of age.",
+    "source": true,
+    "standaloneTweets": [
+      "2047207775059554345"
+    ],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [],
+    "usTweets": [],
+    "sourceLink": "https://www.newarab.com/news/syrian-militant-preps-daughters-suicide-attacks-disturbing-video"
+  },
+  {
+    "dateAdded": "2026-10-06",
+    "date": "2012-12-17",
+    "claimIds": [
+      "31k"
+    ],
+    "exampleId": "codex-20261005-next100-049-r1",
+    "keywordIds": [],
+    "text": "\"I will ask you again, if you lose your daughter, your beloved and sweet daughter, if she decides she wants to blow herself up, you will be happy about that?\" \"I will help her and encourage her.\" Broadcast Dec. 17, 2012.",
+    "source": true,
+    "standaloneTweets": [],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [
+      "2001608793147211820"
+    ],
+    "usTweets": [
+      "2001940696140492888"
+    ],
+    "sourceLink": "https://www.youtube.com/watch?v=kuEZOW6AXc4"
+  },
+  {
+    "dateAdded": "2026-10-07",
+    "date": "2025-11-18",
+    "claimIds": [
+      "31k",
+      "31g"
+    ],
+    "exampleId": "codex-20261006-next100-057-r1",
+    "keywordIds": [],
+    "text": "The father of a perpetrator in the deadly Gush Etzion attack says becoming the father of a martyr was what he most anticipated in life.",
+    "source": true,
+    "standaloneTweets": [
+      "1990869964786467008",
+      "2024372970353828188"
+    ],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [],
+    "usTweets": [],
+    "sourceLink": "https://afmda.org/news/gush-etzion-stabbing/"
   }
 ]

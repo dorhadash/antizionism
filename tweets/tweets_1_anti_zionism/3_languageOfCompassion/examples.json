@@ -45,22 +45,67 @@
   },
   {
     "dateAdded": "",
-    "date": "2018-09-03",
+    "date": "2025-07-17",
     "claimIds": [
-      "5",
       "3"
     ],
-    "exampleId": "000005013",
-    "keywordIds": [
-      "Zohran Mamdani",
-      "Mehdi Hassan",
-      "Mehdi Hasan"
+    "exampleId": "000000303",
+    "keywordIds": [],
+    "text": "Motaz Azaiza admits he filmed Israeli hostages being beaten in the streets of Gaza on October 7, and deliberately never published it, to protect the identities of the people beating them. Azaiza is an influential 'photojournalist' from Ghazza. TIME named him to the TIME 100. He was nominated for the 2024 Nobel Peace Prize. CNN, the Guardian and Sky all interviewed him. Ms. Rachel Griffin-Accurso, who has 16 million subscribers, made a video for preschoolers introducing 'my friend Motaz.' She deleted it later.",
+    "source": false,
+    "sourceLink": "",
+    "standaloneTweets": [],
+    "thenVsNowFormat": true,
+    "thenTweets": [
+      "2101070408556421184"
     ],
-    "text": "HOUSTON, TX - Linda Sarsour (advisor to Zohran Mamdani): Muslims Mustn’t Make The Mistake Of Humanizing Israelis. 'If you’re on the side of the oppressor, or you’re defending the oppressor, or you’re actually trying to HUMANIZE the oppressor, then that’s a problem.' Mehdi Hasan nods along.",
+    "nowTweets": [
+      "2100991727595049171",
+      "2101414389094011220"
+    ]
+  },
+  {
+    "dateAdded": "2026-09-29",
+    "date": "2026-03-21",
+    "claimIds": [
+      "3",
+      "45"
+    ],
+    "exampleId": "claude-b04-10",
+    "keywordIds": [],
+    "text": "Former British ambassador and human rights campaigner Craig Murray called an Iranian missile strike near Dimona in southern Israel “Heartwarming.”",
+    "source": false,
+    "standaloneTweets": [],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [
+      "2035443901557817704"
+    ],
+    "usTweets": [
+      "2035496154452938773"
+    ]
+  },
+  {
+    "dateAdded": "2026-10-04",
+    "date": "2026-01-09",
+    "claimIds": [
+      "3",
+      "5",
+      "18",
+      "56",
+      "21"
+    ],
+    "exampleId": "codex-20261004-next100-075",
+    "keywordIds": [],
+    "text": "‘What I love about this area is its diversity. We’ve got all sorts of people so what I want to tell Jews is, you’re not welcome here.’\n\nVery confused messaging from someone protesting a Jewish restaurant in Notting Hill, London, United Kingdom.",
     "source": false,
     "standaloneTweets": [
-      "1082055673574248448"
+      "2010004600322244995"
     ],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
     "themTweets": [],
     "usTweets": []
   }

@@ -211,27 +211,90 @@
     ]
   },
   {
-    "dateAdded": "",
-    "date": "2025-11-21",
+    "dateAdded": "2026-09-29",
+    "date": "2026-08-05",
     "claimIds": [
-      "5",
-      "2",
-      "6z",
-      "6y",
-      "24"
+      "2"
     ],
-    "exampleId": "0000005001",
+    "exampleId": "codexB03007",
     "keywordIds": [],
-    "text": "An anonymous website published a hit-list of Israeli Jewish academics, offering $100k for their murders. The website lists the personal information of senior professors, doctors, and scientists—and even Israeli students—claiming they are 'criminals involved in the murder of Palestinian children.'",
+    "text": "The Washington Free Beacon reports that Susan Abulhawa called her Zionist critics parasites and said they deserve contempt and hatred amid criticism of her Simon & Schuster book deal.",
+    "source": false,
+    "standaloneTweets": [
+      "2085019761188979093"
+    ],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "2026-09-29",
+    "date": "2026-03-16",
+    "claimIds": [
+      "2",
+      "46",
+      "54",
+      "30w"
+    ],
+    "exampleId": "claude-b04-15",
+    "keywordIds": [],
+    "text": "After Ayman Ghazali attacked Temple Israel in West Bloomfield, Michigan, influencer Matt Bernstein described him as an “extremely gentle and kind person” who was driven to attack the synagogue by Israel's actions.",
+    "source": false,
+    "standaloneTweets": [
+      "2033511539039408446"
+    ],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "2026-10-01",
+    "date": "2026-04-29",
+    "claimIds": [
+      "2",
+      "46",
+      "31c"
+    ],
+    "exampleId": "claude-b05-19",
+    "keywordIds": [
+      "Golders Green",
+      "UK"
+    ],
+    "text": "Hours after two Jewish men were stabbed in Golders Green, London, Irish comedian Tadhg Hickey blamed “the only Jewish state” and said Israel's “whole population” is genocidal.",
     "source": true,
-    "sourceLink": "https://www.jpost.com/diaspora/antisemitism/article-874732",
-    "thenVsNowFormat": true,
-    "thenTweets": [
-      "1991819941226615245"
+    "sourceLink": "https://www.longwarjournal.org/archives/2026/04/2-jewish-men-stabbed-in-london-ashab-al-yamin-claims-attack.php",
+    "standaloneTweets": [
+      "2049550079195848793"
     ],
-    "nowTweets": [
-      "1991816173378285568"
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "2026-10-05",
+    "date": "2025-12-06",
+    "claimIds": [
+      "2",
+      "20",
+      "56",
+      "21"
     ],
+    "exampleId": "codex-20261005-next100-080",
+    "keywordIds": [],
+    "text": "Antizionists protest outside a Los Angeles synagogue and Jewish school while calling Jews “genocide supporters,” using Gaza accusations to justify targeting Jewish communal life.",
+    "source": false,
+    "standaloneTweets": [
+      "1997191870204760575"
+    ],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
     "themTweets": [],
     "usTweets": []
   }

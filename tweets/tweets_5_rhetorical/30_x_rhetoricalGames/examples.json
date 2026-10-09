@@ -1,5 +1,30 @@
 [
   {
+    "dateAdded": "2026-10-01",
+    "date": "2026-04-30",
+    "claimIds": [
+      "30a",
+      "30x"
+    ],
+    "exampleId": "claude-b05-18r",
+    "keywordIds": [
+      "flotilla",
+      "Spain"
+    ],
+    "text": "When Israel's navy intercepted 21 Global Sumud Flotilla boats near Crete and detained about 175 activists, Spain's Prime Minister Pedro Sánchez said Israel was “once again violating international law.” Israel's Foreign Ministry released video of the activists relaxing aboard Israeli vessels.",
+    "source": false,
+    "standaloneTweets": [],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [
+      "2049910912006672878"
+    ],
+    "usTweets": [
+      "2049757535977042363"
+    ]
+  },
+  {
     "dateAdded": "",
     "date": "2025-01-01",
     "claimIds": [
@@ -387,42 +412,227 @@
   },
   {
     "dateAdded": "",
-    "date": "2026-01-27",
+    "date": "2026-01-22",
     "claimIds": [
-      "31o",
       "30x"
     ],
-    "exampleId": "0000031o0004",
+    "exampleId": "00000030x17",
     "keywordIds": [],
-    "text": "It's 'SCANDALOUS' that 'Zionists' and the 'far right' edited out an obviously insincere disclaimer from Muhammad Jihad: 'The one who's willing to commit suicide has the advantage. Now I'm not saying go commit suicide ...'. But then in another video: 'Prepare against the infidels, the enemies of Allah and terrorize them. I will cast Terror into the hearts of the disbelievers, so strike their necks and fingers.' The message is obvious.",
+    "text": "Children’s YouTuber and pro Palestinian activist Ms. Rachel posted a video in which she appeared visibly emotional after acknowledging that she had ‘mistakenly’ liked an antisemitic comment. In the video, she said the that she liked a comment reading “Free America from the Jews.” After the video was posted, Ms. Rachel doubled down by responding “oooooohhhh” beneath the clip after PNN, the Palestinian News Network, suggested the comment may have been written by Jews themselves.",
+    "source": false,
+    "thenVsNowFormat": true,
+    "thenTweets": [
+      "2014131821580030106"
+    ],
+    "nowTweets": [
+      "2014279649069519310"
+    ],
+    "standaloneTweets": []
+  },
+  {
+    "dateAdded": "2026-09-29",
+    "date": "2026-03-12",
+    "claimIds": [
+      "30x"
+    ],
+    "exampleId": "claude-b04-17",
+    "keywordIds": [
+      "AOC"
+    ],
+    "text": "After the attack on Temple Israel in Michigan, Rep. Alexandria Ocasio-Cortez said antisemitism “has no place in our country.” Adam Mossoff lists her votes against Iron Dome funding and the Antisemitism Awareness Act, and her support for the pro-Hamas Columbia encampment.",
     "source": false,
     "standaloneTweets": [],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
     "themTweets": [
-      "2016269917964714330"
+      "2032183043171987657"
     ],
     "usTweets": [
-      "2016447232988344444",
-      "2016514245924696240",
-      "2016560781652087073",
-      "2016398204267384973"
+      "2032934758028660911"
     ]
   },
   {
-    "dateAdded": "",
-    "date": "2024-10-19",
+    "dateAdded": "2026-09-30",
+    "date": "2026-04-29",
     "claimIds": [
-      "31o",
-      "31i",
       "30x"
     ],
-    "exampleId": "0000031o0005",
+    "exampleId": "codexLikes20260929-2049590762325630988",
     "keywordIds": [],
-    "text": "Dr. Said Masih Noori (@Doctor_N_masih), an NHS doctor in the UK, on October 19, 2024: 'I am a Muslim. Daily, I treat Jews, and I have taken a hypocritical oath that outlines my responsibilities in the Buckingham crew. However, I must admit that if I had the power, I would vanish every Jew.' Fearing revocation of his medical license, he posts an apology. A few hours later, he reposts a comment wishing death for an injured Israeli.",
+    "text": "Zarah Sultana condemns the Golders Green stabbing attack. J.K. Rowling responds by contrasting that statement with reporting that Sultana had clapped along to intifada chants at a Surrey protest.",
+    "source": true,
+    "standaloneTweets": [],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [
+      "2049521904503882240"
+    ],
+    "usTweets": [
+      "2049590762325630988",
+      "2049599252972617968"
+    ],
+    "sourceLink": "https://www.jns.org/news/world/jk-rowling-accuses-mp-zarah-sultana-of-hypocrisy-for-condemning-antisemitic-stabbing"
+  },
+  {
+    "dateAdded": "2026-09-30",
+    "date": "2026-03-10",
+    "claimIds": [
+      "30x"
+    ],
+    "exampleId": "claude-b04-21",
+    "keywordIds": [
+      "California"
+    ],
+    "text": "Rep. Ro Khanna spent months calling Gaza a genocide, accusing Israel of man-made starvation and campaigning to cut off weapons to Israel. After Israeli Americans were assaulted in San Jose for speaking Hebrew, he called the attack horrific and said antisemitism has no place in his community.",
     "source": false,
-    "standaloneTweets": [
-      "1848088830982647851"
+    "standaloneTweets": [],
+    "thenVsNowFormat": true,
+    "thenTweets": [
+      "1968420698071650808",
+      "2026115834561614000",
+      "1949113791729291566",
+      "1952382674481688646",
+      "1987737746929041903",
+      "1974677801807831179"
+    ],
+    "nowTweets": [
+      "2031518375617134863",
+      "2031505792483078547"
     ],
     "themTweets": [],
     "usTweets": []
+  },
+  {
+    "dateAdded": "2026-10-02",
+    "date": "2026-09-29",
+    "claimIds": [
+      "30x"
+    ],
+    "exampleId": "codex-20261001-inclusive50-16-r1-mamdani",
+    "keywordIds": [],
+    "text": "Zohran Mamdani defends the harassment at synagogues but announces a committee to combat antisemitism. He can start by denouncing what takes place outside of the synagogues, but we never will.",
+    "source": false,
+    "standaloneTweets": [],
+    "thenVsNowFormat": true,
+    "thenTweets": [
+      "2053979094174363716"
+    ],
+    "nowTweets": [
+      "2104949847421796398"
+    ],
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "2026-10-03",
+    "date": "2026-01-20",
+    "claimIds": [
+      "30x",
+      "30w"
+    ],
+    "exampleId": "codex-20261003b-next50-40",
+    "keywordIds": [],
+    "text": "Max Nordau contrasts a description of posts as merely “critical of Israel” with screenshots containing explicit calls to kill Jews.",
+    "source": false,
+    "standaloneTweets": [
+      "2013698926377857433"
+    ],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "2026-10-03",
+    "date": "2026-01-26",
+    "claimIds": [
+      "30x",
+      "17"
+    ],
+    "exampleId": "codex-20261003b-next50-22-r1",
+    "keywordIds": [],
+    "text": "Joo contrasts Zarah Sultana’s praise of Thiago Ávila, who attended Hassan Nasrallah’s funeral, with her Holocaust remembrance message.",
+    "source": true,
+    "standaloneTweets": [],
+    "thenVsNowFormat": true,
+    "thenTweets": [
+      "2015915174885019865",
+      "2015562368462262560"
+    ],
+    "nowTweets": [
+      "2015884577089405283"
+    ],
+    "themTweets": [],
+    "usTweets": [],
+    "sourceLink": "https://today.lorientlejour.com/article/1449088/influencers-aligned-with-hezbollah-invited-to-the-funeral.html"
+  },
+  {
+    "dateAdded": "2026-10-04",
+    "date": "2025-11-05",
+    "claimIds": [
+      "30x"
+    ],
+    "exampleId": "codex-20261004-next100-047",
+    "keywordIds": [],
+    "text": "Zohran Mamdani’s participation in an antizionist Free Palestine chant is contrasted with his later pledge to stand with Jewish New Yorkers and root antisemitism out of the city.",
+    "source": false,
+    "standaloneTweets": [],
+    "thenVsNowFormat": true,
+    "thenTweets": [
+      "1983931613823037693"
+    ],
+    "nowTweets": [
+      "1986116380735778835"
+    ],
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "2026-10-04",
+    "date": "2026-09-27",
+    "claimIds": [
+      "30x"
+    ],
+    "exampleId": "codex-20261004-next100-083",
+    "keywordIds": [],
+    "text": "Antizionist chants at AOC’s September 2026 Ithaca event are contrasted with her January condemnation of pro-Hamas chanting in a Jewish Queens neighborhood.",
+    "source": true,
+    "standaloneTweets": [],
+    "thenVsNowFormat": true,
+    "thenTweets": [
+      "2104658159444836486"
+    ],
+    "nowTweets": [
+      "2009797398894452980",
+      "2009430503582257396"
+    ],
+    "themTweets": [],
+    "usTweets": [],
+    "sourceLink": "https://townhall.com/news/amy-curtis/2026/09/28/crowd-sings-from-river-to-the-sea-at-aoc-event-n2683687"
+  },
+  {
+    "dateAdded": "2026-10-03",
+    "date": "2026-02-10",
+    "claimIds": [
+      "48",
+      "30x"
+    ],
+    "exampleId": "codex-20261003b-next50-01-r1",
+    "keywordIds": [],
+    "text": "Zohran Mamdani promises to keep Jewish New Yorkers safe; Jon Levine reports that his Brooklyn borough director Álvaro López praised people tearing down Israeli hostage posters.",
+    "source": false,
+    "standaloneTweets": [],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [
+      "2000227476237173059"
+    ],
+    "usTweets": [
+      "2021348360297332943"
+    ]
   }
 ]

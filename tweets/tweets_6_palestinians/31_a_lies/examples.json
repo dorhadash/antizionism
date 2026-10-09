@@ -23,7 +23,7 @@
     ],
     "exampleId": "00000031a002",
     "keywordIds": [],
-    "text": "Released prisoner Mohammad Nazal says that guards in the Israeli prison beat him and that is why his hands are broken. But video from his prison release show he had healthy and functioning hands.",
+    "text": "Released prisoner Mohammad Nazal says that guards in the Israeli prison beat him and that is why his hands are broken. But video from his prison release show he had healthy and functioning hands. This mirrors the fake Flotilla antizionist who pretended she was in a stretcher in Turkey after alleged mistreatment by Israel. See May 23, 2026.",
     "themTweets": [
       "1729485394826207404",
       "1729482637406871626"
@@ -792,23 +792,339 @@
   },
   {
     "dateAdded": "",
-    "date": "1948-04-09",
+    "date": "2026-05-23",
     "claimIds": [
-      "33",
       "31a",
-      "31c",
-      "46",
-      "47",
+      "47"
+    ],
+    "exampleId": "00000031a047",
+    "keywordIds": [],
+    "standaloneTweets": [],
+    "source": false,
+    "thenVsNowFormat": true,
+    "text": "If you want to see how misinformation goes viral on here. An account with 350 followers posts an AI image of the shooter wearing an IDF sweatshirt and claims it’s from Insta. No link or anything. Mario then promotes that claim to his 3.4 million followers as if it’s factual. Reminsicent of Mohammad Nazal (search 'Mohammad Nazal' to see entry).",
+    "thenTweets": [
+      "2058242583185207299"
+    ],
+    "nowTweets": [
+      "2058242588084179252",
+      "2058242594899959980",
+      "2058249949846835312"
+    ]
+  },
+  {
+    "dateAdded": "2026-10-01",
+    "date": "2026-09-30",
+    "claimIds": [
+      "31a",
       "52x"
     ],
-    "exampleId": "00003302",
+    "exampleId": "claude-b05-15",
     "keywordIds": [],
-    "text": "On April 9, 1948, a fierce battle took place in the Arab village of Deir Yassin, just outside Jerusalem. For decades, it has been held up as proof of “Zionist barbarity” — the supposed deliberate massacre of 254 innocent villagers, including rapes and mutilations. The story is still repeated as gospel. Deir Yassin was a tragedy of war — a hard-fought battle in a war the Arabs launched to prevent any Jewish state from existing anywhere in the Land. It was not the deliberate ethnic cleansing or massacre of legend. The real lesson is darker: Arab leaders’ own fabricated atrocity stories caused far more Palestinian suffering than the battle itself — and they have spent decades blaming the Jews for the consequences.",
-    "standaloneTweets": [
-      "2047032130153386298",
-      "2047172947291378099"
+    "text": "An account posted that “Grok just confessed that Jews were behind the poisoning of the wells.” Asked whether the 1348 “confession” was coerced, Grok answered that records explicitly say it was obtained under torture, and that the Black Death was caused by plague bacteria, not poison.",
+    "source": false,
+    "standaloneTweets": [],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [
+      "2105106299021312076"
     ],
+    "usTweets": [
+      "2105192806884983125",
+      "2105192963521347691"
+    ]
+  },
+  {
+    "dateAdded": "2026-10-01",
+    "date": "2018-05-14",
+    "claimIds": [
+      "31a",
+      "52x"
+    ],
+    "exampleId": "claude-b05-23r-3",
+    "keywordIds": [
+      "Gaza",
+      "Hamas"
+    ],
+    "text": "Abby Martin, Susan Abulhawa, Ash Sarkar and others describe Gaza's Great March of Return as a peaceful protest. On May 14, 2018, the day about 60 Gazans were killed at the border fence, martyrdom notices showed members of Hamas's security apparatus, its Qassam Brigades and Islamic Jihad's Al-Quds Brigades among the dead, and Hamas official Salah al-Bardawil said 50 of the 62 killed were Hamas members.",
+    "source": false,
+    "standaloneTweets": [],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [
+      "1396548454097162241",
+      "1995429678010499232",
+      "1847140747801133093",
+      "1720532680926691650"
+    ],
+    "usTweets": [
+      "1764317984116404520",
+      "996355929456238592",
+      "996410606633869313",
+      "996378101029404673",
+      "996790072996442113"
+    ]
+  },
+  {
+    "dateAdded": "2026-10-02",
+    "date": "2026-06-07",
+    "claimIds": [
+      "31a",
+      "4",
+      "12"
+    ],
+    "exampleId": "codex-20261001-inclusive50-11-r1",
+    "keywordIds": [],
+    "text": "A reply challenges an X-ray used in discussion of a Gaza child-shooting investigation, alleging that the image was staged.",
+    "source": false,
+    "standaloneTweets": [],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [
+      "2063563145101123812"
+    ],
+    "usTweets": [
+      "2063633097837437313"
+    ]
+  },
+  {
+    "dateAdded": "2026-10-03",
+    "date": "2026-01-18",
+    "claimIds": [
+      "31a",
+      "45",
+      "11"
+    ],
+    "exampleId": "codex-20261003b-next50-49-r1-r1",
+    "keywordIds": [],
+    "text": "Mark Zlochin and Wilfred Reilly challenge Nerdeen Kiswani and Sarah Wilkinson’s claims that Israel killed 680,000 Palestinians, including 380,000 children under five, citing Gaza’s prewar child population as reported by the Palestinian Bureau of statistics.",
+    "source": true,
+    "standaloneTweets": [],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [
+      "2012952176570540273",
+      "1966576333464477724"
+    ],
+    "usTweets": [
+      "1966761302463791142",
+      "2013291775104852361",
+      "2014782688776093920"
+    ],
+    "sourceLink": "https://www.pcbs.gov.ps/en/post-details/?postId=20542"
+  },
+  {
+    "dateAdded": "2026-10-04",
+    "date": "2026-01-14",
+    "claimIds": [
+      "31a",
+      "52x"
+    ],
+    "exampleId": "codex-20261004-next100-045",
+    "keywordIds": [],
+    "text": "David Bernstein challenges a claim that Ethiopian Jewish women were forcibly sterilized, distinguishing contraceptive injections from permanent sterilization.",
+    "source": true,
+    "standaloneTweets": [],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [
+      "2011523946131435712"
+    ],
+    "usTweets": [
+      "2011643677223907538",
+      "2011737695920292342"
+    ],
+    "sourceLink": "https://law.acri.org.il/en/wp-content/uploads/2013/02/Gamzu-letter.pdf"
+  },
+  {
+    "dateAdded": "2026-10-06",
+    "date": "2025-11-25",
+    "claimIds": [
+      "31a"
+    ],
+    "exampleId": "codex-20261006-next100-001",
+    "keywordIds": [],
+    "text": "An antizionist account recycles a photograph of Syrian refugees in Turkey from August 2015; Eyal Yakoby and community-note sources identify its real origin.",
+    "source": false,
+    "standaloneTweets": [],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [
+      "1923842033665348069"
+    ],
+    "usTweets": [
+      "1993424526328447486"
+    ]
+  },
+  {
+    "dateAdded": "2026-10-07",
+    "date": "2025-11-26",
+    "claimIds": [
+      "31a",
+      "45"
+    ],
+    "exampleId": "codex-20261006-next100-013-r1",
+    "keywordIds": [],
+    "text": "Anthony Aguilar continues claiming that Israeli forces killed a Gazan boy named Amir, despite reporting and footage identifying the boy alive.",
+    "source": true,
+    "standaloneTweets": [],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [
+      "1993664245246882213"
+    ],
+    "usTweets": [
+      "1963598608692887963"
+    ],
+    "sourceLink": "https://www.timesofisrael.com/gaza-aid-group-says-boy-reported-killed-at-site-is-actually-still-living-and-safe/"
+  },
+  {
+    "dateAdded": "2026-10-07",
+    "date": "2025-11-15",
+    "claimIds": [
+      "31a",
+      "47"
+    ],
+    "exampleId": "codex-20261007-009",
+    "keywordIds": [],
+    "text": "Michal Sabra shows a Gaza tent appeal from so-called journalist Osama Abu Rabee using a photograph that was actually Syrian children in flooded shelters as if it was Gaza.",
+    "source": false,
+    "standaloneTweets": [
+      "1989891269980467413"
+    ],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
     "themTweets": [],
     "usTweets": []
+  },
+  {
+    "dateAdded": "2026-10-07",
+    "date": "2025-11-08",
+    "claimIds": [
+      "31a",
+      "4"
+    ],
+    "exampleId": "codex-20261007-074",
+    "keywordIds": [],
+    "text": "A fabricated quotation is circulated as Jewish scripture. \"To communicate anything to a Goy about our religious relations would be equal to the killing of all Jews, for if the Goyim knew what we teach about them, they would kill us openly.\" Goy is Yiddish; the Talmud is written in Hebrew. And there is no \"Libbre David.\"",
+    "source": false,
+    "standaloneTweets": [],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [
+      "1986997438415061149"
+    ],
+    "usTweets": [
+      "1986997758566502792",
+      "1987044206129651865"
+    ]
+  },
+  {
+    "dateAdded": "2026-10-07",
+    "date": "2025-11-09",
+    "claimIds": [
+      "31a",
+      "31c"
+    ],
+    "exampleId": "codex-20261007-068-r1",
+    "keywordIds": [
+      "rocket alert",
+      "red alert",
+      "sex offenders"
+    ],
+    "text": "Hila corrects a red-alert rocket-warning map that Tiberius misrepresents as a map of sexual offenders in Israel.",
+    "source": true,
+    "standaloneTweets": [],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [
+      "1987122805868056862"
+    ],
+    "usTweets": [
+      "1730543506660204884",
+      "1987429393111699473"
+    ],
+    "sourceLink": "https://leadstories.com/hoax-alert/2024/01/fact-check-image-of-map-does-not-show-location-of-sex-offenders-in-israel.html"
+  },
+  {
+    "dateAdded": "2026-10-08",
+    "date": "2025-01-02",
+    "claimIds": [
+      "31a"
+    ],
+    "exampleId": "codex-20261008-036",
+    "keywordIds": [],
+    "text": "“Torah Jews”, a fierce antizionist defender of Palestine on X, says he’s a Hassid from Brooklyn and acknowledges he’s from “Galicia” Brooklyn, which doesn't exist. Here he confirms he knows the totally real Brooklyn Yeshiva “Ahavat Banot” (I love little girls) and Yeshiva “Bul-Bul Ketana” (Small Peepee). It's a person pretending to be an antizionist Jew.",
+    "source": false,
+    "standaloneTweets": [
+      "1874914851044405592",
+      "1874914857520402559",
+      "1874914869251911744",
+      "1874914875845333007"
+    ],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "2026-10-08",
+    "date": "2025-11-02",
+    "claimIds": [
+      "31a",
+      "47"
+    ],
+    "exampleId": "codex-20261008-042",
+    "keywordIds": [],
+    "text": "Three posts juxtapose Ramy Abdu’s use of the same girl’s photograph with different names and dates in reports of an Israeli killing.",
+    "source": false,
+    "standaloneTweets": [],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [
+      "1984912213627556308"
+    ],
+    "usTweets": [
+      "1985218011410674013",
+      "1984940246975271108"
+    ]
+  },
+  {
+    "dateAdded": "2026-10-09",
+    "date": "2025-07-07",
+    "claimIds": [
+      "31a",
+      "52x",
+      "58",
+      "4"
+    ],
+    "exampleId": "codex-20261008-068-r1",
+    "keywordIds": [],
+    "text": "Matt Gaetz blames settlers for a Taybeh church fire, but the church was not burned, the fire nearby was started by Arabs, and settlers actually helped put out the fire.",
+    "source": true,
+    "standaloneTweets": [],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [
+      "1984687081428299882"
+    ],
+    "usTweets": [
+      "1984754054996578350",
+      "1947390091099279539"
+    ],
+    "sourceLink": "https://www.israelhayom.com/2025/07/22/us-envoy-i-did-not-blame-jews-for-taybeh-fire/"
   }
 ]

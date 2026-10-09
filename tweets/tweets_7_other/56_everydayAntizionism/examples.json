@@ -1,0 +1,326 @@
+[
+  {
+    "dateAdded": "",
+    "date": "2026-04-06",
+    "claimIds": [
+      "56",
+      "3",
+      "5"
+    ],
+    "exampleId": "00005604-06-2026",
+    "keywordIds": [
+      "New York City"
+    ],
+    "text": "NYC - Mental health provider Jennifer Koonings filmed herself shouting antisemitic slurs - 'baby killers' and 'fuck Israel' - at Jewish individuals peacefully going about their day. This isn’t a lapse in judgment. It raises serious concerns about her fitness to treat patients, especially Jewish clients. She's affiliated with Inspire Mental Health Services.",
+    "standaloneTweets": [
+      "2041144091530989917"
+    ],
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "",
+    "date": "2026-09-16",
+    "claimIds": [
+      "56",
+      "5"
+    ],
+    "exampleId": "00005601",
+    "keywordIds": [],
+    "text": "Yuen Lee, an assurance manager at KPMG. Earlier today, she was filmed calling a Jewish man a “Zionist pig” at Chelsea Piers Flatiron. Imagine being one of her Jewish colleagues at @KPMG.",
+    "standaloneTweets": [
+      "2100317987064472013"
+    ],
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "",
+    "date": "2026-09-18",
+    "claimIds": [
+      "56",
+      "25"
+    ],
+    "exampleId": "00005602",
+    "keywordIds": [],
+    "text": "FBI agents in Pennsylvania foiled an alleged plot to attack synagogues and other Jewish institutions on the eve of Yom Kippur, prompting increased security in Pittsburgh’s Jewish community. Federal agents arrested 21 year old U.S. citizen Jonathan Kramer at a hotel in Cranberry Township, where authorities say he was found with a rifle, dozens of knives and around 200 rounds of ammunition. According to court documents, Kramer had expressed support for ISIS and allegedly planned mass casualty attacks at several locations, as well as poisoning food at synagogues across the state.",
+    "standaloneTweets": [
+      "2101236261046440067"
+    ],
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "",
+    "date": "2026-09-19",
+    "claimIds": [
+      "56",
+      "25"
+    ],
+    "exampleId": "00005603",
+    "keywordIds": [
+      "Riverside"
+    ],
+    "text": "A 12-year-old Jewish girl at Etiwanda Intermediate School (California) was walking in a hallway when another student started beating her with a stick. Staff told the attacker to stop — then walked away. The girl was then pinned against a table and choked. She was told to “shut her stupid Jewish ass up.” Then come the Nazi salutes in the hallways. Swastikas on school property and on the textbooks on her desk. Hitler jokes. Holocaust taunts. Harassment about missing school for a Jewish holiday.",
+    "standaloneTweets": [
+      "2101422126611808547"
+    ],
+    "source": true,
+    "sourceLink": "https://www.cbsnews.com/losangeles/news/etiwanda-school-district-federal-civil-rights-investigation/",
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "",
+    "date": "2026-09-20",
+    "claimIds": [
+      "56",
+      "25"
+    ],
+    "exampleId": "00005604",
+    "keywordIds": [
+      "Canada"
+    ],
+    "text": "On Yom Kippur, a synagogue in Beville, Ontario is under attack. Shots fired at the Sons of Jacob synagogue, bullets piecing windows. A police officer shot.",
+    "standaloneTweets": [
+      "2101414389094011220"
+    ],
+    "source": true,
+    "sourceLink": "https://www.quintenews.com/2026/09/20/shooting-incident-at-or-near-synagogue-in-belleville/",
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "",
+    "date": "2026-09-20",
+    "claimIds": [
+      "56",
+      "25"
+    ],
+    "exampleId": "00005605",
+    "keywordIds": [
+      "NYC",
+      "New York City",
+      "Zohran Mamdani"
+    ],
+    "text": "A group of ppl attacked a jewish group on the streets of @NYCMayor the jihadist city. One man looks like he is holding a table to hit them.  One man kicks a female in the head.",
+    "standaloneTweets": [
+      "2101525342066241668"
+    ],
+    "source": false,
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "2026-09-29",
+    "date": "2026-05-06",
+    "claimIds": [
+      "56"
+    ],
+    "exampleId": "codexLikes20260929-2052208256987107385",
+    "keywordIds": [],
+    "text": "A swastika was found carved into a window at the Inwood LIRR station in Lawrence, New York. Mayor Samuel Nahmias condemned it and announced a police investigation.",
+    "source": true,
+    "standaloneTweets": [
+      "2052208256987107385"
+    ],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [],
+    "usTweets": [],
+    "sourceLink": "https://dailyvoice.com/article/swastika-seen-at-inwood-lirr-station-window-cops-probe/"
+  },
+  {
+    "dateAdded": "2026-10-01",
+    "date": "2026-09-24",
+    "claimIds": [
+      "56"
+    ],
+    "exampleId": "claude-b05-16",
+    "keywordIds": [
+      "NYC"
+    ],
+    "text": "In Crown Heights, Brooklyn, a man chased a visibly Jewish yeshiva student while brandishing a knife and shouting “Heil f---ing Hitler,” followed him to the door, said “Now I know where you live,” and appeared to slash bike tires. Police charged Bronx resident Devin Best with aggravated harassment as a hate crime and menacing.",
+    "source": true,
+    "sourceLink": "https://www.jns.org/news/u-s-news/bronx-man-charged-with-hate-crime-for-allegedly-threatening-jewish-man-in-crown-heights-with-knife",
+    "standaloneTweets": [
+      "2105191665707409829"
+    ],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "2026-10-01",
+    "date": "2026-04-21",
+    "claimIds": [
+      "56",
+      "20"
+    ],
+    "exampleId": "codex-20261001-inclusive50-29",
+    "keywordIds": [],
+    "text": "Frum TikTok shares a video of someone invading a Jewish space and harassing Jews at a Chabad center in Virginia.",
+    "source": false,
+    "standaloneTweets": [
+      "2046754415441252381"
+    ],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "2026-10-03",
+    "date": "2026-02-20",
+    "claimIds": [
+      "56",
+      "30x"
+    ],
+    "exampleId": "codex-20261003-next50-29-r1",
+    "keywordIds": [],
+    "text": "Zohran Mamdani’s pledge to keep Jewish New Yorkers safe is contrasted with a report about a city health staffer in Mamdani's administration wishing Israelis were wiped out and Claire’s post connecting the staffer to an older taunt aimed at a hostage’s mother.",
+    "source": false,
+    "standaloneTweets": [],
+    "thenVsNowFormat": true,
+    "thenTweets": [
+      "2000227476237173059"
+    ],
+    "nowTweets": [
+      "2023354305281917182",
+      "2024996482529820858"
+    ],
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "2026-10-03",
+    "date": "2026-02-15",
+    "claimIds": [
+      "56",
+      "20"
+    ],
+    "exampleId": "codex-20261003-next50-40-r1-r2",
+    "keywordIds": [],
+    "text": "Spike Lee wore Palestinian symbols during NBA All-Star weekend, when Deni Avdija made his debut as the first Israeli All-Star. Hen Mazzig criticizes the display as intruding on Avdija’s achievement; The Persian Jewess explicitly alleges Lee wore the flag to harass him. Emily Austin challenges Lee’s claim that he did not know who Avdija was.",
+    "source": true,
+    "standaloneTweets": [],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [
+      "2022841220540534935"
+    ],
+    "usTweets": [
+      "2023389462219149486",
+      "2024502788999565760",
+      "2023969452962771339",
+      "2024025898081493334"
+    ],
+    "sourceLink": "https://www.timesofisrael.com/spike-lee-wears-pro-palestinian-outfits-to-nba-all-star-game-featuring-1st-israeli/"
+  },
+  {
+    "dateAdded": "2026-10-05",
+    "date": "2025-12-23",
+    "claimIds": [
+      "56",
+      "25"
+    ],
+    "exampleId": "codex-20261005-next100-045",
+    "keywordIds": [],
+    "text": "Two men are convicted of plotting an ISIS-inspired mass shooting against Jews in Manchester, England, United Kingdom; a third is convicted of failing to disclose the plot.",
+    "source": true,
+    "standaloneTweets": [
+      "2003492114035040753"
+    ],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [],
+    "usTweets": [],
+    "sourceLink": "https://www.thejc.com/news/two-convicted-of-plotting-isis-inspired-gun-attack-on-hundreds-of-jews-kqxmmytb"
+  },
+  {
+    "dateAdded": "2026-10-05",
+    "date": "2025-12-15",
+    "claimIds": [
+      "56"
+    ],
+    "exampleId": "codex-20261005-next100-053",
+    "keywordIds": [],
+    "text": "A Jewish customer reports finding a “Free Palestine” note inside Hanukkah pajamas ordered from Bloomingdale’s",
+    "source": false,
+    "standaloneTweets": [
+      "2000688445929181461"
+    ],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "2026-10-05",
+    "date": "2025-12-10",
+    "claimIds": [
+      "56"
+    ],
+    "exampleId": "codex-20261005-next100-073",
+    "keywordIds": [],
+    "text": "Congress investigates allegations that the American Psychological Association tolerated antisemitism, including events that attacked Zionism and Jewish members while receiving continuing-education credit.",
+    "source": true,
+    "standaloneTweets": [
+      "1999604715282469254"
+    ],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [],
+    "usTweets": [],
+    "sourceLink": "https://edworkforce.house.gov/uploadedfiles/apa_letter_12.10.2025.pdf"
+  },
+  {
+    "dateAdded": "2026-10-06",
+    "date": "2025-11-21",
+    "claimIds": [
+      "56",
+      "21a",
+      "5",
+      "3"
+    ],
+    "exampleId": "codex-20261006-next100-055",
+    "keywordIds": [],
+    "text": "A video presented as recorded at Washington’s Union Station shows hostility directed at Jews.",
+    "source": false,
+    "standaloneTweets": [
+      "1991864459862974716"
+    ],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "2026-10-06",
+    "date": "2025-11-15",
+    "claimIds": [
+      "56"
+    ],
+    "exampleId": "codex-20261006-next100-090",
+    "keywordIds": [],
+    "text": "Montreal antizionist Mahmoud Khalil verbally abuses Israel supporters.",
+    "source": false,
+    "standaloneTweets": [
+      "1989770710030733312"
+    ],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [],
+    "usTweets": []
+  }
+]

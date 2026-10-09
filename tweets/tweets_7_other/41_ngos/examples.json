@@ -153,5 +153,538 @@
     ],
     "themTweets": [],
     "usTweets": []
+  },
+  {
+    "dateAdded": "",
+    "date": "2026-06-21",
+    "claimIds": [
+      "41"
+    ],
+    "exampleId": "000004110",
+    "keywordIds": [],
+    "text": "Doctors Without Borders (MSF) says an internal investigation uncovered 59 allegations of sexual exploitation, abuse, and harassment linked to its operations in eastern Chad. The investigation was launched after Sudanese refugee women reported abuse by MSF staff. The findings led to 18 staff members being fired and permanently barred from working for the organization. MSF said some allegations were substantiated and described the misconduct as a “serious breach” of its values. Survivors were offered medical, psychological, and legal support.",
+    "standaloneTweets": [
+      "2068678473770528998"
+    ],
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "2026-10-02",
+    "date": "2026-07-16",
+    "claimIds": [
+      "41",
+      "58"
+    ],
+    "exampleId": "codex-20261001-inclusive50-07-r1",
+    "keywordIds": [],
+    "text": "D3Shabat posts footage described as an assault on a boy in the West Bank and alleges that people linked to foreign-funded NGOs were responsible.",
+    "source": false,
+    "standaloneTweets": [
+      "2077671136746242152"
+    ],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "2026-10-02",
+    "date": "2025-09-03",
+    "claimIds": [
+      "41",
+      "45",
+      "31a",
+      "52x"
+    ],
+    "exampleId": "codex-20261001-inclusive50-38-r1-r2",
+    "keywordIds": [],
+    "text": "IAGS’s Gaza genocide resolution is amplified by news outlets and commentators as expert authority; critics respond with screenshots questioning its open membership and the breadth of the vote.",
+    "source": true,
+    "standaloneTweets": [],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [
+      "1962510441919250557",
+      "1962478694049648937",
+      "1962473987092386273",
+      "1962490671731794025",
+      "1962548571712233981"
+    ],
+    "usTweets": [
+      "1963149316006002934",
+      "1963277842508021818",
+      "1963109594659508652"
+    ],
+    "sourceLink": "https://genocidescholars.org/reactions-to-iags-resolution-on-gaza/"
+  },
+  {
+    "dateAdded": "2026-10-02",
+    "date": "2026-03-07",
+    "claimIds": [
+      "41",
+      "52x",
+      "58"
+    ],
+    "exampleId": "codex-20261002-latest50-18-r1",
+    "keywordIds": [],
+    "text": "Amichai Chikli counters B’Tselem’s account of the killing of Amir Shanaran in Khirbet Wadi a-Rakhim with footage he says shows an omitted earlier altercation.",
+    "source": false,
+    "thenVsNowFormat": false,
+    "standaloneTweets": [],
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [
+      "2030315332313714713"
+    ],
+    "usTweets": [
+      "2031012538205270238"
+    ]
+  },
+  {
+    "dateAdded": "2026-10-02",
+    "date": "2026-02-18",
+    "claimIds": [
+      "41",
+      "4"
+    ],
+    "exampleId": "codex-20261003-next50-17",
+    "keywordIds": [],
+    "text": "CAIR Ohio director Khalid Turaani invokes an allegation about Israel harvesting Palestinian skin during an Ohio Senate hearing.",
+    "source": true,
+    "standaloneTweets": [
+      "2026490034031845404"
+    ],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [],
+    "usTweets": [],
+    "sourceLink": "https://jewishinsider.com/2026/02/cair-official-khalid-turaani-blood-libel-skin-harvesting-ohio-senate-ihra/"
+  },
+  {
+    "dateAdded": "2026-10-02",
+    "date": "2025-04-01",
+    "claimIds": [
+      "41",
+      "13"
+    ],
+    "exampleId": "codex-20261003-next50-22",
+    "keywordIds": [],
+    "text": "Gabriel Epstein identifies Samir Suleiman Abu Shawish as a PIJ battalion commander reportedly also associated with the MAAN Development Center.",
+    "source": false,
+    "standaloneTweets": [
+      "2026369241511837776"
+    ],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "2026-10-02",
+    "date": "2026-02-25",
+    "claimIds": [
+      "41",
+      "31f",
+      "45"
+    ],
+    "exampleId": "codex-20261003-next50-23",
+    "keywordIds": [],
+    "text": "Eitan Fischberger relays Johnnie Moore’s allegation that Hamas killed Palestinian aid workers and that United Nations Secretary General António Guterres declined a request to condemn it.",
+    "source": false,
+    "standaloneTweets": [
+      "2026757220117971385"
+    ],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "2026-10-03",
+    "date": "2023-07-01",
+    "claimIds": [
+      "41",
+      "45",
+      "4"
+    ],
+    "exampleId": "codex-20261003-next50-34",
+    "keywordIds": [],
+    "text": "Canary Mission challenges a casualty figure attributed to United Nations special rapporteur Francesca Albanese, using a clip labeled July 2023.",
+    "source": false,
+    "standaloneTweets": [
+      "2025009110622605314"
+    ],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "2026-10-03",
+    "date": "2025-10-22",
+    "claimIds": [
+      "41",
+      "45"
+    ],
+    "exampleId": "codex-20261003-next50-36",
+    "keywordIds": [],
+    "text": "Hillel Neuer highlights a screenshot of United Nations special rapporteur Francesca Albanese sharing language calling Israel the incarnation of evil.",
+    "source": false,
+    "standaloneTweets": [
+      "2024617835989705067"
+    ],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "2026-10-03",
+    "date": "2026-02-26",
+    "claimIds": [
+      "41"
+    ],
+    "exampleId": "codex-20261003-next50-07-r1",
+    "keywordIds": [],
+    "text": "Eitan Fischberger alleges that Western governments and human-rights organizations ignored warnings about Palestinian charities funding Hamas.",
+    "source": false,
+    "standaloneTweets": [
+      "2027067141200003166",
+      "2027071081765302371"
+    ],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "2026-10-03",
+    "date": "2026-01-20",
+    "claimIds": [
+      "41",
+      "45"
+    ],
+    "exampleId": "codex-20261003b-next50-38-r1",
+    "keywordIds": [],
+    "text": "UN Watch responds to the United Nations' Philippe Lazzarini with a report alleging extensive links between UNRWA personnel and terrorist organizations.",
+    "source": true,
+    "standaloneTweets": [
+      "2014024441634705470",
+      "1968321924733554870",
+      "1968321937656213944",
+      "1968321957021290627",
+      "1968321978236055715"
+    ],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [],
+    "usTweets": [],
+    "sourceLink": "https://unwatch.org/unrwa-terror-network/"
+  },
+  {
+    "dateAdded": "2026-10-03",
+    "date": "2026-02-10",
+    "claimIds": [
+      "41",
+      "45"
+    ],
+    "exampleId": "codex-20261003b-next50-13-r1",
+    "keywordIds": [],
+    "text": "Hen Mazzig contrasts the United Nations’s firing of Alice Nderitu, who refused to call Gaza a genocide, while renewing the contract of special rapporteur Francesca Albanese  who has made comments implying Israelis eat human flesh, saying Israelis have no humanity, and calling Israel the enemy of humanity. The neutral, professional United Nations.",
+    "source": false,
+    "standaloneTweets": [],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [
+      "2021246055744934324",
+      "1872548894225371578",
+      "2019361378461495666",
+      "2020971081150894366",
+      "2020983308818186721",
+      "2026995039038009430"
+    ],
+    "usTweets": [
+      "2013979325977010525"
+    ]
+  },
+  {
+    "dateAdded": "2026-10-03",
+    "date": "2024-12-27",
+    "claimIds": [
+      "41",
+      "45",
+      "30x"
+    ],
+    "exampleId": "codex-20261003b-next50-13-r1-flesh",
+    "keywordIds": [],
+    "text": "United Nations special rapporteur Francesca Albanese replies to a claim about Jews eating human flesh by noting that while Israelis may do that, Jews don't. And doesn't see any connection between this and global hatred of Jews.",
+    "source": false,
+    "standaloneTweets": [
+      "1872548894225371578"
+    ],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "2026-10-03",
+    "date": "2026-02-07",
+    "claimIds": [
+      "41",
+      "45"
+    ],
+    "exampleId": "codex-20261003b-next50-13-r1-forum",
+    "keywordIds": [],
+    "text": "United Nations special rapporteur Francesca Albanese participates in an Al Jazeera forum whose announced speakers include Hamas leader Khaled Mashaal and Iran’s foreign minister. Legitimizing this movement is what perpetuates the war.",
+    "source": false,
+    "standaloneTweets": [
+      "2019361378461495666"
+    ],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "2026-10-03",
+    "date": "2026-02-07",
+    "claimIds": [
+      "41",
+      "45",
+      "30x"
+    ],
+    "exampleId": "codex-20261003b-next50-13-r1-enemy-r1",
+    "keywordIds": [],
+    "text": "Hen Mazzig accuses Francesca Albanese of calling Israel humanity’s enemy; Albanese makes some rhetorical loops but this is why Jews are being hunted all over the world, because of antizionist rot and libel. They can not be separated.",
+    "source": false,
+    "standaloneTweets": [],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [
+      "2020983308818186721"
+    ],
+    "usTweets": [
+      "2020971081150894366"
+    ]
+  },
+  {
+    "dateAdded": "2026-10-04",
+    "date": "2026-01-14",
+    "claimIds": [
+      "41"
+    ],
+    "exampleId": "codex-20261004-next100-035",
+    "keywordIds": [],
+    "text": "Qatar secretly hired a Western PR firm to manipulate Wikipedia.\n\nQatar paid Portland Communications to remove, downplay, and reframe coverage of its human rights abuses, migrant labor exploitation, and 2022 World Cup scandals.",
+    "source": false,
+    "standaloneTweets": [
+      "2012231594975629771"
+    ],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "2026-10-04",
+    "date": "2026-01-11",
+    "claimIds": [
+      "41",
+      "17",
+      "45"
+    ],
+    "exampleId": "codex-20261004-next100-061",
+    "keywordIds": [],
+    "text": "Over the weekend, the United Nations posted about Gaza twice, the ozone layer, hate speech online, Uganda, Syria, and World Hindi Day. Not a single word about the hundreds of young Iranians slaughtered by the regime during protests.",
+    "source": false,
+    "standaloneTweets": [
+      "2010393338038370384"
+    ],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "2026-10-06",
+    "date": "2025-08-14",
+    "claimIds": [
+      "41"
+    ],
+    "exampleId": "codex-20261005-next100-026-r1",
+    "keywordIds": [],
+    "text": "Gaza Humanitarian Foundation spokesman says Doctors Without Borders (MSF) refused treatment to GHF aid workers wounded by Hamas at Nasser Hospital and left them to die in the parking lot, because they don't like that another organization has control of aid.",
+    "source": true,
+    "standaloneTweets": [],
+    "thenVsNowFormat": true,
+    "thenTweets": [
+      "1806173491902750847"
+    ],
+    "nowTweets": [
+      "1956341230817706157"
+    ],
+    "themTweets": [],
+    "usTweets": [],
+    "sourceLink": "https://www.timesofisrael.com/idf-slain-gazan-named-as-doctors-without-borders-staffer-was-islamic-jihad-rocket-maker/"
+  },
+  {
+    "dateAdded": "2026-10-07",
+    "date": "2025-11-15",
+    "claimIds": [
+      "41",
+      "45",
+      "31z",
+      "16"
+    ],
+    "exampleId": "codex-20261006-next100-096",
+    "keywordIds": [
+      "United Nations"
+    ],
+    "text": "UN rapporteur Reem Alsalem denies independent findings of October 7 rape; Danny Danon and a documented evidence thread counter her claim with the UN’s findings of sexual violence during the attack and against Israeli hostages.",
+    "source": true,
+    "sourceLink": "https://www.un.org/unispal/document/sc-meeting-record-11mar24/",
+    "standaloneTweets": [],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [
+      "1989315118358745148"
+    ],
+    "usTweets": [
+      "1989822608666218805",
+      "1801373801369755689",
+      "1801373803324522994",
+      "1801373805312463045",
+      "1801373806998573234",
+      "1801373808781066588"
+    ]
+  },
+  {
+    "dateAdded": "2026-10-07",
+    "date": "2025-11-14",
+    "claimIds": [
+      "41",
+      "45",
+      "16"
+    ],
+    "exampleId": "codex-20261007-034-r1-r2",
+    "keywordIds": [],
+    "text": "Feminists Against Antisemitism confronts United Nations rapporteur Reem Alsalem’s denial that independent findings support accounts of sexual violence on October 7.",
+    "source": true,
+    "standaloneTweets": [],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [
+      "1989315118358745148"
+    ],
+    "usTweets": [
+      "1989431127124423122",
+      "1726941780883742860",
+      "1801373801369755689",
+      "1801373803324522994",
+      "1801373805312463045",
+      "1801373806998573234",
+      "1801373808781066588",
+      "1801373810655977519",
+      "1801373812228833779",
+      "1801375159577673924",
+      "1801376200264212607",
+      "1801376201912500635",
+      "1801376203619676578",
+      "1801376434197352505",
+      "1801395054969245749",
+      "1801989292597637174",
+      "1802090112752185582",
+      "1837954470593831289",
+      "1863544247875449160",
+      "1910742557677723872",
+      "1941799094281986177",
+      "1968033188435067012",
+      "1982990340580880424",
+      "1989863465633419584",
+      "1990714566729142366",
+      "1994247301938749450",
+      "1994247520936186026"
+    ],
+    "sourceLink": "https://press.un.org/en/2024/sc15621.doc.htm"
+  },
+  {
+    "dateAdded": "2026-10-08",
+    "date": "2025-10-27",
+    "claimIds": [
+      "41",
+      "47"
+    ],
+    "exampleId": "codex-20261008-091",
+    "keywordIds": [],
+    "text": "The Red Cross allows Hamas to bury a hostage body so they can \"dig up\" the very same body they just buried, staging a fake “discovery” right in front of the Red Cross team as a propaganda stunt to make them look like they are recovering a body buried beneath rubble caused by Israel. The Red Cross also said there was \"no trace of installations for exterminating civilian populations\" at Auschwitz in 1944.",
+    "source": true,
+    "standaloneTweets": [],
+    "thenVsNowFormat": true,
+    "thenTweets": [
+      "1983875038987096417"
+    ],
+    "nowTweets": [
+      "1983609522817061056"
+    ],
+    "themTweets": [],
+    "usTweets": [],
+    "sourceLink": "https://transcripts.cnn.com/show/cnr/date/2025-10-29/segment/19"
+  },
+  {
+    "dateAdded": "2026-10-09",
+    "date": "2025-01-22",
+    "claimIds": [
+      "41",
+      "45",
+      "32"
+    ],
+    "exampleId": "codex-20261008-054-r1",
+    "keywordIds": [
+      "United Nations",
+      "Francesca Albanese"
+    ],
+    "text": "UN health rapporteur Tlaleng Mofokeng, who oversees all human rights experts, calls Hillel Neuer “evil scum” and a “white man,” invokes Gaza to dismiss criticism of her abuse, says Hamas is not terrorist, and calls Israel “Israhell.” Hillel Neuer documents these statements alongside her leadership of UN human-rights experts, and a complaint from women’s organizations. AFP and other media organizations take her seriously because of her prestigious position.",
+    "source": true,
+    "standaloneTweets": [
+      "1882174985122504749",
+      "1882176631600820566",
+      "1882183117659852994",
+      "1882185932885074276",
+      "1882187647818535290",
+      "1882189647889207489",
+      "1882190544387834012",
+      "1882191044454072769",
+      "1882191268249526730",
+      "1882192284374233157",
+      "1882193208341635189",
+      "1882199139414593798",
+      "1882200012689694951",
+      "1882239289754562607"
+    ],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [],
+    "usTweets": [],
+    "sourceLink": "https://www.migrantwomennetwork.org/wp-content/uploads/Letter-to-HRC-Coordinating-Committee-re-Code-of-Conduct-November-2024-B.pdf"
   }
 ]

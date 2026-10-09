@@ -911,52 +911,295 @@
   },
   {
     "dateAdded": "",
-    "date": "2023-11-13",
+    "date": "2026-07-31",
     "claimIds": [
-      "32",
-      "13",
-      "31a"
+      "13"
     ],
-    "exampleId": "00003207",
+    "exampleId": "000001343",
     "keywordIds": [],
-    "text": "On Oct. 16, 2023, reports came out that Israel had bombed al-Alhi hospital, killing 500 people. The media ran with it. The NY Times, AP, Reuters, Guardian, and LA Times all had it prominantly in their publications. The LA Times ran a front-page headline: 'At least 500 killed in Israeli airstrike on Gaza City Hospital, Gaza Healthy Ministry says'. In reality, an errant Palestinian Islamic Jihad rocket hit the hospital parking lot, as demonstrated in subsequent days by video footage, intercepted calls between Palestinian groups, and multiple independent open-source intel analaysts. The hospital itself was fully in tact and operational. And there were less than 10 killed.",
-    "themTweets": [
-      "1714343713801957435",
-      "1714353899040358550",
-      "1714619599017157072",
-      "1714336328312144180",
-      "1714593437142393153"
+    "text": "Shifa Hospital doctor who sexually abused hostage Romi Gonen and held dead body of Noa Marciano eliminated by IDF. “This is the man who destroyed my innocence. After four days in Gaza he couldn’t hold himself and followed me into the shower. His death won’t erase it, but justice was done today.” Survivor of Hamas captivity Romi Gonen responding to the elimination of her capture, Shifa Hospital doctor and Hamas terrorist.",
+    "source": false,
+    "standaloneTweets": [],
+    "thenVsNowFormat": true,
+    "thenTweets": [
+      "2005885699292123254"
     ],
-    "usTweets": [
-      "1714708365899612274",
-      "1714552335051989483",
-      "1714570324455416202",
-      "1714552321760202859",
-      "1714552323945472323",
-      "1714552325988053127",
-      "1714552328471138777",
-      "1714552330605973966",
-      "1714552332749357479",
-      "1714579782761959791",
-      "1714588649361207627"
+    "nowTweets": [
+      "2083226594785845422",
+      "2083357149304881230"
     ]
   },
   {
     "dateAdded": "",
-    "date": "2024-01-29",
+    "date": "2026-03-26",
     "claimIds": [
-      "47",
-      "13"
+      "13",
+      "30o"
     ],
-    "exampleId": "000004705",
-    "keywordIds": [],
+    "exampleId": "000001344",
+    "keywordIds": [
+      "Britain",
+      "United Kingdom"
+    ],
+    "text": "UK: Dr. Rahmeh Aladwan, a 31-year-old NHS trainee surgeon, was arrested on 26 March in South Gloucestershire for breaching bail conditions. She faces 4 charges of supporting Hamas, each carrying up to 14 years, and 2 other charges of inciting racial hatred, each carrying up to 7 years.",
+    "source": false,
+    "standaloneTweets": [
+      "2037290189643513929"
+    ],
+    "thenVsNowFormat": true,
+    "thenTweets": [],
+    "nowTweets": []
+  },
+  {
+    "dateAdded": "",
+    "date": "2026-03-26",
+    "claimIds": [
+      "13",
+      "30o"
+    ],
+    "exampleId": "000001345",
+    "keywordIds": [
+      "journalist"
+    ],
+    "text": "The Palestinian Islamic Jihad military wing has stated that journalist Mahmoud Essa was a Commander within its Gaza City Brigade's Information Unit, aka the PIJ's intelligence service. Source: The Saraya Al-Quds official military media channel.",
+    "source": false,
     "standaloneTweets": [],
-    "text": "The Palestinians report that this journalist collapsed due to lack of water and food.",
+    "thenVsNowFormat": true,
     "themTweets": [
-      "1752020762251141425"
+      "1937929925664903347"
     ],
     "usTweets": [
-      "1752008434504126674"
+      "2075215603468501130"
     ]
+  },
+  {
+    "dateAdded": "2026-09-29",
+    "date": "2023-12-01",
+    "claimIds": [
+      "13"
+    ],
+    "exampleId": "claude-b04-08",
+    "keywordIds": [
+      "PIJ"
+    ],
+    "text": "Mohammed Abu Huweidi, a journalist for Gaza's al-Istiqlal outlet whom the UN mourned as a journalist killed by Israel in December 2023, was listed by Palestinian Islamic Jihad itself in March 2026 as a commander in its Central Military Media Unit.",
+    "source": false,
+    "standaloneTweets": [
+      "2036577599007105232",
+      "2034987423570997328",
+      "2034987427966644452"
+    ],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "2026-09-29",
+    "date": "2024-04-25",
+    "claimIds": [
+      "13",
+      "41"
+    ],
+    "exampleId": "claude-b04-09",
+    "keywordIds": [],
+    "text": "Mohammed Bassam Al Jamal, listed by the Committee to Protect Journalists as a journalist killed in an Israeli strike in Rafah on April 25, 2024, was named by Hamas in a martyr notice as a field commander. CPJ removed him from its Killed database in September 2026.",
+    "source": true,
+    "sourceLink": "https://cpj.org/data/people/mohammed-al-jamal/",
+    "standaloneTweets": [
+      "2035749272579141653"
+    ],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "2026-09-29",
+    "date": "2025-08-10",
+    "claimIds": [
+      "13"
+    ],
+    "exampleId": "claude-b04-11",
+    "keywordIds": [],
+    "text": "Al Jazeera correspondent Anas al-Sharif, killed in an Israeli strike in Gaza City on August 10, 2025, was identified by the IDF as the head of a Hamas cell in a Nukhba rocket-launching platoon. Eitan Fischberger notes that footage shows those killed weren't wearing press vests.",
+    "source": false,
+    "standaloneTweets": [
+      "1962263260012408841",
+      "1954721655973958038"
+    ],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "2026-09-30",
+    "date": "2024-11-27",
+    "claimIds": [
+      "13"
+    ],
+    "exampleId": "codexLikes20260929-2049477513642959228",
+    "keywordIds": [],
+    "text": "An Aizenberg comparison shows Alaa Fawzi Barhoum described as a journalist after his death and in a Hamas military-wing memorial identifying him as a fighter in the al-Tuffah–al-Daraj Battalion.",
+    "source": true,
+    "standaloneTweets": [
+      "2049477513642959228"
+    ],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [],
+    "usTweets": [],
+    "sourceLink": "https://www.terrorism-info.org.il/en/the-disclosure-of-the-names-of-fallen-military-operatives-by-hamas-and-the-palestinian-islamic-jihad-confirms-the-amit-institutes-research-findings-on-the-double-roles-of-journalists-in-the-gaza/"
+  },
+  {
+    "dateAdded": "2026-09-30",
+    "date": "2024-07-13",
+    "claimIds": [
+      "13"
+    ],
+    "exampleId": "codexLikes20260929-2048760430168809863",
+    "keywordIds": [],
+    "text": "A comparison identifies Mohamed Manhal Abu Armana, previously listed as a journalist killed in Gaza, in a Hamas-linked memorial calling him a field commander. Airwars subsequently changed his classification from civilian to militant.",
+    "source": true,
+    "standaloneTweets": [
+      "2048760430168809863"
+    ],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [],
+    "usTweets": [],
+    "sourceLink": "https://airwars.org/incidents/ispt130724e-july-13-2024"
+  },
+  {
+    "dateAdded": "2026-10-01",
+    "date": "2023-11-09",
+    "claimIds": [
+      "13"
+    ],
+    "exampleId": "codex-20261001-inclusive50-33",
+    "keywordIds": [],
+    "text": "Aizenberg challenges civilian-only descriptions of the Abu Musa family’s deaths, citing later material that allegedly identifies two family members as combatants.",
+    "source": false,
+    "standaloneTweets": [
+      "2040448121927291173"
+    ],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "2026-10-02",
+    "date": "2024-09-30",
+    "claimIds": [
+      "13"
+    ],
+    "exampleId": "codex-20261002-latest50-33",
+    "keywordIds": [],
+    "text": "Gabriel Epstein reports that the husband of killed Gaza journalist Wafa al-Adini was a Palestinian Islamic Jihad commander.",
+    "source": true,
+    "thenVsNowFormat": false,
+    "standaloneTweets": [
+      "2029201002524451147"
+    ],
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [],
+    "usTweets": [],
+    "sourceLink": "https://www.madacenter.org/files/flash/semiannualRep2025E.pdf"
+  },
+  {
+    "dateAdded": "2026-10-02",
+    "date": "2024-12-13",
+    "claimIds": [
+      "13"
+    ],
+    "exampleId": "codex-20261002-latest50-35",
+    "keywordIds": [],
+    "text": "Aizenberg juxtaposes an ICU-nurse description of Jaber Muhammadin with a militant memorial identifying him as a military-manufacturing leader.",
+    "source": true,
+    "thenVsNowFormat": false,
+    "standaloneTweets": [
+      "2029222658571706775"
+    ],
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [],
+    "usTweets": [],
+    "sourceLink": "https://www.digiunogaza.it/wp-content/uploads/2025/09/elenco_sanitari_uccisi_Gaza.pdf"
+  },
+  {
+    "dateAdded": "2026-10-02",
+    "date": "2023-10-24",
+    "claimIds": [
+      "13"
+    ],
+    "exampleId": "codex-20261003-next50-15",
+    "keywordIds": [],
+    "text": "Middle East Buka presents a PIJ mourning poster for Mohammed Fayez al-Hassani, a Rawasi Palestine media figure also listed by journalist organizations.",
+    "source": false,
+    "standaloneTweets": [
+      "2027044183920226746",
+      "1950143698856988940"
+    ],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "2026-10-03",
+    "date": "2024-06-08",
+    "claimIds": [
+      "13",
+      "44"
+    ],
+    "exampleId": "codex-20261003-next50-21-r1-r2",
+    "keywordIds": [],
+    "text": "CTV’s reporting on journalists killed in Gaza is contrasted with rescue footage of Almog Meir Jan, Andrey Kozlov and Shlomi Ziv, who the IDF says were held in journalist and Hamas operative Abdallah Aljamal’s family home.",
+    "source": true,
+    "standaloneTweets": [],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [
+      "2026826946508730682"
+    ],
+    "usTweets": [
+      "2063687120959488015",
+      "1800230129597403161"
+    ],
+    "sourceLink": "https://www.idf.il/en/mini-sites/idf-press-releases-israel-at-war/operation-arnon-4-hostages-rescued-from-the-heart-of-gaza/hostages-held-in-abdallah-aljamals-family-home/",
+    "starred": true
+  },
+  {
+    "dateAdded": "2026-10-03",
+    "date": "2026-02-04",
+    "claimIds": [
+      "13"
+    ],
+    "exampleId": "codex-20261003b-next50-14-r1",
+    "keywordIds": [],
+    "text": "The IDF says Muhammad Essam Hassan Habil, linked to Noa Marciano’s murder in captivity, was killed on February 4, 2026. Her father said a doctor murdered her by injecting air into her veins.",
+    "source": true,
+    "standaloneTweets": [
+      "2019124394187182375",
+      "2019425632862789730",
+      "2019129699059003696"
+    ],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [],
+    "usTweets": [],
+    "sourceLink": "https://www.euronews.com/2025/12/12/gaza-doctor-murdered-israeli-hostage-by-injecting-air-into-her-veins-father-claims"
   }
 ]

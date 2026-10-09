@@ -157,36 +157,43 @@
     "usTweets": []
   },
   {
-    "dateAdded": "",
-    "date": "2023-10-30",
+    "dateAdded": "2026-10-05",
+    "date": "2025-12-11",
     "claimIds": [
-      "28",
       "21"
     ],
-    "exampleId": "000002803",
+    "exampleId": "codex-20261005-next100-075",
     "keywordIds": [],
-    "text": "'Long Live Hamas!' one man shouted, as crowds gathered at Union Square in NYC following a march from Brooklyn demanding to Free Palaestine",
+    "text": "Antizionists invade BBC premises in a public protest, using workplace disruption to push their campaign against Israel.",
+    "source": false,
     "standaloneTweets": [
-      "1718451744827404674"
+      "1999227716151967972"
     ],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
     "themTweets": [],
     "usTweets": []
   },
   {
-    "dateAdded": "",
-    "date": "2026-01-08",
+    "dateAdded": "2026-10-08",
+    "date": "2024-09-02",
     "claimIds": [
-      "28",
       "21",
-      "22"
+      "56"
     ],
-    "exampleId": "000002806",
+    "exampleId": "codex-20261008-018",
     "keywordIds": [],
-    "text": "Mamdani’s NYC: protesters outside a synagogue in New York are chanting, “Say it loud, say it clear, we support Hamas here.”",
+    "text": "Vivid reposts footage of a New York pro-Palestinian march following the recovery of six murdered hostages, including an American, Hersh Goldberg-Polin.",
+    "source": true,
     "standaloneTweets": [
-      "2009475093026742425"
+      "1986120072344313888"
     ],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
     "themTweets": [],
-    "usTweets": []
+    "usTweets": [],
+    "sourceLink": "https://www.adl.org/resources/report/one-year-later-antisemitic-trends-post-107/"
   }
 ]

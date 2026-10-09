@@ -163,5 +163,123 @@
     ],
     "themTweets": [],
     "usTweets": []
+  },
+  {
+    "dateAdded": "",
+    "date": "2026-05-05",
+    "claimIds": [
+      "22",
+      "6y",
+      "21"
+    ],
+    "exampleId": "000002210",
+    "keywordIds": [],
+    "text": "Manhattan, New York: Anti-Israel protesters swarmed outside Park East Synagogue, chanting “Israel should not exist” & “There is only one solution, intifada revolution.” A Hezbollah flag & Hamas-linked red triangle symbols were seen in the crowd.",
+    "standaloneTweets": [
+      "2052135563067801610"
+    ],
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "",
+    "date": "2026-05-11",
+    "claimIds": [
+      "22",
+      "6y",
+      "21"
+    ],
+    "exampleId": "000002211",
+    "keywordIds": [],
+    "text": "Imagine if this were a mob outside a mosque or a church? Last night, masked “demonstrators” surrounded the Young Israel of Midwood synagogue in Brooklyn, chanting for intifada, waving a Hezbollah flag, and screaming abuse at Jews attending an event inside. Hundreds of NYPD officers and rows of barricades were required just to keep them at bay. This is the reality for Jewish New Yorkers in 2026. You cannot walk into a house of worship without a police perimeter around it. No other minority community in this city is expected to tolerate this. No other community would be told this is just protected speech. The Lawfare Project will not stop fighting until Jewish civil rights receive the same protection, the same outrage, and the same legal accountability that every other community in America is guaranteed. Jew-hatred will not win.",
+    "standaloneTweets": [
+      "2054224881546358824"
+    ],
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "",
+    "date": "2026-06-02",
+    "claimIds": [
+      "22"
+    ],
+    "exampleId": "000002212",
+    "keywordIds": [
+      "United Kingdom"
+    ],
+    "text": "ATTEMPTED ARSON ATTACK – GOLDERS GREEN. In the early hours of this morning, residents of a block of flats on Bridge Lane, NW11, where the majority of residents are Jewish and many are young families, were alerted by a fire alarm. Residents reported witnessing a suspect deliberately start a fire in a communal stairwell before fleeing when challenged. A resident acted swiftly to extinguish the fire, preventing what could have become a far more serious incident. Thankfully, no injuries were reported.",
+    "standaloneTweets": [
+      "2061906984484704722"
+    ],
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "2026-09-29",
+    "date": "2026-05-05",
+    "claimIds": [
+      "22",
+      "21",
+      "56",
+      "28"
+    ],
+    "exampleId": "codexB03036-park-east",
+    "keywordIds": [],
+    "text": "Masked protesters, including a person carrying a Hezbollah flag, gather outside Park East Synagogue in Manhattan.",
+    "source": false,
+    "standaloneTweets": [
+      "2051825719785722133",
+      "2052038829767278617"
+    ],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "2026-09-29",
+    "date": "2026-05-11",
+    "claimIds": [
+      "22",
+      "21",
+      "56"
+    ],
+    "exampleId": "codexB03036-brooklyn",
+    "keywordIds": [],
+    "text": "A march through Brooklyn’s Orthodox Jewish neighborhood approaches a synagogue; posts show the security preparations and the subsequent march.",
+    "source": false,
+    "standaloneTweets": [
+      "2053986208460513465",
+      "2053996050247983588"
+    ],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "2026-09-29",
+    "date": "2026-04-18",
+    "claimIds": [
+      "22",
+      "5",
+      "56"
+    ],
+    "exampleId": "codexLikes20260929-2045863595783934051",
+    "keywordIds": [],
+    "text": "Kenton United Synagogue in Harrow was targeted in an arson attack. Metropolitan Police later charged a 17-year-old in connection with the incident.",
+    "source": true,
+    "standaloneTweets": [
+      "2045842417757159697"
+    ],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [],
+    "usTweets": [],
+    "sourceLink": "https://news.met.police.uk/news/boy-charged-after-kenton-synagogue-arson-attack-508459"
   }
 ]

@@ -292,167 +292,627 @@
   },
   {
     "dateAdded": "",
-    "date": "2026-01-13",
+    "date": "2026-05-24",
     "claimIds": [
-      "30w",
-      "32",
       "17"
     ],
-    "exampleId": "0000030w0001",
+    "exampleId": "0000017015",
     "keywordIds": [],
-    "text": "Palestinian writer Randa Abdel-Fattah was canceled from the Adelaide Festival for supporting 10/7 and saying Zionists shouldn't feel safe anywhere. She also tried to get Jewish writer Thomas Friedman canceled from a previous festival. ABC in Australia lying through omission. Again. They’re now claiming terror-supporting Randa Abdel-Fattah was ‘cancelled for criticising Israel and Zionism’, while conveniently leaving out what she actually said: celebrating Oct 7 and declaring that Zionists shouldn’t feel safe anywhere. They also neglect to mention that Abdel-Fattah herself tried to get Jewish writers cancelled.",
+    "text": "When yet another 'Flotilla to Gaza' participants were detained in Israel, Minister Itmar Ben-Gvir recorded a video mocking the participants, and the world had a collective shitfit. Ambassadors were summoned for a lecture. Ben-Gvir was banned from Australia and France, among other places. Israel was horrible. Yet mere days later — DAYS LATER — when the agitators were returned to Spain, they disrupted airport processes and were physically and violently confronted by Spanish police on video. Absolutely no outrage ensued.",
     "standaloneTweets": [],
     "thenVsNowFormat": true,
     "thenTweets": [
-      "2003299938688729527",
-      "2011244396835135814",
-      "2009548664822542789",
-      "2010132407148831059"
+      "2057318325516947721",
+      "2057330690702594463",
+      "2057123550406840715",
+      "2057132406998450242",
+      "2057509092617318661",
+      "2057426434365538539",
+      "1973668401869697440",
+      "2058621896451604584"
     ],
     "nowTweets": [
-      "2011235936659784096"
+      "2058639468798595272",
+      "2058236251396792818",
+      "2058268837167141275",
+      "2058658997108867293",
+      "2058682520611246437",
+      "2058669375008256451",
+      "2061938408537330140"
     ]
   },
   {
     "dateAdded": "",
-    "date": "2026-01-27",
+    "date": "2026-01-28",
     "claimIds": [
-      "31c",
+      "17"
+    ],
+    "exampleId": "0000017016",
+    "keywordIds": [
+      "Wanting kids to live isn't antisemitic"
+    ],
+    "text": "2 year old Ali Mohammad Sadeghi shot dead by the Iranian regime. Why is Ms. Rachel silent?",
+    "standaloneTweets": [],
+    "thenVsNowFormat": false,
+    "thenTweets": [
+      "1995580365868859697"
+    ],
+    "nowTweets": [
+      "2016495461692014737",
+      "2010226175382302829"
+    ]
+  },
+  {
+    "dateAdded": "2026-09-30",
+    "date": "2026-03-08",
+    "claimIds": [
+      "17",
+      "52x"
+    ],
+    "exampleId": "claude-b04-22",
+    "keywordIds": [],
+    "text": "Rep. Rashida Tlaib posted that 30% of the people killed in Iran in the war were children. Iranian-American Sana Ebrahimi Ledene answers that Tlaib said nothing when the regime killed tens of thousands of protesters.",
+    "source": false,
+    "standaloneTweets": [],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [
+      "2030476239476056222"
+    ],
+    "usTweets": [
+      "2030668699850399761"
+    ]
+  },
+  {
+    "dateAdded": "2026-09-30",
+    "date": "2026-05-29",
+    "claimIds": [
+      "17"
+    ],
+    "exampleId": "codexB03021",
+    "keywordIds": [],
+    "text": "When an IDF soldier smashed a statue of Jesus in southern Lebanon in April 2026, antizionist commentators with millions of followers erupted; Israel condemned the act and jailed the soldiers. When Hezbollah rockets hit Saint Georges Orthodox Church in Marjaayoun a month later, the same voices were silent.",
+    "source": true,
+    "sourceLink": "https://5townscentral.com/2026/05/30/northern-israel-faces-heavy-fire-as-leaders-consider-broader-response/",
+    "standaloneTweets": [],
+    "thenVsNowFormat": true,
+    "thenTweets": [
+      "2046283478887784451",
+      "2047111673316597764",
+      "2045866140694618237",
+      "2045863197060579648",
+      "2048088683576774970",
+      "2046014438969393616"
+    ],
+    "nowTweets": [
+      "2060707801182470587",
+      "2060435812584419357"
+    ],
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "2026-09-30",
+    "date": "2024-11-23",
+    "claimIds": [
+      "17"
+    ],
+    "exampleId": "codexB03005-b",
+    "keywordIds": [],
+    "text": "Antizionists say they single out Israel because U.S. tax dollars fund its military. Turkey, a NATO member that also buys U.S.-made fighter jets, faced no global outrage, protests or campus encampments over its own military's conduct under Erdogan.",
+    "source": false,
+    "standaloneTweets": [],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [
+      "1756348194034741352",
+      "1876997648021938667"
+    ],
+    "usTweets": [
+      "1860313754761576882",
+      "1860691037372465630",
+      "1751062804793020780",
+      "1763459424192978988",
+      "2074410602131304738"
+    ]
+  },
+  {
+    "dateAdded": "2026-09-30",
+    "date": "2021-03-06",
+    "claimIds": [
+      "17"
+    ],
+    "exampleId": "codexB03005",
+    "keywordIds": [],
+    "text": "Antizionists say they single out Israel because U.S. tax dollars fund its military. Turkey, a NATO member that also receives U.S. weapons, has police detaining LGBT activists while its government says it won't allow “homosexuality propaganda,” and draws no comparable protest movement.",
+    "source": true,
+    "sourceLink": "https://www.duvarenglish.com/turkish-govt-says-it-wont-allow-homosexuality-propaganda-as-police-detain-lgbt-activists-news-56532",
+    "standaloneTweets": [],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [
+      "1756348194034741352",
+      "1876997648021938667"
+    ],
+    "usTweets": [
+      "1368811264206647296",
+      "1751062804793020780",
+      "1763459424192978988",
+      "2074410602131304738",
+      "1860313754761576882"
+    ]
+  },
+  {
+    "dateAdded": "2026-10-02",
+    "date": "2026-03-06",
+    "claimIds": [
+      "17",
+      "41",
+      "45"
+    ],
+    "exampleId": "codex-20261002-latest50-26",
+    "keywordIds": [],
+    "text": "Hillel Neuer contrasts UN and Amnesty International campaigns against cluster bombs with their response to reported Iranian cluster-munition attacks on Israeli cities.",
+    "source": false,
+    "thenVsNowFormat": false,
+    "standaloneTweets": [
+      "2029914553232855270"
+    ],
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "2026-10-03",
+    "date": "2026-01-25",
+    "claimIds": [
+      "17",
+      "31c"
+    ],
+    "exampleId": "codex-20261003b-next50-21",
+    "keywordIds": [],
+    "text": "Adin Haykin responds sarcastically to Sana Saeed’s criticism of unsourced Iranian protest-death estimates.",
+    "source": false,
+    "standaloneTweets": [
+      "2015802411059736845"
+    ],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "2026-10-03",
+    "date": "2026-01-28",
+    "claimIds": [
       "17",
       "30x"
     ],
-    "exampleId": "0000003104",
+    "exampleId": "codex-20261003b-next50-17-r1",
     "keywordIds": [],
-    "text": "Renowned antizionist Nerdeen Kiswani, close advisor to Zohran Mamdani, is bothered by how casually 'Zionists' are 'inventing' death toll figures in Iran, which are based on opposition figure estimates. 'Suddenly,' she writes, 'we’re expected to accept an enormous number of people killed in Iran within the span of weeks, with no evidence, no independent verification, no sustained reporting . And we’re supposed to suspend every standard of skepticism we were told was sacred.' Yet she has no problem promoting and mourning insanely inflated numbers of those killed in Gaza using the same standard she is so 'bothered by' when it comes to Iran. 'What matters is controlling the narrative: when death is real, when it’s fake, when numbers count, and when they don’t.' Indeed.",
-    "deepDive": false,
+    "text": "Barack Obama’s November 2023 remarks describe the occupation as unbearable; Neil Stone contrasts those remarks with Obama’s response to Iran’s crackdown, alongside footage and reported death estimates.",
     "source": false,
     "standaloneTweets": [],
     "thenVsNowFormat": true,
     "thenTweets": [
-      "2016372890568921249",
-      "1972704175000629634"
+      "1720906811488751969"
     ],
     "nowTweets": [
-      "2016255362450505807",
-      "2015693913273536939"
-    ]
+      "2015456128331587924",
+      "2010383278222741523",
+      "2015668161329213915",
+      "2015370233800696303",
+      "2016602428771115056"
+    ],
+    "themTweets": [],
+    "usTweets": []
   },
   {
-    "dateAdded": "",
-    "date": "2023-11-11",
+    "dateAdded": "2026-10-03",
+    "date": "2026-01-25",
     "claimIds": [
-      "31c",
+      "17",
+      "41"
+    ],
+    "exampleId": "codex-20261003b-next50-44-r1",
+    "keywordIds": [],
+    "text": "South Africa announces its genocide case against Israel; UN Watch contrasts that action with South Africa’s reported failure to endorse an urgent Iran session, followed by reporting of a 30,000-plus Iranian death estimate.",
+    "source": false,
+    "standaloneTweets": [],
+    "thenVsNowFormat": true,
+    "thenTweets": [
+      "1740801747528876533",
+      "1750834513666568469"
+    ],
+    "nowTweets": [
+      "2014041805713727838",
+      "2015284388553015636"
+    ],
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "2026-10-04",
+    "date": "2026-01-10",
+    "claimIds": [
       "17"
     ],
-    "exampleId": "0000003105",
+    "exampleId": "codex-20261004-next100-060",
     "keywordIds": [],
-    "text": "Mass murderer Bashar al-Assad, Assad condemns Israel and demands that the Palestinians be protected at the “Emergency Meeting” of the Arab League and the Organisation of Islamic Corporation in the Saudi Capital to discuss the Hamas-Israel war. Video 2:  Execution of dozens of  civilians in Syria by members of military Syrian intelligence. Unarmed civilians are taken blindfolded one by one to a pit in a suburb of Damascus,Tadamon. There they are shot in the head. “Greetings to the boss [teacher],” says one of the two perpetrators, smiling into the camera.",
-    "deepDive": false,
-    "source": true,
-    "sourceLink": "https://www.syriahr.com/en/291981/",
+    "text": "Videos of Columbia’s antizionist encampment are contrasted with the fact that the campus failed to show any outrage over Iran killing its own protesters.",
+    "source": false,
     "standaloneTweets": [],
-    "thenVsNowFormat": false,
-    "themTweets": [
-      "1723340264163426514"
+    "thenVsNowFormat": true,
+    "thenTweets": [
+      "1782251012863963544",
+      "1783154734997684250",
+      "1781018453358371283"
     ],
-    "usTweets": [
-      "1740976877651517934",
-      "1723671780164841946"
-    ]
+    "nowTweets": [
+      "2010212846148431932"
+    ],
+    "themTweets": [],
+    "usTweets": []
   },
   {
-    "dateAdded": "",
-    "date": "2006-06-01",
+    "dateAdded": "2026-10-05",
+    "date": "2026-01-06",
     "claimIds": [
-      "46",
+      "17"
+    ],
+    "exampleId": "codex-20261005-next100-008",
+    "keywordIds": [],
+    "text": "Bambie Thug boycotts Eurovision over Israel but says they would perform in Russia if they could: the cultural boycott singles out the Jewish state.",
+    "source": true,
+    "standaloneTweets": [
+      "2008986429746188746"
+    ],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [],
+    "usTweets": [],
+    "sourceLink": "https://eurovisionfun.com/en/2026/01/bambie-thug-if-i-had-the-opportunity-to-sing-in-russia-i-would-have-already-done-so/"
+  },
+  {
+    "dateAdded": "2026-10-06",
+    "date": "2025-12-29",
+    "claimIds": [
       "17",
-      "31c",
-      "45",
+      "41",
+      "44"
+    ],
+    "exampleId": "codex-20261005-next100-033-r1",
+    "keywordIds": [],
+    "text": "More people died in the Somaliland genocide than in Palestine conflict. However the Somaliland genocide was only brought up twice in the United Nations ever! Both in 1990 and 2025 both times by Israel.",
+    "source": true,
+    "standaloneTweets": [
+      "2005767682512281648"
+    ],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [],
+    "usTweets": [],
+    "sourceLink": "https://documents.un.org/api/symbol/access?l=en&s=S%2FPV.10084&t=pdf"
+  },
+  {
+    "dateAdded": "2026-10-06",
+    "date": "2025-11-15",
+    "claimIds": [
+      "17",
+      "31c"
+    ],
+    "exampleId": "codex-20261006-next100-095",
+    "keywordIds": [],
+    "text": "Tucker Carlson accuses Ben Shapiro of promoting pornography even though Shapiro wrote against it, while Carlson hosted Andrew Tate, whose webcam business made money from pornography.",
+    "source": false,
+    "standaloneTweets": [
+      "1989623341020582208"
+    ],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "2026-10-07",
+    "date": "2025-11-15",
+    "claimIds": [
+      "17",
       "54",
-      "55"
+      "19"
     ],
-    "exampleId": "0000046001",
-    "keywordIds": [],
-    "text": "Tal Nitzan, a Hebrew University academic and her paper/thesis 'Controlled Occupation: The Rarity of Military Rape in the Israeli-Palestinian Conflict', concluded that the extremely low (or near-absent) incidence of IDF soldiers raping Palestinian women was evidence of racism/dehumanization—i.e., soldiers viewed Palestinians as so 'other' that they were not even seen as objects of sexual violence, a prime example of how Israel/academia casts even the absence of wrongdoing in a negative light, blaming Jews/IDF for 'not raping enough' as proof of moral failing.",
-    "source": false,
-    "standaloneTweets": [
-      "1957503155329200413",
-      "1728154855531753578"
-    ],
-    "themTweets": [],
-    "usTweets": []
-  },
-  {
-    "dateAdded": "",
-    "date": "2024-06-11",
-    "claimIds": [
-      "46",
-      "17",
-      "31c",
-      "32"
-    ],
-    "exampleId": "0000046002",
-    "keywordIds": [],
-    "text": "According to Washington Post: Israel's Iron Dome perpetuates Israel-Gaza conflict, coz terrorist Hamas is not able to bomb & kill civilians at will. Israel’s Iron Dome defense system protects Israeli lives. It also perpetuates the Israel-Gaza conflict.",
-    "source": false,
-    "standaloneTweets": [
-      "1800582008017695191"
-    ],
-    "themTweets": [],
-    "usTweets": []
-  },
-  {
-    "dateAdded": "",
-    "date": "2026-04-27",
-    "claimIds": [
-      "46",
-      "31c",
-      "17"
-    ],
-    "exampleId": "0000046004",
+    "exampleId": "codex-20261007-008",
     "keywordIds": [
-      "Ana Kasparian"
+      "pound of flesh"
     ],
-    "text": "Kasparian condemned all Israelis as savages when she thought that an Israeli had run over an innocent Palestinian Arab. Then somebody told her that the driver was actually a Palestinian Arab. Now, she demands evidence. I'm noticing an inconsistent standard!",
-    "source": true,
-    "sourceLink": "https://www.facebook.com/permalink.php?story_fbid=pfbid02gH7f2aAAJs3CCmzhFFct7igVB1Ltriep2vA6njCapoVpumY5uh5oVeTKfZaD4ysBl&id=100064826525729&rdid=R5xQml96yQ3QEpRn#",
-    "standaloneTweets": [],
-    "themTweets": [
-      "2048929504404664733",
-      "2048934215811772827"
+    "text": "Amelia Adams challenges the demand that the ADL abandon its focus on antisemitism while other civil-rights organizations are allowed to concentrate on the communities they represent.",
+    "source": false,
+    "standaloneTweets": [
+      "1989886844280906151"
     ],
-    "usTweets": [
-      "2048966369975153092",
-      "2049112334426099918",
-      "2048876751950852299",
-      "2048877609887338542",
-      "2049121061716021730",
-      "2048938478017155340",
-      "2049079075377909848"
-    ]
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [],
+    "usTweets": []
   },
   {
-    "dateAdded": "",
-    "date": "2026-04-24",
+    "dateAdded": "2026-10-07",
+    "date": "2025-11-12",
     "claimIds": [
-      "52x",
-      "31c",
-      "17"
+      "17",
+      "8",
+      "31b",
+      "52x"
     ],
-    "exampleId": "0000052x001",
+    "exampleId": "codex-20261007-055",
     "keywordIds": [],
-    "text": "What's insane is Hamas builds 1000s of rockets & tunnels diverting $100mm/year from this effort. Hamas brags about using water pipes for rockets in this Al Jazeera report. Maybe focus on that first to realize why Israel limits good in the first place.",
-    "deepDive": false,
+    "text": "Avi Yemini counters Abier’s claim that Muslim-majority states lack religious supremacy, citing discrimination in Saudi Arabia, Pakistan and Iran while she singles out the Jewish state.",
     "source": false,
     "standaloneTweets": [],
     "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
     "themTweets": [
-      "2047573830915285168"
+      "1988501738224009683"
     ],
     "usTweets": [
-      "1309068936512765953",
-      "2047687754432074187",
-      "2047734888527204376"
+      "1988502728193307013"
+    ]
+  },
+  {
+    "dateAdded": "2026-10-07",
+    "date": "2025-11-09",
+    "claimIds": [
+      "17",
+      "32",
+      "31b",
+      "41",
+      "52x"
+    ],
+    "exampleId": "codex-20261007-058",
+    "keywordIds": [],
+    "text": "Adam Fisher has a great thread contrasting how British and Irish organ-retention scandals are described with accusations of Israeli organ harvesting, tracing the leap from a documented tissue-retention scandal to lurid allegations against Israel.",
+    "source": false,
+    "standaloneTweets": [
+      "1987746023041810523",
+      "1987746026388586638",
+      "1987746029496635685",
+      "1987746032885588067",
+      "1987746036081713564",
+      "1987746039147696258",
+      "1987746041593237519",
+      "1987746045653086554",
+      "1987746048207413756",
+      "1987746051629978055",
+      "1987746054645662174"
+    ],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "2026-10-07",
+    "date": "2025-11-08",
+    "claimIds": [
+      "17",
+      "30x"
+    ],
+    "exampleId": "codex-20261007-072",
+    "keywordIds": [],
+    "text": "TheMilkBarTV contrasts Tucker Carlson’s claim that Israel distracts Americans from Ukraine with Carlson’s own repeated focus on Israel.",
+    "source": false,
+    "standaloneTweets": [],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [
+      "1987181348713332915"
+    ],
+    "usTweets": [
+      "1987181343294489083"
+    ]
+  },
+  {
+    "dateAdded": "2026-10-07",
+    "date": "2025-11-06",
+    "claimIds": [
+      "17",
+      "18",
+      "56"
+    ],
+    "exampleId": "codex-20261007-077-r1",
+    "keywordIds": [],
+    "text": "Amsterdam mayor Femke Halsema defended Bob Vylan’s right to perform and refused to intervene in the venue’s programming, then rejected a Hanukkah invitation involving Israeli cantor Shai Abramson.",
+    "source": true,
+    "standaloneTweets": [],
+    "thenVsNowFormat": true,
+    "thenTweets": [
+      "1968305693003563336"
+    ],
+    "nowTweets": [
+      "1986525428522360863"
+    ],
+    "themTweets": [],
+    "usTweets": [],
+    "sourceLink": "https://www.at5.nl/artikelen/234509/halsema-na-kritiek-op-bob-vylan-ik-val-niet-als-een-kleine-dictator-cultuurhuizen-binnen"
+  },
+  {
+    "dateAdded": "2026-10-07",
+    "date": "2025-11-10",
+    "claimIds": [
+      "17"
+    ],
+    "exampleId": "codex-20261007-059-r1-iraq",
+    "keywordIds": [],
+    "text": "Iraq passed amendments allowing religious marriage rules that can permit girls to marry at nine. Months later, Dilly Hussain used a cropped headline to portray Israel as endorsing child sexual abuse, and The Mossad supplied the missing context.",
+    "source": true,
+    "standaloneTweets": [],
+    "thenVsNowFormat": true,
+    "thenTweets": [
+      "1882002401856569597"
+    ],
+    "nowTweets": [
+      "1987804541568327822",
+      "1987486024147112414"
+    ],
+    "themTweets": [],
+    "usTweets": [],
+    "sourceLink": "https://www.irishnews.com/news/world/iraq-passes-bill-that-critics-say-legalises-child-marriage-LORPIGUJINNYHKN6NVLMYJ53XM/"
+  },
+  {
+    "dateAdded": "2026-10-08",
+    "date": "2025-11-07",
+    "claimIds": [
+      "17"
+    ],
+    "exampleId": "codex-20261008-006",
+    "keywordIds": [],
+    "text": "Adin contrasts Tadhg Hickey’s accusation about Israeli organ harvesting with a 2021 report of an illegal transplant ring involving Palestinian and Jordanian nationals in Istanbul.",
+    "source": true,
+    "standaloneTweets": [],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [
+      "1986743166381203759"
+    ],
+    "usTweets": [
+      "1986774214066716898"
+    ],
+    "sourceLink": "https://www.arabnews.com/middle-east/illegal-organ-transplant-network-busted-in-istanbul-1985316"
+  },
+  {
+    "dateAdded": "2026-10-08",
+    "date": "2025-11-01",
+    "claimIds": [
+      "17"
+    ],
+    "exampleId": "codex-20261008-049",
+    "keywordIds": [],
+    "text": "Antizionist account criticizes Nicki Minaj for speaking about Nigeria instead of Palestine, then says it does not care about Congo or Nigeria.",
+    "source": false,
+    "standaloneTweets": [
+      "1985014036379975924"
+    ],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "2026-10-08",
+    "date": "2025-11-02",
+    "claimIds": [
+      "17",
+      "50"
+    ],
+    "exampleId": "codex-20261008-052",
+    "keywordIds": [],
+    "text": "Laura Loomer contrasts Jeremy Corbyn’s phone bank for Zohran Mamdani with complaints about Israeli influence in American elections.",
+    "source": false,
+    "standaloneTweets": [],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [
+      "1985055159274070308"
+    ],
+    "usTweets": [
+      "1985085996535537747"
+    ]
+  },
+  {
+    "dateAdded": "2026-10-08",
+    "date": "2021-05-25",
+    "claimIds": [
+      "17"
+    ],
+    "exampleId": "codex-20261008-078",
+    "keywordIds": [],
+    "text": "John Cena’s apology to China over calling Taiwan a country as a counterpoint to claims that Israel controls the media.",
+    "source": false,
+    "standaloneTweets": [
+      "1984697251986313628"
+    ],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "2026-10-09",
+    "date": "2025-11-02",
+    "claimIds": [
+      "17",
+      "52x",
+      "50"
+    ],
+    "exampleId": "codex-20261008-071-r1",
+    "keywordIds": [],
+    "text": "Aizenberg and AG Hamilton challenge the use of American aid to Israel as a uniquely decisive reason for protest, discussing other aid recipients and the terms of US–Israel military assistance.",
+    "source": false,
+    "standaloneTweets": [
+      "1984983112502096092"
+    ],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [],
+    "usTweets": []
+  },
+  {
+    "dateAdded": "2026-10-09",
+    "date": "2025-10-30",
+    "claimIds": [
+      "17"
+    ],
+    "exampleId": "codex-20261008-090-r1",
+    "keywordIds": [],
+    "text": "Rabid antizionist Jew Peter Beinart claims progressive opposition to US weapons sales to Saudi Arabia when it was bombing Yemen to claim moral consistency with opposition to US arms sales to Gaza, but Aizenberg points out that he never Tweeted about Saudi Arabia or Yemen while US arms sales to Saudi were taking place.",
+    "source": false,
+    "standaloneTweets": [],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [
+      "1983627633280843891"
+    ],
+    "usTweets": [
+      "1983795341506867561"
+    ]
+  },
+  {
+    "dateAdded": "2026-10-09",
+    "date": "2025-10-30",
+    "claimIds": [
+      "17"
+    ],
+    "exampleId": "codex-20261008-090-r1-sudan",
+    "keywordIds": [],
+    "text": "Rabid antizionist Jew Peter Beinart invokes progressive opposition to US weapons sales to Saudi Arabia as evidence of no hypocrisy in opposing US weapons sales to Israel. But in addition to never Tweeting about US arms sales to Saudi Arabia while it was happening (see other entry for this date), Beinart also has near-silence about the Sudan war and weapons sales connected to it.",
+    "source": false,
+    "standaloneTweets": [],
+    "thenVsNowFormat": false,
+    "thenTweets": [],
+    "nowTweets": [],
+    "themTweets": [
+      "1983627633280843891"
+    ],
+    "usTweets": [
+      "1984068978768261303"
     ]
   }
 ]
