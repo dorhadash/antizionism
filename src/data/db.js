@@ -28,7 +28,25 @@ console.log("[db.js] Loading data…");
 const claimModules = import.meta.glob("/tweets/**/claim.json", { eager: true });
 
 // Convert modules → array of claims
-export const claims = Object.values(claimModules).map(m => m.default ?? m);
+const parentNames = {
+  tweets_1_anti_zionism: 'Antizionism', tweets_2_libels: 'Libels',
+  tweets_3_narratives: 'Narratives', tweets_4_tactics: 'Tactics',
+  tweets_5_rhetorical: 'Rhetorical', tweets_6_palestinians: 'Palestinians',
+  tweets_7_other: 'Other',
+};
+const correctSpelling = text => (text || '').replace(/Propoganda/g, 'Propaganda')
+  .replace(/Harrassment/g, 'Harassment').replace(/Intiidation/g, 'Intimidation')
+  .replace(/Naziism/g, 'Nazism');
+export const claims = Object.entries(claimModules).map(([path, module]) => {
+  const claim = module.default ?? module;
+  const parentKey = path.split('/')[2];
+  return { ...claim, claimId: String(claim.claimId),
+    claimShortText: correctSpelling(claim.claimShortText || claim.keyword),
+    parentKey, parentName: parentNames[parentKey] || 'Other' };
+});
+export const categoryGroups = Object.entries(parentNames).map(([key, name]) => ({
+  key, name, claims: claims.filter(claim => claim.parentKey === key),
+}));
 
 // Build fast lookup map: claimId → claim object
 export const claimMap = Object.fromEntries(
@@ -47,7 +65,7 @@ export const allExamples = Object.values(exampleModules)
   .map(ex => ({
     ...ex,
     // Normalize date for consistent sorting (optional)
-    date: ex.date
+    date: ex.date.split("-").map((part, index) => part.padStart(index === 0 ? 4 : 2, "0")).join("-")
   }));
 
 /* -------------------------------------------------------

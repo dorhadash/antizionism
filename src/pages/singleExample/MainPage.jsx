@@ -1,331 +1,118 @@
-import React, { useState, useEffect, useRef } from "react";
-import "../../styles/stylesheet.css"; // import the CSS file
+import React, { useEffect, useMemo, useState } from 'react';
+import { ArrowLeft, ArrowRight, Link as LinkIcon, Search, X, Info } from 'lucide-react';
+import Calendar from '../calendar/Calendar.jsx';
+import Claims from '../claims/Claims.jsx';
+import TweetCarousel from './TweetCarousel.jsx';
+import { allExamples, claims, claimMap } from '../../data/db.js';
+import { closestEntry, filterEntries, formatDate, summarize } from '../../lib/archive.mjs';
 
-import CalendarComponent from "../calendar/Calendar.jsx";
-import Claims from "../claims/Claims.jsx";
-import TweetCarousel from "./TweetCarousel.jsx";
+const entries = [...allExamples].sort((a, b) => a.date.localeCompare(b.date) || a.exampleId.localeCompare(b.exampleId));
+const countsByClaim = Object.fromEntries(claims.map(c => [c.claimId, entries.filter(e => (e.claimIds || []).includes(c.claimId)).length]));
+const minMonth = entries[0]?.date.slice(0, 7) || '2023-10';
+const maxMonth = entries.at(-1)?.date.slice(0, 7) || minMonth;
+function readLocation() {
+  const params = new URLSearchParams(window.location.search);
+  const categories = (params.get('categories') || '').split(',').filter(id => claimMap[id]);
+  const query = params.get('q') || '';
+  const matches = filterEntries(entries, categories, query, claimMap);
+  const linked = matches.find(e => e.exampleId === params.get('entry'));
+  const requestedDate = params.get('date');
+  const validDate = /^\d{4}-\d{2}-\d{2}$/.test(requestedDate || '') && !Number.isNaN(Date.parse(requestedDate));
+  const date = linked?.date || (validDate ? requestedDate : closestEntry(matches, '2023-10-07')?.date || '2023-10-07');
+  const entry = linked || matches.find(e => e.date === date);
+  return { categories, query, date, entryId: entry?.exampleId || null };
+}
 
-import { fetchMonth, fetchNext } from "../../data/query";
-
-/*
-
-1. Collapse all rhetoric folders into single "rhetorical games" file (?)
-
-2. Add manual Tweet cards (not using the Twitter widget and TweetIds, but having all the data stored in a database) and then displaying it
-
-*/
-
-
-const defaultDayData = [{ usTweets: [ { id: "id1" }], themTweets: [{id: "id1"}], claimText: "", text: "", keywordIds: [], claimIds: [], claims: [] }];
-
-
-// Main Page
 export default function MainPage() {
-
-  const debounceRef = useRef(null);
-
-  const [viewState, setViewState] = useState({
-    displayedDate: "2023-10-07",
-    summaryData: {},
-    monthlyData: {},
-    dayData: {},
-    currentIndex: 0,
-    calendarDate: new Date("2023-10-07"),
-    usTweetsIndex: 0,
-    themTweetsIndex: 0,
-  })
-  const [keywordId, setKeywordId] = useState(null);
-  const [claimId, setClaimId] = useState(null);
-  const [searchText, setSearchText] = useState("");
-  const [loaded, setLoaded] = useState(false);
-
+  const [view, setView] = useState(readLocation);
+  const [copyState, setCopyState] = useState('');
+  const [manualLink, setManualLink] = useState('');
+  const [dateHelp, setDateHelp] = useState(false);
+  const filtered = useMemo(() => filterEntries(entries, view.categories, view.query, claimMap), [view.categories, view.query]);
+  const counts = useMemo(() => summarize(filtered), [filtered]);
+  const dayEntries = filtered.filter(e => e.date === view.date);
+  const current = dayEntries.find(e => e.exampleId === view.entryId) || dayEntries[0];
+  const index = current ? filtered.indexOf(current) : -1;
+  const previous = current ? filtered[index - 1] : [...filtered].reverse().find(e => e.date < view.date);
+  const next = current ? filtered[index + 1] : filtered.find(e => e.date > view.date);
+  const currentClaims = (current?.claimIds || []).map(id => claimMap[id]).filter(Boolean);
+  const primaryClaim = currentClaims.find(c => view.categories.includes(c.claimId)) || currentClaims[0];
+  const standalone = current?.standaloneTweets?.length > 0;
+  const comparison = current?.thenVsNowFormat;
   useEffect(() => {
-    findNextExample(viewState.displayedDate, true, false);
+    const params = new URLSearchParams();
+    if (current) params.set('entry', current.exampleId);
+    params.set('date', view.date);
+    if (view.categories.length) params.set('categories', view.categories.join(','));
+    if (view.query) params.set('q', view.query);
+    window.history.replaceState(null, '', `${window.location.pathname}?${params}`);
+  }, [current?.exampleId, view.date, view.categories, view.query]);
+  useEffect(() => {
+    const sync = () => setView(readLocation());
+    window.addEventListener('popstate', sync);
+    return () => window.removeEventListener('popstate', sync);
   }, []);
-
-  const onDateSelect = (_dateString, _getNextMonth) => {
-    console.log("_dateString 1 : ", _dateString);
-
-    if (_getNextMonth) {
-      const responseData =  fetchNext(_dateString, keywordId, claimId, searchText);
-      handleNextResponse(responseData);
-    }
-
-    else {
-      const newDayData = viewState.monthlyData[_dateString] ? viewState.monthlyData[_dateString] : defaultDayData;
-      const [y, m, d] = _dateString.split("-").map(Number);
-
-
-      setViewState(prev => ({
-        ...prev,
-        dayData: newDayData,
-        displayedDate: _dateString,
-        calendarDate: new Date(y, m - 1, d),
-        themTweetsIndex: 0,
-        usTweetsIndex: 0,
-        currentIndex: 0
-      }));
-    }
+  useEffect(() => { setCopyState(''); setManualLink(''); }, [view]);
+  function selectDate(date) {
+    setView(v => ({ ...v, date, entryId: filtered.find(e => e.date === date)?.exampleId || null }));
   }
-
-const findNextExample = (_dateString, _findNext, _findPrev) => {
-
-    const [hasExample, newDate] = checkForNextDatesData(_findNext); // if we want next, findNext is true; else findNext is false (and we want previous)
-    const [y, m, d] = newDate ? newDate.split("-").map(Number) : _dateString.split("-").map(Number);
-
-    if (_findNext) {
-      if (viewState.currentIndex < viewState.dayData.length - 1) {
-        setViewState(prev => ({
-          ...prev,
-          themTweetsIndex: 0,
-          usTweetsIndex: 0,
-          currentIndex: prev.currentIndex + 1
-        }));
-      }
-      else if (hasExample) {
-        setViewState(prev => ({
-          ...prev,
-          dayData: prev.monthlyData[newDate],
-          displayedDate: newDate,
-          themTweetsIndex: 0,
-          usTweetsIndex: 0,
-          currentIndex: 0,
-          calendarDate: new Date(y, m - 1, d)
-        }));
-      }
-      else {
-        const responseData =  fetchNext(_dateString, keywordId, claimId, searchText, _findNext, _findPrev);
-        handleNextResponse(responseData);
-      }
-    }
-
-    else if (_findPrev) {
-      if (viewState.currentIndex > 0) {
-        setViewState(prev => ({
-          ...prev,
-          themTweetsIndex: 0,
-          usTweetsIndex: 0,
-          currentIndex: prev.currentIndex - 1
-        }));
-      }
-      else if (hasExample) {
-        setViewState(prev => ({
-          ...prev,
-          dayData: prev.monthlyData[newDate],
-          displayedDate: newDate,
-          themTweetsIndex: 0,
-          usTweetsIndex: 0,
-          currentIndex: 0,
-          calendarDate: new Date(y, m - 1, d)
-        }));
-      }
-      else {
-        const responseData =  fetchNext(_dateString, keywordId, claimId, searchText, _findNext, _findPrev);
-        handleNextResponse(responseData);
-      }
-    }
+  function changeFilters(categories, query) {
+    const matches = filterEntries(entries, categories, query, claimMap);
+    const retained = matches.find(e => e.exampleId === current?.exampleId);
+    const target = retained || closestEntry(matches, view.date);
+    setView(v => ({ ...v, categories, query, date: target?.date || v.date, entryId: target?.exampleId || null }));
   }
-
-
-  const handleNextResponse = (_responseData) => {
-    if (_responseData.noTarget) {
-      // window.alert(`No results. Try a different search criteria.`);
-    }
-    else {
-
-      let newDate = _responseData.nextDate; // both next or previous dates, depending on which direction we're going
-      const [y, m, d] = newDate.split("-").map(Number); // needed to prevent timezone offsets
-      const newData = _responseData.data[newDate] ? _responseData.data[newDate] : defaultDayData;
-
-      console.log("newData 4 : ", newData);
-
-      setViewState(prev => ({
-        ...prev,
-        dayData: newData,
-        summaryData: _responseData.summaryData,
-        monthlyData: _responseData.data,
-        displayedDate: newDate,
-        themTweetsIndex: 0,
-        usTweetsIndex: 0,
-        currentIndex: 0,
-        calendarDate: new Date(y, m - 1, d) // new Date(y, m, d) prevents timezone offests, whereas new Date ("yyyy-mm-dd") includes a timezone offset
-      }));
-     
-      if (!loaded) {
-        setLoaded(true);
-      }
-    }
+  function go(entry) { if (entry) setView(v => ({ ...v, date: entry.date, entryId: entry.exampleId })); }
+  async function copyLink() {
+    const url = new URL(window.location.href);
+    url.search = new URLSearchParams({ entry: current.exampleId }).toString();
+    try { await navigator.clipboard.writeText(url.href); setCopyState('Link copied'); }
+    catch { setManualLink(url.href); setCopyState('Select and copy the link below'); }
   }
-
-  // _claimIdSelected will be a string or "" (if none)
-  const onClaimSelect = (_claimIdSelected) => {
-    const newClaimId = _claimIdSelected === "" ? null : _claimIdSelected;
-    const findNext = true;
-    const findPrev = false;
-    const responseData =  fetchNext(viewState.displayedDate, keywordId, newClaimId, searchText, findNext, findPrev);
-    setClaimId(newClaimId);
-    handleNextResponse(responseData);
-  }
-
-  const fetchSearchResults = (text) => {
-    const findNext = true;
-    const findPrev = false;
-    const [year, month] = viewState.displayedDate.split("-");
-    const responseData = fetchNext(`${year}-${month}-01`, keywordId, claimId, text, findNext, findPrev);
-    handleNextResponse(responseData);
-  }
-
-  // next is a boolean of whether you're checking for the next date or previous date
-  const checkForNextDatesData = (next) => {
-    const dates = Object.keys(viewState.monthlyData).sort(); // sorted chronologically (YYYY-MM-DD format)
-    const index = dates.indexOf(viewState.displayedDate);
-
-    if (next) {
-      const hasNext = index < dates.length - 1;
-      const nextDate = hasNext ? dates[index + 1] : null;
-      return [hasNext, nextDate];
-    }
-    else {
-      const hasPrev = index > 0;
-      const prevDate = hasPrev ? dates[index - 1] : null;
-      return [hasPrev, prevDate];
-    }
-  }
-
-
-  const handleThemTweetsIndex = (index) => {
-    setViewState(prev => ({
-      ...prev,
-      themTweetsIndex: index
-    }));
-  }
-
-  const handleUsTweetsIndex = (index) => {
-    setViewState(prev => ({
-      ...prev,
-      usTweetsIndex: index
-    }));
-  }
-
-
-  if (!loaded) {
-    return <div style={{ color: "white" }}>Loading ...</div>
-  }
-
-  return (
-    <div className="page-shell space-y-8">
-
-      <CalendarComponent onDateSelect={onDateSelect} displayedDate={ viewState.displayedDate } summaryData={ viewState.summaryData } calendarDate={ viewState.calendarDate } />
-      
+  return <div className="archive-page">
+    <div className="browse-controls">
+      <Calendar month={view.date.slice(0, 7)} selectedDate={view.date} counts={counts} minMonth={minMonth} maxMonth={maxMonth} onDateSelect={selectDate} onMonthChange={month => {
+        const date = filtered.find(e => e.date.startsWith(month))?.date || `${month}-01`;
+        selectDate(date);
+      }} />
       <div className="filters-row">
-
-        <div className="search-container search-container-inline">
-          <input
-            className="search-input"
-            type="text"
-            placeholder="Search…"
-            value={searchText}
-            onChange={(e) => {
-              const value = e.target.value;
-              setSearchText(value);
-
-              if (debounceRef.current) clearTimeout(debounceRef.current);
-
-              debounceRef.current = setTimeout(() => {
-                fetchSearchResults(value);
-              }, 250);
-            }}
-          />
-        </div>
-
-        <Claims onClaimSelect={onClaimSelect} />
-      
+        <label className="search-field"><Search size={18} /><span className="sr-only">Search entries</span><input type="search" placeholder="Search entries…" value={view.query} onChange={e => changeFilters(view.categories, e.target.value)} /></label>
+        <Claims selected={view.categories} counts={countsByClaim} onChange={ids => changeFilters(ids, view.query)} />
       </div>
-
-      <div className="current-date-div">
-        <p className="font-bold text-gray-700">{new Date(`${viewState.displayedDate}T00:00:00Z`).toLocaleString("default",{
-          month: "long",
-          day: "numeric",
-          year: "numeric",
-          timeZone: "UTC"
-        })}:
-          <span style={{ marginLeft: "10px", marginRight: "10px" }}>{viewState.dayData[0].text === "" ? "0" : viewState.currentIndex + 1} of {viewState.dayData[0].text === "" ? "0" : viewState.dayData.length}</span>
-          <button onClick={() => findNextExample(viewState.displayedDate, false, true)}>&lt;</button>
-          <button onClick={() => findNextExample(viewState.displayedDate, true, false)}>&gt;</button>
-        </p>
-        {/* <p className="font-bold text-gray-700">{dayData[currentIndex].keywordIds.map((item, i) => <span key={item}>{item}, </span>)}</p> */}
-      </div>
-
-      <div>
-
-        {(() => {
-          const claimsArr = viewState.dayData[viewState.currentIndex].claims;
-
-          const selectedClaim =
-            claimId
-              ? claimsArr.find((item) => item.claimId === claimId)
-              : claimsArr.find((item) => item.claimShortText) || null;
-
-          const shortText = selectedClaim?.claimShortText || "";
-          const fullText  = selectedClaim?.claimText || "";
-
-          return (
-            <div className="short-text">
-              <h2 className="claim-short">
-                {shortText}
-              </h2>
-
-              <p className="claim-full">
-                {fullText}
-              </p>
-
-              <p className="claim-description">
-                { viewState.dayData[viewState.currentIndex].text }
-                { viewState.dayData[viewState.currentIndex].source ? <p className="description-text"><a href={viewState.dayData[viewState.currentIndex].sourceLink}>{viewState.dayData[viewState.currentIndex].sourceLink}</a></p> : []}
-              </p>
-            </div>
-          );
-        })()}
-        
-      </div>
-
-      <div className="flex-row">
-        
-        { viewState.dayData[viewState.currentIndex].standaloneTweets && viewState.dayData[viewState.currentIndex].standaloneTweets.length ?
-        
-          <div className="flex-1">
-            <TweetCarousel tweets={viewState.dayData[viewState.currentIndex].standaloneTweets} displayedDate={ viewState.displayedDate } currentIndex={ viewState.currentIndex } tweetIndex={viewState.themTweetsIndex} handleTweetsIndex={handleThemTweetsIndex} />
-          </div>
-
-          :
-
-          <div className="tweet-pair">
-            <div className="tweet-col">
-              <p className="font-bold mb-2 text-gray-700">{viewState.dayData[viewState.currentIndex].thenVsNowFormat ? "Then" : "Them"}:</p>
-              <TweetCarousel
-                tweets={viewState.dayData[viewState.currentIndex].thenVsNowFormat ? viewState.dayData[viewState.currentIndex].thenTweets : viewState.dayData[viewState.currentIndex].themTweets}
-                displayedDate={ viewState.displayedDate }
-                currentIndex={ viewState.currentIndex }
-                tweetIndex={viewState.themTweetsIndex}
-                handleTweetsIndex={handleThemTweetsIndex}
-              />
-            </div>
-
-            <div className="tweet-col">
-              <p className="font-bold mb-2 text-gray-700">{ viewState.dayData[viewState.currentIndex].thenVsNowFormat ? "Now" : "Us"}:</p>
-              <TweetCarousel
-                tweets={viewState.dayData[viewState.currentIndex].thenVsNowFormat ? viewState.dayData[viewState.currentIndex].nowTweets : viewState.dayData[viewState.currentIndex].usTweets}
-                displayedDate={ viewState.displayedDate }
-                currentIndex={ viewState.currentIndex }
-                tweetIndex={viewState.usTweetsIndex}
-                handleTweetsIndex={handleUsTweetsIndex}
-              />
-            </div>
-          </div>
-        }
-      </div>
-      <div style={{marginTop: "60px", marginBottom: "60px", fontStyle: "italic", color: "white", textAlign: "center", }}>Dor Hadash is an independent research project documenting recurring antizionist narratives, rhetorical patterns, hate and violence.</div>
-      {/* <p className="font-bold mb-2 text-gray-700"><a target="_blank" href="https://icons8.com/icon/6bf4WpRiadUV/israel">Israel</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></p> */}
+      {(view.categories.length > 0 || view.query) && <div className="active-filters">
+        {view.categories.map(id => <button className="chip" key={id} onClick={() => changeFilters(view.categories.filter(c => c !== id), view.query)} aria-label={`Remove ${claimMap[id].claimShortText} filter`}>{claimMap[id].claimShortText}<X size={13} /></button>)}
+        <button className="text-button" onClick={() => changeFilters([], '')}>Clear filters</button>
+        <span className="filter-summary" role="status">{filtered.length} matching {filtered.length === 1 ? 'entry' : 'entries'}{view.categories.length > 1 ? ' · any selected category' : ''}</span>
+      </div>}
     </div>
-  );
+    <div className="entry-toolbar">
+      <div className="event-date">Event date <span>·</span> {formatDate(view.date)}<button className="date-help icon-button" aria-label="How dates are assigned" aria-expanded={dateHelp} onClick={() => setDateHelp(!dateHelp)}><Info size={15} /></button></div>
+      <div className="entry-navigation" aria-label="Entry navigation">
+        <button className="button" disabled={!previous} onClick={() => go(previous)}><ArrowLeft size={16} />Previous</button>
+        <span className="entry-count" aria-live="polite">Entry {current ? dayEntries.indexOf(current) + 1 : 0} of {dayEntries.length}</span>
+        <button className="button" disabled={!next} onClick={() => go(next)}>Next<ArrowRight size={16} /></button>
+      </div>
+    </div>
+    {dateHelp && <p className="date-explanation">Dates represent the event date or its best estimate. When the event date is unknown, the post’s publication date is used. Embedded posts may have a different date.</p>}
+    {current ? <article className="entry" key={current.exampleId}>
+      <div className="entry-tags">{[...new Set(currentClaims.map(c => c.parentName))].map(name => <span className="tag parent-tag" key={name}>{name}</span>)}{currentClaims.map(c => <button className="tag" key={c.claimId} onClick={() => changeFilters([c.claimId], view.query)} title={`Browse ${c.claimShortText}`}>{c.claimShortText}</button>)}{(current.claimIds || []).filter(id => !claimMap[id]).map(id => <span className="tag" key={id} title="This category has no label in the source data">Category {id}</span>)}</div>
+      <h1>{primaryClaim?.claimShortText || 'Archive entry'}</h1>
+      {primaryClaim?.claimText && <p className="claim-explanation">{primaryClaim.claimText}</p>}
+      {current.text && <p className="entry-description">{current.text}</p>}
+      {current.sourceLink && <p className="source-link"><a href={current.sourceLink} target="_blank" rel="noopener noreferrer">Supporting source ↗</a></p>}
+      <div className={`evidence ${standalone ? 'standalone' : ''}`}>
+        {standalone ? <TweetCarousel label="Posts" tweets={current.standaloneTweets} /> : <>
+          <TweetCarousel label={comparison ? 'Then' : 'Them'} tweets={comparison ? current.thenTweets : current.themTweets} />
+          <TweetCarousel label={comparison ? 'Now' : 'Us'} tweets={comparison ? current.nowTweets : current.usTweets} />
+        </>}
+      </div>
+      <footer className="entry-footer"><button className="text-button copy-link" onClick={copyLink}><LinkIcon size={16} />Copy entry link</button><span role="status">{copyState}</span>
+        {manualLink && <input className="manual-link" aria-label="Entry link" readOnly value={manualLink} onFocus={e => e.target.select()} />}
+      </footer>
+    </article> : <section className="empty-state" role="status">
+      <h1>{filtered.length ? 'No entries on this date' : 'No matching entries'}</h1>
+      <p>{filtered.length ? 'Choose a day with a count, or use Previous and Next to reach the nearest entries.' : 'Try another search or remove a category filter.'}</p>
+      {(view.query || view.categories.length > 0) && <button className="button" onClick={() => changeFilters([], '')}>Clear filters</button>}
+    </section>}
+  </div>;
 }

@@ -1,7 +1,8 @@
-h3, h4 {
+
+.submit-page h3,
+.submit-page h4 {
   color: white;
 }
-
 .submit-page {
 
   width: 900px; /* or whatever your layout’s max should be */
@@ -10,48 +11,41 @@ h3, h4 {
   display: flex;
   flex-direction: column;
 }
-
-.form-line {
+.submit-page .form-line {
   display: flex;
   align-items: center;
   gap: 12px;
   margin-bottom: 15px;
   color: white;
 }
-
-.form-line label {
+.submit-page .form-line label {
   width: 180px;
   font-weight: bold;
   text-align: right;
 }
-
-.form-image {
+.submit-page .form-image {
   width: 100%;
   height: 100px;
   object-fit: cover;
   object-position: top;
   margin-top: 10px;
 }
-
-input,
-select,
-textarea {
+.submit-page input,
+.submit-page select,
+.submit-page textarea {
   flex: 1;
   padding: 8px;
   border: 1px solid #ccc;
   border-radius: 6px;
 }
-
-textarea {
+.submit-page textarea {
   resize: vertical;
 }
-
-.form-actions {
+.submit-page .form-actions {
   text-align: center;
   margin-top: 20px;
 }
-
-button {
+.submit-page button {
   padding: 10px 18px;
   border: none;
   border-radius: 6px;
@@ -60,34 +54,28 @@ button {
   cursor: pointer;
   font-weight: bold;
 }
-
-button:hover {
+.submit-page button:hover {
   background: #0066d3;
 }
-
-.status {
+.submit-page .status {
   margin-top: 15px;
   font-weight: bold;
   text-align: center;
 }
-
-.preview {
+.submit-page .preview {
   margin-top: 30px;
   padding-top: 20px;
   border-top: 2px solid #ddd;
 }
-
-.preview-container h4 {
+.submit-page .preview-container h4 {
   margin-bottom: 10px;
 }
-
-.preview-carousels {
+.submit-page .preview-carousels {
   display: flex;
   justify-content: space-between;
   gap: 20px;
 }
-
-.preview-column {
+.submit-page .preview-column {
   flex: 1;
   overflow-y: auto;
   max-height: 600px;
@@ -96,42 +84,35 @@ button:hover {
   padding: 10px;
   background: #fafafa;
 }
-
-.preview-text {
+.submit-page .preview-text {
   color: white;
 }
-
-.placeholder {
+.submit-page .placeholder {
   color: #888;
   font-style: italic;
 }
-
-.toggle-row {
+.submit-page .toggle-row {
   display: flex;
   gap: 10px;
   margin-bottom: 20px;
 }
-
-.toggle-row button {
+.submit-page .toggle-row button {
   padding: 8px 14px;
   border-radius: 6px;
   background: #444;
   color: white;
   border: 1px solid #777;
 }
-
-.toggle-row button.toggle-active {
+.submit-page .toggle-row button.toggle-active {
   background: #007bff;
   border-color: #007bff;
 }
-
-.json-output {
+.submit-page .json-output {
   margin-top: 30px;
   padding-top: 20px;
   border-top: 2px solid #666;
 }
-
-.json-box {
+.submit-page .json-box {
   background: #111;
   color: #0f0;
   padding: 15px;
@@ -143,8 +124,7 @@ button:hover {
   max-height: 400px;
   overflow-y: auto;
 }
-
-.copy-json-btn {
+.submit-page .copy-json-btn {
   padding: 8px 14px;
   background: #28a745;
   color: white;
@@ -154,11 +134,9 @@ button:hover {
   font-weight: bold;
   margin-bottom: 10px;
 }
-
-.copy-json-btn:hover {
+.submit-page .copy-json-btn:hover {
   background: #218838;
 }
-
-.copy-json-btn:active {
+.submit-page .copy-json-btn:active {
   transform: scale(0.97);
 }
