@@ -20,7 +20,7 @@ cd tmp
 cp -R /Users/scottlieber/Documents/antizionism/build/* .
 touch .nojekyll         
 
-git init                                                      
+git init
 git checkout -b gh-pages
 git add .
 git commit -m "Manual gh-pages deploy"
